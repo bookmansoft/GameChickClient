@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StarPage" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="_checkpointScroller" width="640" height="1000" x="0" y="0" locked="true">
+		<e:Group id="_checkPointGroup">
+			<e:Image id="_checkBgIma1" source="zhujiemianxg_di_png" x="0" y="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="_checkBgIma2" source="zhujiemianxg_ding_png" x="0" y="0" width="640" height="1136" touchEnabled="false" locked="true"/>
+	<e:Image id="_startBgIma" touchEnabled="false" source="zhuui_di_png" horizontalCenter="0" verticalCenter="0" locked="true"/>
+
+
+
+	<e:Group id="_tiliGroup" width="221" height="60" x="59" y="88" anchorOffsetY="0" locked="true">
+		<e:Image source="tili_di_png" x="0" y="0"/>
+		<e:Image x="73" y="-6" source="shandian_l_png"/>
+		<e:Label id="_tiliLabel" text="100/100" x="105" y="1" size="24" fontFamily="微软雅黑" textColor="0x114c5f" bold="true" anchorOffsetX="0" width="110"/>
+		<e:Label id="_timeLabel" text="00:00:00后+1" x="34.39" y="33" textColor="0x114c5f" size="24" fontFamily="微软雅黑" anchorOffsetX="0" width="167" bold="true" height="24"/>
+	</e:Group>
+	<e:Group id="_headGroup" width="133.39" height="126.82" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+		<e:Image source="touxiangk_di_png" x="13" y="8"/>
+		<e:Image id="_headImage" width="100" height="100" x="21" y="16" locked="true"/>
+		<e:Image source="touxiangk_ding_png" x="1" y="-1"/>
+		<e:Image id="_vipImage" source="vipyueka_biaozhi_png" x="78" y="-4" width="50" height="40"/>
+	</e:Group>
+	<e:Label id="_nameLabel" text="名字" x="145" y="21" anchorOffsetX="0" width="230" size="30" fontFamily="微软雅黑" bold="true" locked="true"/>
+	<e:Label id="_levelLabel" text="" x="143" y="46" size="24" fontFamily="微软雅黑" anchorOffsetX="0" width="166" locked="true"/>
+	<e:Group id="_keepGroup" width="105" height="154" x="303" y="-8" locked="true">
+		<e:Button id="_keepButton" label="" x="0" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shoucang_l_png" source.down="shoucang_l_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_guideKeepButton" label="" x="0" y="0" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shoucang_l2_png" source.down="shoucang_l2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="xiala_zhou_png" x="-1" y="131"/>
+	</e:Group>
+	<e:Group id="_shareGroup" width="105" height="154" x="414" y="-8" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+		<e:Button id="_shareButton" label="" x="3" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="fenxiang_l_png" source.down="fenxiang_l_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="xiala_zhou_png" x="1" y="131"/>
+	</e:Group>
+	<e:Group id="_moreButtonGroup" width="97" height="386" x="533" y="149" anchorOffsetX="0" anchorOffsetY="0" touchThrough="true" touchEnabled="true" touchChildren="true">
+		<e:Button id="_integralButton" label="" x="0" y="10" scaleX="1" scaleY="1" width="92" height="120">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="jifen_l_png" source.down="jifen_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image id="_integralRedIma" source="tishi_hongdian_png" x="61" y="2" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Button id="_receiveButton" label="" x="0" y="11" width="92" height="120" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="lingjiang_l_png" source.down="lingjiang_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Image id="_receiveRedIma" source="tishi_hongdian_png" x="62" y="2" touchEnabled="false" scaleX="1" scaleY="1" visible="false"/>
+		<e:Button id="_vipButton" label="" x="0" y="131" scaleX="1" scaleY="1" width="92" height="120">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="vipyueka_l_png" source.down="vipyueka_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="_vipRedIma" source="tishi_hongdian_png" x="61" y="128" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:Button id="_firstChargeButton" label="" x="1" y="253" width="92" height="119">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shouchong_l_png" source.down="shouchong_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="_firstChargeRedIma" source="tishi_hongdian_png" x="61" y="267" touchEnabled="false" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="_setGroup" width="112" height="154" x="523.37" y="-8" anchorOffsetX="0.37" anchorOffsetY="-0.95" locked="true">
+		<e:Image source="xiala_zhou_png" x="5" y="129.87"/>
+		<e:Button id="_setButton" label="" x="7" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shezhi_l_png" source.down="shezhi_l_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:CheckBox id="_musicCheck" label="" x="7" y="0" selected="true" visible="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="yinyue_off_png" source.down="yinyue_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:CheckBox>
+
+
+
+	</e:Group>
+	<e:Group id="_moreGroup" width="98" height="782" x="38" y="52" anchorOffsetY="0" anchorOffsetX="0" touchThrough="true">
+
+
+		<e:Button id="_moreButton" label="" x="3" y="657">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="gengduo_l_png" source.down="gengduo_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:Image id="_moreRedIma" source="tishi_hongdian_png" x="67" y="649" touchEnabled="false"/>
+		<e:Group id="_buttonGroup" width="98" height="649" x="0" y="0" anchorOffsetY="0" touchThrough="true">
+			<e:Button id="_achievementButton" label="" x="3" y="520">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="chengjiu_l_png" source.down="chengjiu_a_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="_achievementRedIma" source="tishi_hongdian_png" x="64" y="513" touchEnabled="false"/>
+
+
+			<e:Button id="_bagButton" label="" x="3" y="393">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="beibao_l_png" source.down="beibao_a_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="_noticeButton" label="" x="3" y="264" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="xinxi_l_png" source.down="xinxi_a_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Image id="_noticeRedIma" source="tishi_hongdian_png" x="64" y="256" touchEnabled="false"/>
+
+			<e:Image id="_noticeRedIma0" source="tishi_hongdian_png" x="64" y="258" touchEnabled="false" visible="false"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="_starGroup" width="276" height="189" x="360" y="777" anchorOffsetY="0" anchorOffsetX="0" locked="true" visible="false">
+		<e:Button id="_rushButton" label="" x="8" y="15" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kaishi_chuangguan_l_png" source.down="kaishi_chuangguan_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_endlessButton" label="" x="140" y="11">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="kaishi_wujin_l_png" source.down="kaishi_wujin_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Button id="_roleButton" label="" x="13" y="995" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="juese_l_png" source.down="juese_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_friendButton" label="" x="133" y="995" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="haoyou_l_png" source.down="haoyou_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Button id="_shopButton" label="" x="251" y="995" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shangcheng_l_png" source.down="shangcheng_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_rankButton" label="" x="370" y="995" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="paihang_l_png" source.down="paihang_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_startButton" label="" x="480" y="948" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="kaishi_l_png" source.down="kaishi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_returnButton" label="" x="5" y="0" locked="true" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="fanhui_l_png" source.down="fanhui_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_roleRedIma" source="tishi_hongdian_png" x="94" y="987" touchEnabled="false" locked="true"/>
+	<e:Image id="_friendRedIma" source="tishi_hongdian_png" x="215" y="987" touchEnabled="true" locked="true"/>
+
+	<e:Group id="_slaveGroup" width="96" height="121" x="40" y="843" anchorOffsetX="0" anchorOffsetY="0" locked="true">
+		<e:Button id="_slaveButton" label="" x="0" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_l_png" source.down="nuli_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="_slaveRedIma" source="tishi_hongdian_png" x="62" y="-9" touchEnabled="false" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="_activeButtonGroup" width="89" height="95" x="45" y="170" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Button id="_activeButton" label="" x="0" y="0" scaleX="1" scaleY="1" width="89" height="95">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="huodong_l_png" source.down="huodong_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+
+	<e:Group id="_activeGroup" width="396" height="97" x="136" y="168" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Button id="_dailyActiveButton" label="" x="18" y="0" width="79" height="97">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="tiaozhan_l_png" source.down="tiaozhan_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_gqButton" label="" x="123" y="7" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="guoqing_l_png" source.down="guoqing_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:BitmapLabel id="_dailyActiveTimeLabel" width="110" height="30" x="7" y="6" anchorOffsetX="0" anchorOffsetY="0" text="00:00:00" textAlign="center" verticalAlign="center" font="dailyactivetimenum_fnt"/>
+		<e:Button id="_sceneButton" label="" x="243" y="-3" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zhuti_l_png" source.down="zhuti_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+
+
+
+</e:Skin>

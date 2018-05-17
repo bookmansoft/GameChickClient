@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlaveCatchWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wait_di_png" x="0" y="0" width="640" height="1136" locked="true"/>
+	<e:Image id="_bg" source="nulizhuabu_di_png" x="64" y="244" locked="true"/>
+	<e:Scroller width="466" height="515" x="88" y="348" bounces="false" anchorOffsetY="0" locked="true">
+		<e:Group id="_listGroup"/>
+	</e:Scroller>
+	<e:Button id="_closeButton" label="" y="899" x="272" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_guanbi_l_png" source.down="chengjiu2_guanbi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

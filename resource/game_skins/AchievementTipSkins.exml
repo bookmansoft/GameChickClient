@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AchievementTipSkins" width="640" height="148" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="chengjiu_ding_di_png" x="85" y="0"/>
+	<e:Image id="_image" width="100" height="100" x="96" y="9" anchorOffsetX="0" anchorOffsetY="0" source="tubiao_ttzj_jpg"/>
+	<e:Label id="_label" text="您完成了&quot;弹跳高手&quot;成就" x="205" y="49" anchorOffsetX="0" width="310" size="24" fontFamily="微软雅黑" textColor="0x377b94" bold="true"/>
+</e:Skin>

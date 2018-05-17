@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankPageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+
+	<e:Label id="_text1" text="名次" x="102" y="233" size="40" fontFamily="微软雅黑" bold="true" textAlign="center"/>
+	<e:Label id="_text2" text="玩家名字" x="249.5" y="233" size="40" fontFamily="微软雅黑" bold="true" textAlign="center"/>
+	<e:Label id="_text3" text="分数" x="466.5" y="233" size="40" fontFamily="微软雅黑" bold="true" textAlign="center"/>
+
+
+	<e:RadioButton id="_totalRank" label="" x="66.5" y="137" selected="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="paihang_lsan_off_png" source.down="paihang_lsan_on_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="_dayRank" label="" x="239" y="139">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="paihang_dran_off_png" source.down="paihang_dran_on_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="_friendRank" label="" x="410" y="141">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="paihang_hyan_off_png" source.down="paihang_hyan_on_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Scroller id="_scroller" width="524" height="660" x="56" y="299" anchorOffsetY="0">
+		<e:Group id="_listGroup" width="524" height="660" anchorOffsetY="0" y="30" anchorOffsetX="0">
+		</e:Group>
+	</e:Scroller>
+	<ns1:MyRankList id="_myRankList" width="524" height="79" y="959" horizontalCenter="0" skinName="MyRankListSkins" visible="false"/>
+</e:Skin>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuoQingSceneSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="muye_di_png" x="0" y="0" width="640" locked="true"/>
+	<e:Button id="_closeButton" label="" y="992" x="272" locked="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_guanbi_l_png" source.down="chengjiu2_guanbi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="muye_wupink_png" x="99" y="479"/>
+	<e:Image source="muye_wupink_png" y="479" x="264"/>
+	<e:Image source="muye_wupink_png" x="427" y="479"/>
+	<e:Button id="_button1" label="" x="93" y="605">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="muye_an_huode_l_png" source.down="muye_an_huode_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_button2" label="" x="260" y="605">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="muye_an_huode_l_png" source.down="muye_an_huode_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_button3" label="" x="421" y="605">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="muye_an_huode_l_png" source.down="muye_an_huode_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image width="100" height="100" x="103" y="483" source="touxiang_mingren_png"/>
+	<e:Image width="100" height="100" x="268.5" y="483" source="touxiang_zuozhu_png"/>
+	<e:Image width="100" height="100" x="431" y="483" source="touxiang_xiaoying_png"/>
+	<e:Image id="_image1" source="muye_jiaobiao_png" x="89" y="459"/>
+	<e:Image id="_image2" source="muye_jiaobiao_png" x="255" y="460"/>
+	<e:Image id="_image3" source="muye_jiaobiao_png" x="417" y="461"/>
+	<e:Button id="_getButton" label="" y="783" x="229">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="muye_an_jiesuo_l_png" source.down="muye_an_jiesuo_a_png" source.disabled="muye_an_jiesuo_off_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlaveHDPageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wait_di_png" x="0" y="0" width="640" height="1136" locked="true"/>
+	<e:Button id="_closeButton" label="" y="816" x="272" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_guanbi_l_png" source.down="chengjiu2_guanbi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="nulihudong_di_png" x="58" y="335" locked="true"/>
+	<e:Image id="_contentImage" source="nulihudong_tu_biaoyang_png" y="367" x="86" locked="true"/>
+	<e:Image source="nulihudong_yebiao_png" x="51" y="320" locked="true"/>
+	<e:Group id="_masterGroup" width="479" height="200" y="583" anchorOffsetX="0" x="86">
+		<e:Button id="_praiseButton" label="" x="37" y="10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_biaoyang_l_png" source.down="nuli_an_biaoyang_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_lashButton" label="" x="190" y="10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_zema_l_png" source.down="nuli_an_zema_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_snackButton" label="" x="342" y="10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_jiacan_l_png" source.down="nuli_an_jiacan_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="nulihudong_cao_png" x="17" y="111"/>
+		<e:Image source="nulihudong_cao_png" x="169" y="111"/>
+		<e:Image source="nulihudong_cao_png" x="322" y="111"/>
+		<e:BitmapLabel id="_praiseCountLabel" width="129" height="29" x="17" y="112" font="slavelnum_fnt" text="0/3" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+		<e:BitmapLabel id="_lashCountLabel" width="129" height="29" x="169" y="112" font="slavelnum_fnt" text="0/3" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+		<e:BitmapLabel id="_snackCountLabel" width="129" height="29" x="322" y="112" font="slavelnum_fnt" text="0/3" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+		<e:BitmapLabel id="_praiseTimeLabel" width="129" height="29" x="17" y="148" font="slavelnum_fnt" text="00:00:00" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+		<e:BitmapLabel id="_lashTimeLabel" width="129" height="29" x="169" y="148" font="slavelnum_fnt" text="00:00:00" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+		<e:BitmapLabel id="_snackTimeLabel" width="129" height="29" x="322" y="148" font="slavelnum_fnt" text="00:00:00" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+		<e:Button id="_addPraiseButton" label="" x="116" y="110">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nulihudong_jiahao_l_png" source.down="nulihudong_jiahao_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_addLashButton" label="" x="268" y="110">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nulihudong_jiahao_l_png" source.down="nulihudong_jiahao_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_addSnackButton" label="" x="421" y="110">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nulihudong_jiahao_l_png" source.down="nulihudong_jiahao_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="nuli_an_jiaobiao_png" x="263.61" y="1.4" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="_lashNumLabel" width="26" height="24" x="265.61" y="1.9" font="slavelnum_fnt" text="0" anchorOffsetX="0" anchorOffsetY="0" rotation="359.05" textAlign="center" touchEnabled="false" verticalAlign="center" scaleX="1" scaleY="1"/>
+		<e:Image source="nuli_an_jiaobiao_png" x="416.22" y="1.83" touchEnabled="false" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="_snackNumLabel" width="26" height="24" x="418.22" y="2.33" font="slavelnum_fnt" text="0" anchorOffsetX="0" anchorOffsetY="0" rotation="359.05" textAlign="center" touchEnabled="false" verticalAlign="center" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="_slaveGroup" width="479" height="200" y="583" anchorOffsetX="0" x="86" visible="false">
+		<e:Button id="_fawnButton" label="" x="311" y="10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_xianmei_l_png" source.down="nuli_an_xianmei_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_revengeButton" label="" x="95" y="10">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_baofu_l_png" source.down="nuli_an_baofu_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="nulihudong_cao_png" x="291" y="111"/>
+		<e:Image source="nulihudong_cao_png" x="75" y="111"/>
+		<e:BitmapLabel id="_fawnCountLabel" width="129" height="29" x="291" y="112" font="slavelnum_fnt" text="0/3" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+		<e:BitmapLabel id="_revengeCountLabel" width="129" height="29" x="75" y="112" font="slavelnum_fnt" text="0/3" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+		<e:BitmapLabel id="_fawnTimeLabel" width="129" height="29" x="291" y="148" font="slavelnum_fnt" text="00:00:00" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+		<e:BitmapLabel id="_revengeTimeLabel" width="129" height="29" x="75" y="148" font="slavelnum_fnt" text="00:00:00" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+		<e:Button id="_addFawnButton" label="" x="390" y="110" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nulihudong_jiahao_l_png" source.down="nulihudong_jiahao_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_addRevengeButton" label="" x="174" y="110">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nulihudong_jiahao_l_png" source.down="nulihudong_jiahao_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="nuli_an_jiaobiao_png" x="386" y="1" touchEnabled="false"/>
+		<e:BitmapLabel id="_fawnNumLabel" width="26" height="24" x="388" y="3" font="slavelnum_fnt" text="0" anchorOffsetX="0" anchorOffsetY="0" rotation="359.05" textAlign="center" touchEnabled="false" verticalAlign="center"/>
+	</e:Group>
+</e:Skin>

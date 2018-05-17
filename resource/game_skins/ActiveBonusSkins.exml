@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActiveBonusSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wait_di_png" x="0" y="0" width="640" height="1136" locked="true"/>
+	<e:Image source="dengluxs_di_png" x="11" y="305" locked="true"/>
+	<e:Label id="_nameLabel" text="新手礼包" y="392" anchorOffsetX="0" width="148" x="236" textAlign="center" size="22" fontFamily="微软雅黑" textColor="0xFCDC90" bold="true" locked="true"/>
+	<e:Button id="_receiveButton" label="" y="732" x="228" locked="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="denglulb_an_lingqu_png" source.down="denglulb_an_lingqu_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="_gourp0" width="110" height="110" x="120" y="464">
+		<e:Image source="denglulb_hong_wupinlan_png" x="0" y="0" locked="true"/>
+		<e:Image id="_image1" width="100" height="100" x="5" y="5" locked="true"/>
+		<e:Label id="_countLabel1" text="0" x="6.5" y="81" size="24" textColor="0x854500" anchorOffsetX="0" width="97" textAlign="right" bold="true" stroke="2" strokeColor="0xffffff"/>
+	</e:Group>
+	<e:Group id="_gourp1" width="110" height="110" x="263" y="464">
+		<e:Image source="denglulb_hong_wupinlan_png" x="0" y="0" locked="true"/>
+		<e:Image id="_image0" width="100" height="100" x="5" y="5" locked="true"/>
+		<e:Label id="_countLabel0" text="0" x="6.5" y="81" size="24" textColor="0x854500" anchorOffsetX="0" width="97" textAlign="right" bold="true" stroke="2" strokeColor="0xffffff"/>
+	</e:Group>
+	<e:Group id="_gourp2" width="110" height="110" x="405" y="464">
+		<e:Image source="denglulb_hong_wupinlan_png" x="0" y="0" locked="true"/>
+		<e:Image id="_image3" width="100" height="100" x="5" y="5"/>
+		<e:Label id="_countLabel3" text="0" x="6.5" y="81" size="24" textColor="0x854500" anchorOffsetX="0" width="97" textAlign="right" bold="true" stroke="2" strokeColor="0xffffff"/>
+	</e:Group>
+	<e:Group id="_gourp3" width="110" height="110" x="192" y="592">
+		<e:Image source="denglulb_hong_wupinlan_png" x="0" y="0" locked="true"/>
+		<e:Image id="_image2" width="100" height="100" x="5" y="5" locked="true"/>
+		<e:Label id="_countLabel2" text="0" x="6.5" y="81" size="24" textColor="0x854500" anchorOffsetX="0" width="97" textAlign="right" bold="true" stroke="2" strokeColor="0xffffff"/>
+	</e:Group>
+	<e:Group id="_gourp4" width="110" height="110" x="334" y="592">
+		<e:Image source="denglulb_hong_wupinlan_png" x="0" y="0" locked="true"/>
+		<e:Image id="_image5" width="100" height="100" x="5" y="5" locked="true"/>
+		<e:Label id="_countLabel5" text="0" x="6.5" y="81" size="24" textColor="0x854500" anchorOffsetX="0" width="97" textAlign="right" bold="true" stroke="2" strokeColor="0xffffff"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftPageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15d3f37d342"/>
+	<e:Image source="wait_di_png" x="0" y="0" width="640" height="1136"/>
+	<e:Image id="_bgImage" source="denglulb_hongdi_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="_titleImage" source="denglulb_hong_lingqu_png" y="281" horizontalCenter="0"/>
+	<e:Button id="_lqButton" label="" y="686" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="denglulb_an_lingqu_png" source.down="denglulb_an_lingqu_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_closeButton" label="" y="873" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_guanbi_l_png" source.down="chengjiu2_guanbi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_titleLabel" text="获得" y="402" width="400" horizontalCenter="0" textAlign="center" textColor="0x854500" size="24" bold="true" height="24" fontFamily="Microsoft YaHei"/>
+	<e:Group id="_rewardGroup1" width="110" height="180" y="461" anchorOffsetX="0" anchorOffsetY="0" x="160">
+		<e:Image id="_borderImage1" source="denglulb_hong_wupinlan_png" x="0" y="0"/>
+		<e:Image id="_rewardImage1" width="100" height="100" x="5" y="5" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="_vipImage1" source="denglulb_vip_png" x="71" y="-8"/>
+		<e:Label id="_countLabel1" text="" x="5" y="81" size="24" fontFamily="微软雅黑" anchorOffsetX="0" width="100" textColor="0x854500" textAlign="right" height="24"/>
+		<e:Label id="_nameLabel1" text="" x="0" y="120" width="110" textAlign="center" textColor="0x854500" bold="true" size="24" fontFamily="Microsoft YaHei" height="50"/>
+	</e:Group>
+	<e:Group id="_rewardGroup2" width="110" height="180" y="461" anchorOffsetX="0" anchorOffsetY="0" x="370">
+		<e:Image id="_borderImage2" source="denglulb_hong_wupinlan_png" x="0" y="0"/>
+		<e:Image id="_rewardImage2" width="100" height="100" x="5" y="5" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image id="_vipImage2" source="denglulb_vip_png" x="71.5" y="-8"/>
+		<e:Label id="_countLabel2" text="" x="5" y="81" size="24" fontFamily="微软雅黑" anchorOffsetX="0" width="100" textColor="0x854500" textAlign="right" height="24"/>
+		<e:Label id="_nameLabel2" text="" x="0" y="120" width="110" textAlign="center" textColor="0x854500" bold="true" size="24" height="50"/>
+	</e:Group>
+</e:Skin>

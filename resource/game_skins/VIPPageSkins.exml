@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="VIPPage" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg" source="vipyueka_di_png" horizontalCenter="0.5" verticalCenter="-21.5" locked="true"/>
+	<e:Label id="_dayLabel" text="0" x="289.5" y="214" fontFamily="微软雅黑" size="24" textColor="0xffffff" anchorOffsetX="0" width="55" textAlign="right" stroke="3" strokeColor="0x652b08" locked="true"/>
+	<e:Label id="_hourLabel" text="0" x="374" y="214" fontFamily="微软雅黑" size="24" textColor="0xFFFFFF" anchorOffsetX="0" width="55" textAlign="center" stroke="3" strokeColor="0x652B08" locked="true"/>
+	<e:Label id="_minLabel" text="0" x="465" y="214" fontFamily="微软雅黑" size="24" textColor="0xFFFFFF" anchorOffsetX="0" width="55" textAlign="center" stroke="3" strokeColor="0x652B08" locked="true"/>
+	<e:Button id="_buyButton" label="" y="821" horizontalCenter="0.5" locked="true" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="vipyueka_an_goumaiyueka_l_png" source.down="vipyueka_an_goumaiyueka_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="_vipGroup" width="491" height="262" x="78" y="351" anchorOffsetX="0" anchorOffsetY="0" locked="true" visible="false">
+		<e:Image source="vipyueka_gou_png" x="173" y="24"/>
+		<e:Image source="vipyueka_gou_png" x="424" y="24"/>
+		<e:Image source="vipyueka_gou_png" x="173" y="115"/>
+		<e:Image source="vipyueka_gou_png" x="173" y="206"/>
+		<e:Image source="vipyueka_gou_png" x="424" y="115"/>
+		<e:Image source="vipyueka_gou_png" x="424" y="206"/>
+	</e:Group>
+	<e:Button id="_rewardButton" label="" x="228.5" y="822" width="185" height="73" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="vipyueka_an_dianjilingqu_l_png" source.down="vipyueka_an_dianjilingqu_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_giftTip" source="vipyueka_libao_png" x="274" y="699" width="100" height="100"/>
+	<e:Group id="_tipGroup" width="191" height="122" x="226" y="557">
+		<e:Image source="shouchong_tips_png" x="0" y="0"/>
+		<e:Label id="_tipLabel" text="爱的鞭子*3\n过期蛋糕*3\n小丑面具*3" x="0" y="16" width="191" textAlign="center" size="18" fontFamily="微软雅黑" anchorOffsetY="0" height="92" lineSpacing="15" bold="true"/>
+	</e:Group>
+	<e:Label id="_noRewardText" text="明日可领取" x="0" y="840" bold="true" fontFamily="微软雅黑" width="640" textAlign="center"/>
+</e:Skin>

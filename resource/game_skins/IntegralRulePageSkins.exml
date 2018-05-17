@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IntegralRulePageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wait_di_png" width="640" height="1136" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Image id="_bg" source="huodongguize_di_png" x="69" y="233"/>
+	<e:Label id="_ruleLabel" text="Label" x="117" y="348" size="30" fontFamily="微软雅黑" anchorOffsetX="0" width="422" anchorOffsetY="0" height="326" bold="true" scaleX="1" scaleY="1" textColor="0x245F9D"/>
+	<e:Button id="_closeButton" label="" y="778" horizontalCenter="0" x="272" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="juesexiangqing_off_l_png" source.down="juesexiangqing_off_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

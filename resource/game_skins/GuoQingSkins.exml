@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuoQingSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="zhongqiu_di_png" x="0" y="0" locked="true"/>
+	<e:Label id="_textLabel" text="1. 活动期间，登陆游戏即赠送”影之章“系列新角色“分身鸣人”。\n2. 活动期间，将“鸣人”培养到3级，可获得”影之章“系列新角色“鬼手佐助”。\n3. 活动期间，累计充值100RMB，可获得”影之章“系列新角色“暴力小樱”。\n注：以上角色均为限时活动开启，无法直接在游戏中获得" y="410.26" anchorOffsetX="0" width="434" anchorOffsetY="0" height="127.32" fontFamily="微软雅黑" textColor="0xa63600" size="17" bold="true" horizontalCenter="0" locked="true"/>
+	<e:Button id="_closeButton" label="" y="977" x="272" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_guanbi_l_png" source.down="chengjiu2_guanbi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="zhongqiu_wupink_png" y="569" x="357" locked="true"/>
+	<e:Image source="zhongqiu_wupink_png" y="569" x="175" locked="true"/>
+	<e:Button id="_button1" label="" x="154" y="689" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zhongqiu_an_duihuan_l_png" source.down="zhongqiu_an_duihuan_a_png" source.disabled="zhongqiu_an_duihuan_off_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_button2" label="" x="336" y="689" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zhongqiu_an_duihuan_l_png" source.down="zhongqiu_an_duihuan_a_png" source.disabled="zhongqiu_an_duihuan_off_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_label1" text="当前:100/100RMB" x="129" y="754" textColor="0xa63600" size="18" fontFamily="微软雅黑" bold="true" anchorOffsetX="0" width="208" textAlign="center"/>
+	<e:Label id="_label2" text="当前:100/100RMB" x="321" y="754" textColor="0xA63600" size="18" fontFamily="微软雅黑" bold="true" anchorOffsetX="0" width="192" textAlign="center"/>
+	<e:Image id="_image1" width="100" height="100" x="182" y="573" source="touxiang_zuozhu_png" locked="true"/>
+	<e:Image id="_image2" width="100" height="100" x="364" y="573" source="touxiang_xiaoying_png" locked="true"/>
+	<e:BitmapLabel width="30" height="27" x="207" y="325" font="dailyactivetimenum_fnt" text="10" anchorOffsetX="0" anchorOffsetY="0" locked="true"/>
+	<e:BitmapLabel width="21" height="27" x="261" y="325" font="dailyactivetimenum_fnt" text="1" anchorOffsetX="0" anchorOffsetY="0" locked="true"/>
+	<e:BitmapLabel width="30" height="27" x="372" y="325" font="dailyactivetimenum_fnt" text="10" anchorOffsetX="0" anchorOffsetY="0" locked="true"/>
+	<e:BitmapLabel width="22" height="27" x="426" y="325" font="dailyactivetimenum_fnt" text="8" anchorOffsetX="0" anchorOffsetY="0" locked="true"/>
+	<e:Image id="_getImage1" source="muye_an_yihuode_a_png" x="154" y="688"/>
+	<e:Image id="_getImage2" source="muye_an_yihuode_a_png" x="336" y="688"/>
+</e:Skin>

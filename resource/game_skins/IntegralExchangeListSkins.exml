@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IntegralDuiHuanListSkins" width="540" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" height="130">
+	<e:Image source="jifenduihuan_di_png" verticalCenter="0" horizontalCenter="-1.5"/>
+	<e:Label id="_textLabel" text="累计活动积分" x="19" y="7" anchorOffsetX="0" width="188" textColor="0x245f9d" size="30" bold="true" fontFamily="微软雅黑" height="30" verticalAlign="middle" textAlign="left"/>
+	<e:Image source="jifenduihuan_wpkuang_png" x="212.5" y="19"/>
+	<e:Image source="jifenduihuan_wpkuang_png" x="302.5" y="19"/>
+	<e:Image id="_haveReceiveIma" source="jifen_yilingqu_png" x="44" y="43"/>
+	<e:Label id="_integralNumLabel" text="800/800" x="23" y="59" anchorOffsetX="0" width="172" textAlign="center" verticalAlign="middle" bold="true" height="30" textColor="0xc85f02" size="24" fontFamily="微软雅黑"/>
+	<e:Button id="_receiveButton" label="" x="393" y="29">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="jifen_an_lingqu_l_png" source.down="jifen_an_lingqu_a_png" source.disabled="jifen_an_lingqu_h_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_itemIcon1" width="80" height="80" x="213" y="19"/>
+	<e:Image id="_itemIcon2" width="80" height="80" x="302.5" y="19"/>
+	<e:BitmapLabel id="_itemNumLabel1" width="96.75" height="31" x="215" y="74" font="inteitemnumfont1_fnt" text="x5" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" scaleX="0.8" scaleY="0.8"/>
+	<e:BitmapLabel id="_itemNumLabel2" width="99.25" height="31" x="302.5" y="74" font="inteitemnumfont1_fnt" text="x5" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" scaleX="0.8" scaleY="0.8"/>
+</e:Skin>

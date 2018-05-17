@@ -1,0 +1,40 @@
+{
+	"roadNum":1,
+	"posiX":[
+		[
+			[312,0]
+		]
+			],
+	"roadType":[
+			[0]
+		],
+		
+	"cenji":[
+			[0]
+		],
+
+	"road":[
+		{
+			"type:":0,
+			"ifCanJump":1,
+			"allRoadId":0,
+			"lastType":[-1],
+			"kuaiType":[
+				{"type":1,"der":0,"num":1,"doorID":0,"intersect":-1},
+				{"type":2,"der":2,"num":1,"doorID":0,"intersect":-1},
+				{"type":1,"der":2,"num":11,"doorID":0,"intersect":-1},
+				{"type":1,"der":1,"num":24,"doorID":0,"intersect":-1},
+				{"type":1,"der":2,"num":21,"doorID":0,"intersect":-1},
+				{"type":1,"der":1,"num":9,"doorID":0,"intersect":-1},
+				{"type":2,"der":1,"num":1,"doorID":0,"intersect":-1},
+				{"type":1,"der":0,"num":1,"doorID":0,"intersect":-1}
+			]
+		}
+	],
+	"house":[
+		[210,432],[436,717]
+		],
+	"balloon":[
+		[401,261],[268,621],[87,843]
+		]
+}

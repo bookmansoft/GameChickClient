@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetWindowSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg" source="xitongsz_di_png" x="0" y="0" width="640" height="1136" locked="true"/>
+	<e:Image id="_lgImage" source="xitongsz_kuang_png" y="405" horizontalCenter="0.5" touchEnabled="true"/>
+	<e:Group id="_lgGroup" width="277" height="86" x="182" y="450">
+		<e:Image source="xitongsz_xzkuang_png" y="0" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Image id="_cnImage" source="xitongsz_xztiao_png" y="3" horizontalCenter="0" touchEnabled="true"/>
+		<e:Image id="_enImage" source="xitongsz_xztiao_png" y="43" horizontalCenter="0" touchEnabled="true"/>
+		<e:Image source="xitongsz_wz_zhongwen_png" y="10" scaleX="1" scaleY="1" horizontalCenter="0" touchEnabled="false"/>
+		<e:Image source="xitongsz_wz_yingwen_en_png" y="48" horizontalCenter="0.5" touchEnabled="false"/>
+	</e:Group>
+	<e:Image id="_yuyanImage" source="xitongsz_wz_zhongwen_png" y="415" horizontalCenter="0.5" touchEnabled="false"/>
+	<e:Image id="_mImage" source="xitongsz_kuang_png" y="634" horizontalCenter="0.5" touchEnabled="true"/>
+	<e:Image id="_musicImage" y="645" horizontalCenter="0.5" source="xitongsz_wz_on_png" touchEnabled="false"/>
+	<e:Group id="_musicGroup" width="277" height="86" x="182" y="679">
+		<e:Image source="xitongsz_xzkuang_png" y="0" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Image id="_moImage" source="xitongsz_xztiao_png" y="3" horizontalCenter="0" touchEnabled="true"/>
+		<e:Image id="_mcImage" source="xitongsz_xztiao_png" y="43" horizontalCenter="0" touchEnabled="true"/>
+		<e:Image id="_musicOpenImage" y="12" scaleX="1" scaleY="1" horizontalCenter="0" source="xitongsz_wz_on_png" touchEnabled="false"/>
+		<e:Image id="_musicCloseImage" y="51" horizontalCenter="1" source="xitongsz_wz_off_png" touchEnabled="false"/>
+	</e:Group>
+	<e:Image source="xitongsz_xia_png" x="413" y="418" touchEnabled="false"/>
+	<e:Image source="xitongsz_xia_png" x="413" y="647" touchEnabled="false"/>
+	<e:Button id="_closeButton" label="" y="838" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_guanbi_l_png" source.down="chengjiu2_guanbi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

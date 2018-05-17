@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlaveWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="nuli_di_png" x="0" y="0"/>
+	<e:Image source="nuli_kuangxia_di_png" y="810" x="50"/>
+	<e:Button id="_addButton" label="" x="422" y="887">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nuli_an_jiahao_l_png" source.down="nuli_an_jiahao_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Image source="nuli_kuangxia_tiao_png" x="68" y="826"/>
+	<e:Image source="nuli_kuangxia_tiao_png" x="329" y="826"/>
+	<e:Label id="_text1" text="你的身份：" x="76" y="837" fontFamily="微软雅黑" size="24" bold="true" width="120" textAlign="right" height="24"/>
+	<e:Label id="_text2" text="你的称号：" x="324" y="837" fontFamily="微软雅黑" size="24" bold="true" anchorOffsetX="0" width="127" textAlign="right"/>
+	<e:Image id="_sfImage" source="nuli_kuangxia_ziyoushen_png" x="200" y="836"/>
+	<e:Image id="_levelImage" source="nuli_chuo_hxlb_png" x="454" y="821"/>
+	<e:Label id="_desLabel" text="今日剩余抓捕次数:" x="75" y="898" size="20" textColor="0x842400" fontFamily="微软雅黑" bold="true" textAlign="right" width="276"/>
+	<e:Label id="_ciLabel" text="次" x="392" y="898" size="20" textColor="0x842400" fontFamily="微软雅黑" bold="true" textAlign="left" width="30"/>
+	<e:BitmapLabel id="_timesLabel" width="50" height="20" x="347" y="895" font="slavehnum_fnt" text="50" textAlign="center"/>
+</e:Skin>

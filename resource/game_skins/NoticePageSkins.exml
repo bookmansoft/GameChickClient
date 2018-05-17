@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Senotice" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:RadioButton id="_noticeRadio" label="" x="76" y="132" selected="true">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="xiaoxi_xitong_l_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Scroller id="_scroller" width="524" height="748" x="56" y="213" anchorOffsetY="0">
+		<e:Group id="_group" anchorOffsetY="0" height="748">
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="_sysRedIma" source="tishi_hongdian_png" x="213" y="118" touchEnabled="false"/>
+</e:Skin>

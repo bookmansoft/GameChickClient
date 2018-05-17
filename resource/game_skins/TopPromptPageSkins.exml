@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TopPromptPageSkins" width="640" height="148" currentState="haveIma" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="haveIma,noIma" >
+	<e:Image x="85" y="0" source="tongyong_ding_di_png"/>
+	<e:Label id="_haveImaLabel" text="您完成了&quot;弹跳高手&quot;成就" x="205" y="30" anchorOffsetX="0" width="310" size="24" fontFamily="微软雅黑" textColor="0x377B94" bold="true" includeIn="haveIma"/>
+	<e:Image id="_image" width="100" height="100" x="96" y="9" anchorOffsetX="0" anchorOffsetY="0" source="tubiao_ttzj_jpg" includeIn="haveIma"/>
+	<e:Label id="_noImaLabel" text="您完成了&quot;弹跳高手&quot;成就" x="104" y="17" anchorOffsetX="0" width="410" size="24" fontFamily="微软雅黑" textColor="0x377B94" bold="true" includeIn="noIma" anchorOffsetY="0" height="85" verticalAlign="middle" textAlign="center"/>
+</e:Skin>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CheckPointPageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Scroller id="_checkpointScroller" width="528" height="836" x="54" y="125" anchorOffsetY="0">
+		<e:Group id="_checkpointGroup" anchorOffsetY="0" height="838"/>
+	</e:Scroller>
+</e:Skin>

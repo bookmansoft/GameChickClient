@@ -1,0 +1,43 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "4.0.1",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "res"
+		},
+		{
+			"name": "eui"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "dragonBones"
+		},
+		{
+			"name": "socket.io",
+			"path": "../monkeylibs/socket.io"
+		},
+		{
+			"name": "jsbridge",
+			"path": "../monkeylibs/jsbridge"
+		},
+		{
+			"name": "particle",
+			"path": "../monkeylibs/particle"
+		}
+	]
+}

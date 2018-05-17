@@ -1,0 +1,22 @@
+{
+  "global": {
+    "globalAutoLayerMarkEnable": false,
+    "gridColor": 8421504,
+    "gridEnabled": false,
+    "gridSize": 20,
+    "globalRulerEnable": false,
+    "globalAdsorbEnable": true
+  },
+  "15d3f37d342": {
+    "guideLines": [
+      {
+        "type": "v",
+        "pos": 319
+      },
+      {
+        "type": "v",
+        "pos": 319
+      }
+    ]
+  }
+}

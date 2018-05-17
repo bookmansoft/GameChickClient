@@ -1,0 +1,37 @@
+{
+	"1":{
+		"id":1,
+		"pic":"fenxiang_daoju_zfj",
+		"desc":"chaptertipdatadesc1"
+	},
+	"2":{
+		"id":2,
+		"pic":"fenxiang_daoju_dl",
+		"desc":"chaptertipdatadesc2"
+	},
+	"3":{
+		"id":3,
+		"pic":"fenxiang_daoju_smzq",
+		"desc":"chaptertipdatadesc3"
+	},
+	"4":{
+		"id":4,
+		"pic":"fenxiang_daoju_bxh",
+		"desc":"chaptertipdatadesc4"
+	},
+	"5":{
+		"id":5,
+		"pic":"fenxiang_daoju_xy",
+		"desc":"chaptertipdatadesc5"
+	},
+	"6":{
+		"id":6,
+		"pic":"fenxiang_daoju_xx",
+		"desc":"chaptertipdatadesc6"
+	},
+	"7":{
+		"id":7,
+		"pic":"fenxiang_jinbi",
+		"desc":"chaptertipdatadesc7"
+	}
+}

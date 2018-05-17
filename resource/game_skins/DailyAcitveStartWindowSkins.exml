@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyAcitveStartWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg" horizontalCenter="0" verticalCenter="0" source="richang_di_png"/>
+	<e:Button id="_startButton" label="" y="922" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="qixi_an_kaishi_l_png" source.down="qixi_an_kaishi_a_png" source.disabled="qixi_an_jieshu_l_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_pingGaiNumLabel" text="0" x="287" y="875" size="26" fontFamily="微软雅黑" bold="true" height="25" width="130" textColor="0xffffff"/>
+	<e:Button id="_closeButton" label="" y="1027" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_guanbi_l_png" source.down="chengjiu2_guanbi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="*"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_rankButton" label="" x="482" y="400" width="76" height="31">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="qixi_an_paihang_l_png" source.down="qixi_an_paihang_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="_succGroup" width="476" height="130" x="89" y="798" visible="false">
+		<e:Image source="qixi_youqingrendi_png" x="1" y="1" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="_yinheGroup" width="476" height="130" x="89" y="798" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image source="qixi_yinhedi_png" y="1" horizontalCenter="-4" x="2" scaleX="1" scaleY="1"/>
+		<e:Image source="qixi_jindutiao_di_png" x="78" y="79" scaleX="1" scaleY="1"/>
+		<e:Image id="_leftTiaoIma" source="qixi_jindutiao_zuo_png" x="83" y="83" scaleX="1" scaleY="1" width="152"/>
+		<e:Image id="_rightTiaoIma" source="qixi_jindutiao_you_png" x="387" y="83" skewY="-180" scaleX="1" scaleY="1" width="152"/>
+		<e:Image id="_zhinvIma" source="qixi_ren_zhinv_png" x="340" y="8"/>
+		<e:Image id="_niulangIma" source="qixi_ren_niulang_png" y="8" x="70"/>
+	</e:Group>
+	<e:Rect id="_rewardIma0" width="75" height="75" x="108" y="543" fillAlpha="0" strokeAlpha="0" visible="false"/>
+	<e:Rect id="_rewardIma1" width="75" height="75" x="204.5" y="542" fillAlpha="0" strokeAlpha="0" visible="false"/>
+	<e:Rect id="_rewardIma2" width="75" height="75" x="299" y="542" fillAlpha="0" strokeAlpha="0" visible="false"/>
+	<e:Rect id="_rewardIma3" width="75" height="75" x="151.5" y="653" fillAlpha="0" strokeAlpha="0" visible="false"/>
+	<e:Rect id="_rewardIma4" width="75" height="75" x="257" y="653" fillAlpha="0" strokeAlpha="0" visible="false"/>
+	<e:Group id="_tipGroup" width="150" height="80" y="590" x="160" visible="false">
+		<e:Image source="qixi_jiangpintips_png" x="0" y="0"/>
+		<e:Label id="_tipLabel" text="454646" x="6" y="6" size="18" textColor="0x5d2c0c" bold="true" anchorOffsetY="0" height="52" anchorOffsetX="0" width="127"/>
+	</e:Group>
+	<e:Button id="_lookRewardButton" label="" x="112" y="390">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="richang_an_chakan_l_png" source.down="richang_an_chakan_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="_rewardTipGroup" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image id="_rewardTipBg" source="richangjiangli_di_png" verticalCenter="0" horizontalCenter="0"/>
+		<e:Button id="_tipCloseButton" label="" y="744" horizontalCenter="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chengjiu2_guanbi_l_png" source.down="chengjiu2_guanbi_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="*"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="_rewardTipLabel1" text="1. 本次活动共设前10名奖励以及参与奖，所有的奖励都将从奖池中出现。" x="101" y="358" anchorOffsetX="0" width="444" anchorOffsetY="0" height="90" size="24" fontFamily="微软雅黑" textColor="0xb45425" bold="true"/>
+		<e:Label id="_rewardTipLabel2" text="2. 系统将根据玩家的排名，将奖池中的奖励按照百分比发放。" x="101" y="463" anchorOffsetX="0" width="444" anchorOffsetY="0" height="90" size="24" fontFamily="微软雅黑" textColor="0xB45425" bold="true"/>
+		<e:Label id="_rewardTipLabel3" text="3. 排名越靠前的玩家获得的奖励将越多。" x="101" y="568" anchorOffsetX="0" width="444" anchorOffsetY="0" height="90" size="24" fontFamily="微软雅黑" textColor="0xB45425" bold="true"/>
+	</e:Group>
+</e:Skin>

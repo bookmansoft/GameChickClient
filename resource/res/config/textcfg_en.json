@@ -1,0 +1,2666 @@
+﻿{
+	"commontext1":{
+		"des":"通用文本1",
+		"text":"Insufficient Bottlecaps"
+	},
+	"commontext2":{
+		"des":"通用文本2",
+		"text":"Items"
+	},
+	"commontext3":{
+		"des":"通用文本3",
+		"text":"Money"
+	},
+	"commontext4":{
+		"des":"通用文本4",
+		"text":"Fragment"
+	},
+	"commontext5":{
+		"des":"通用文本5",
+		"text":"Backdrop"
+	},
+	"commontext6":{
+		"des":"通用文本6",
+		"text":"Road"
+	},
+	"rewardtext1":{
+		"des":"奖励文本1",
+		"text":"Money"
+	},
+	"rewardtext2":{
+		"des":"奖励文本2",
+		"text":"Bottlecaps"
+	},
+	"rewardtext3":{
+		"des":"奖励文本3",
+		"text":"Stamina"
+	},
+	"bagtiptext1":{
+		"des":"背包使用界面文本1",
+		"text":"Name:"
+	},
+	"bagtiptext2":{
+		"des":"背包使用界面文本2",
+		"text":"Des:"
+	},
+	"bagtiptext3":{
+		"des":"背包使用界面文本3",
+		"text":"Num:"
+	},
+	"bagtiptext4":{
+		"des":"背包使用界面文本4",
+		"text":"Stamina at full"
+	},
+	"bagtiptext5":{
+		"des":"背包使用界面文本5",
+		"text":"No such item"
+	},
+	"gameuitext":{
+		"des":"游戏UI文本（关）",
+		"text":"stage"
+	},
+	"guoqinguitext1":{
+		"des":"国庆活动规则文本",
+		"text":"1. Log into game to get a free Naruto, a new character from the \"Chapter of Shadow\" series.\n2. Develop &name to Level 3 in the event and get Sasuke, a new character from the \"Chapter of Shadow\" series.\n3. Total 100 RMB in recharge during the event and get the new Violent Sakura from the \"Chapter of Shadow\".\nNote: Above characters are exclusive to the event and cannot be acquired in regular game."
+	},
+	"guoqinguitext2":{
+		"des":"国庆活动文本1",
+		"text":"Double Pack"
+	},
+	"guoqinguitext3":{
+		"des":"国庆活动文本2",
+		"text":"Current:"
+	},
+	"guoqinguitext4":{
+		"des":"国庆活动文本3",
+		"text":"Backdrop is unlocked"
+	},
+	"guoqinguitext5":{
+		"des":"国庆活动文本4",
+		"text":"Requirements not met"
+	},
+	"integraltext1":{
+		"des":"积分活动条文本",
+		"text":"Total Event Score"
+	},
+	"integraltext2":{
+		"des":"积分活动界面刷新时间",
+		"text":"Refresh daily at 00:00"
+	},
+	"integraltext3":{
+		"des":"积分活动界面文本3",
+		"text":"My Rank：Unranked"
+	},
+	"integraltext4":{
+		"des":"积分活动界面文本4",
+		"text":"My Rank："
+	},
+	"integraltext5":{
+		"des":"积分活动界面文本5",
+		"text":"Event Schedule："
+	},
+	"revivepagetext1":{
+		"des":"复活提示界面文本1",
+		"text":"Lost a life? Have a cup of coffee and refocus!"
+	},
+	"revivepagetext2":{
+		"des":"复活提示界面文本2",
+		"text":"Request："
+	},
+	"revivepagetext3":{
+		"des":"复活提示界面文本3",
+		"text":"You can get Coffee of Respawning by sharing.\nYou can share &num times today"
+	},
+	"revivepagetext4":{
+		"des":"复活提示界面文本4（废）",
+		"text":"次"
+	},
+	"revivepagetext5":{
+		"des":"复活提示界面文本5",
+		"text":"You cannot restore Coffee through sharing again today, try store purchase."
+	},
+	"roledetailtext1":{
+		"des":"角色详情界面文本1",
+		"text":"You can't clear a stage without any HP."
+	},
+	"roledetailtext2":{
+		"des":"角色详情界面文本2",
+		"text":"Defense reduces HP loss when accidents happen."
+	},
+	"roledetailtext3":{
+		"des":"角色详情界面文本3",
+		"text":"Karma protects you from unfortunate events."
+	},
+	"roledetailtext4":{
+		"des":"角色详情界面文本4",
+		"text":"Insufficient fragments. Go to Store and buy more?"
+	},
+	"roledetailtext5":{
+		"des":"角色详情界面文本5",
+		"text":"Insufficient fragments, failed to level up!"
+	},
+	"roledetailtext6":{
+		"des":"角色详情界面文本6",
+		"text":"Feature："
+	},
+	"roledetailtext7":{
+		"des":"角色详情界面文本7",
+		"text":"At max level"
+	},
+	"rolegetpagetext1":{
+		"des":"解锁界面文本1",
+		"text":"You unlocked "
+	},
+	"rolegetpagetext2":{
+		"des":"解锁界面文本2",
+		"text":"You unlocked new backdrop."
+	},
+	"rolelisttext1":{
+		"des":"角色列表文本1",
+		"text":"Collection Progress："
+	},
+	"rolelisttext2":{
+		"des":"角色列表文本2",
+		"text":"Failed to unlock!"
+	},
+	"roleskillpagetext1":{
+		"des":"角色技能文本1",
+		"text":"level"
+	},
+	"roleskillpagetext2":{
+		"des":"角色技能文本2",
+		"text":"Requirements to Level Up"
+	},
+	"roleskillpagetext3":{
+		"des":"角色技能文本3",
+		"text":"Requirements to Unlock"
+	},
+	"shopbuypagetext1":{
+		"des":"商品购买使用界面文本1",
+		"text":"Name:"
+	},
+	"shopbuypagetext2":{
+		"des":"商品购买使用界面文本2",
+		"text":"Des:"
+	},
+	"shopbuypagetext3":{
+		"des":"商品购买使用界面文本3",
+		"text":"Num:"
+	},
+	"shopbuypagetext4":{
+		"des":"商品购买使用界面文本4",
+		"text":"Would you use &point points to buy &token bottlecaps?"
+	},
+	"shopbuypagetext5":{
+		"des":"商品购买使用界面文本5（废）",
+		"text":"积分购买"
+	},
+	"shopbuypagetext6":{
+		"des":"商品购买使用界面文本6（废）",
+		"text":"瓶盖?"
+	},
+	"shopbuypagetext7":{
+		"des":"商品购买使用界面文本7",
+		"text":"Not available"
+	},
+	"shopbuypagetext8":{
+		"des":"商品购买使用界面文本8",
+		"text":"Stamina at full"
+	},
+	"shopbuypagetext9":{
+		"des":"商品购买使用界面文本9",
+		"text":"Insufficient points. Recharge?"
+	},
+	"shopbuypagetext10":{
+		"des":"商品购买使用界面文本10",
+		"text":"Order canceled"
+	},
+	"shopbuypagetext11":{
+		"des":"商品购买使用界面文本11",
+		"text":"Purchased!"
+	},
+	"shopbuypagetext12":{
+		"des":"商品购买使用界面文本12",
+		"text":"Failed to purchase."
+	},
+	"slavepagetext1":{
+		"des":"奴隶界面文字1",
+		"text":"You can capture\nOther Players"
+	},
+	"slavepagetext2":{
+		"des":"奴隶界面文字2",
+		"text":"Out of captures"
+	},
+	"slavepagetext3":{
+		"des":"奴隶界面文字3",
+		"text":"Slave"
+	},
+	"slavepagetext4":{
+		"des":"奴隶界面文字4",
+		"text":"Master"
+	},
+	"slavepagetext5":{
+		"des":"奴隶界面文字5",
+		"text":"Free"
+	},
+	"slavepagetext6":{
+		"des":"奴隶界面文字6",
+		"text":"Scold"
+	},
+	"slavepagetext7":{
+		"des":"奴隶界面文字7",
+		"text":"Treat"
+	},
+	"slavepagetext8":{
+		"des":"奴隶界面文字8",
+		"text":"Brown-Nose"
+	},
+	"slavepagetext9":{
+		"des":"奴隶界面文字9",
+		"text":"Would you use &token Bottlecaps to buy &num Attempts?"
+	},
+	"slavepagetext10":{
+		"des":"奴隶界面文字10（废）",
+		"text":"瓶盖购买"
+	},
+	"slavepagetext11":{
+		"des":"奴隶界面文字11（废）",
+		"text":"次数?"
+	},
+	"slavepagetext12":{
+		"des":"奴隶界面文字12",
+		"text":"In cooldown…"
+	},
+	"slavepagetext13":{
+		"des":"奴隶界面文字13",
+		"text":"Out of attempts"
+	},
+	"slavepagetext14":{
+		"des":"奴隶界面文字14",
+		"text":"Your Slaves"
+	},
+	"slavepagetext15":{
+		"des":"奴隶界面文字15",
+		"text":"Your slaves are working hard, for which they should be praised."
+	},
+	"slavepagetext16":{
+		"des":"奴隶界面文字16",
+		"text":"You should be proud of the diligent effort and give praise!"
+	},
+	"slavepagetext17":{
+		"des":"奴隶界面文字17",
+		"text":"Out of attempts, please buy more."
+	},
+	"slavepagetext18":{
+		"des":"奴隶界面文字18",
+		"text":"Insufficient item. Spend &token Bottlecaps to buy and use?"
+	},
+	"slavepagetext19":{
+		"des":"奴隶界面文字19",
+		"text":"Accessing the feature requires 1 &item,is continue?"
+	},
+	"slavepagetext20":{
+		"des":"奴隶界面文字20（废）",
+		"text":"，是否继续？"
+	},
+	"slavepagetext21":{
+		"des":"奴隶界面文字21",
+		"text":"Insufficient item. Spend &money Money to buy and use?"
+	},
+	"slavepagetext22":{
+		"des":"奴隶界面文字22",
+		"text":"You flogged the slaves and now they are working harder."
+	},
+	"slavepagetext23":{
+		"des":"奴隶界面文字23",
+		"text":"You flogged &slave and now they are working harder."
+	},
+	"slavepagetext24":{
+		"des":"奴隶界面文字24（废）",
+		"text":"，TA干活更加卖力了！"
+	},
+	"slavepagetext25":{
+		"des":"奴隶界面文字25",
+		"text":"Insufficient item. Spend 20 Bottlecaps to buy and use?"
+	},
+	"slavepagetext26":{
+		"des":"奴隶界面文字26",
+		"text":"Accessing the feature requires 1 &item,is continue?"
+	},
+	"slavepagetext27":{
+		"des":"奴隶界面文字27（废）",
+		"text":"，是否继续？"
+	},
+	"slavepagetext28":{
+		"des":"奴隶界面文字28",
+		"text":"You offered cake as a reward to your slave."
+	},
+	"slavepagetext29":{
+		"des":"奴隶界面文字29",
+		"text":"You offered leftover cake as a reward to &name."
+	},
+	"slavepagetext30":{
+		"des":"奴隶界面文字30",
+		"text":"You're only brown-nosing to trim time off your servitude."
+	},
+	"slavepagetext31":{
+		"des":"奴隶界面文字31",
+		"text":"You're only subservient with a huge smile to curry your master &master's favor."
+	},
+	"slavepagetext32":{
+		"des":"奴隶界面文字32（废）",
+		"text":"的欢心。"
+	},
+	"slavepagetext33":{
+		"des":"奴隶界面文字33",
+		"text":"You popped your master's tire in revenge."
+	},
+	"slavepagetext34":{
+		"des":"奴隶界面文字34",
+		"text":"You thrust a spike into your master &master's tires!"
+	},
+	"slavepagetext35":{
+		"des":"奴隶界面文字35（废）",
+		"text":"的......汽车轮胎！"
+	},
+	"slavepagetext36":{
+		"des":"奴隶界面文字36",
+		"text":"Your slave's working hours are not full，Would you sure to set him free?"
+	},
+	"slavepagetext37":{
+		"des":"奴隶界面文字37",
+		"text":"Would you use &token Bottlecaps to buy freedom"
+	},
+	"slavepagetext38":{
+		"des":"奴隶界面文字38（废）",
+		"text":"瓶盖赎身?"
+	},
+	"slavepagetext39":{
+		"des":"奴隶界面文字39",
+		"text":"Out of Revolts"
+	},
+	"slavepagetext40":{
+		"des":"奴隶界面文字40",
+		"text":"Stage &stage Unlock"
+	},
+	"slavepagetext41":{
+		"des":"奴隶界面文字41（废）",
+		"text":"关开启该牢笼"
+	},
+	"slavepagetext42":{
+		"des":"奴隶界面文字42",
+		"text":"Free"
+	},
+	"slavepagetext43":{
+		"des":"奴隶界面文字43",
+		"text":"Would you use &token Buy Revolts with Bottlecaps?"
+	},
+	"slavepagetext44":{
+		"des":"奴隶界面文字44",
+		"text":"Would you use &token Buy Captures with Bottlecaps?"
+	},
+	"slavepagetext45":{
+		"des":"奴隶界面文字45",
+		"text":"Daily Captures Remaining:"
+	},
+	"slavepagetext46":{
+		"des":"奴隶界面文字46",
+		"text":"Daily Revolts Remaining:"
+	},
+	"achievementtext1":{
+		"des":"成就页面（单页）文本1",
+		"text":"Not acquired"
+	},
+	"achievementtext2":{
+		"des":"成就页面（单页）文本2",
+		"text":""
+	},
+	"achievementtext3":{
+		"des":"成就文本1",
+		"text":"You've completed the Achievement that is called \"&achievement\""
+	},
+	"achievementtext4":{
+		"des":"成就文本2（废）",
+		"text":"”成就"
+	},
+	"achievementtext5":{
+		"des":"成就文本3",
+		"text":"Congrats on getting the Bottlecaps"
+	},
+	"achievementtext6":{
+		"des":"成就文本4",
+		"text":"Congrats on getting the Money"
+	},
+	"dailyactivetext1":{
+		"des":"日常活动文本1",
+		"text":"Score"
+	},
+	"dailyactivetext2":{
+		"des":"日常活动文本2",
+		"text":"Rewards"
+	},
+	"dailyactivetext3":{
+		"des":"日常活动文本3",
+		"text":"Unranked"
+	},
+	"dailyactivetext4":{
+		"des":"日常活动文本4",
+		"text":"Failed to join!"
+	},
+	"dailyactivetext5":{
+		"des":"日常活动文本5",
+		"text":"You are not in the Warmup. Spend &num Bottlecaps to play?"
+	},
+	"dailyactivetext6":{
+		"des":"日常活动文本6",
+		"text":"Failed to spend Bottlecaps!"
+	},
+	"dailyactivetext7":{
+		"des":"日常活动文本7",
+		"text":"Insufficient quantity!"
+	},
+	"dailyactivetext8":{
+		"des":"日常活动文本8",
+		"text":"Event not yet started!"
+	},
+	"dailyactivetext9":{
+		"des":"日常活动文本9",
+		"text":"Warmup is over, cannot vote!"
+	},
+	"dailyactivetext10":{
+		"des":"日常活动文本10",
+		"text":"Failed to support!"
+	},
+	"friendpagetext1":{
+		"des":"好友文本1",
+		"text":"Highest Score:"
+	},
+	"friendpagetext2":{
+		"des":"好友文本2",
+		"text":"Gaming…"
+	},
+	"friendpagetext3":{
+		"des":"好友文本3",
+		"text":"Online"
+	},
+	"friendpagetext4":{
+		"des":"好友文本4",
+		"text":"Offline"
+	},
+	"endwindowtext1":{
+		"des":"结束界面文本1",
+		"text":"The event is over!"
+	},
+	"endwindowtext2":{
+		"des":"结束界面文本2",
+		"text":"Current stage not cleared"
+	},
+	"endwindowtext3":{
+		"des":"结束界面文本3",
+		"text":"Highest stage reached"
+	},
+	"endwindowtext4":{
+		"des":"结束界面文本4",
+		"text":"Nothing found…"
+	},
+	"giftpagetext1":{
+		"des":"礼包页面文本1",
+		"text":"Your Claims for Today:"
+	},
+	"giftpagetext2":{
+		"des":"礼包页面文本2",
+		"text":"You Will Receive:"
+	},
+	"giftpagetext3":{
+		"des":"礼包页面文本3",
+		"text":"Rookie Pack"
+	},
+	"giftpagetext4":{
+		"des":"礼包页面文本4",
+		"text":"7-Day Pack"
+	},
+	"giftpagetext5":{
+		"des":"礼包页面文本5",
+		"text":"Mid-Autumn Pack"
+	},
+	"giftpagetext6":{
+		"des":"礼包页面文本6",
+		"text":"Already claimed"
+	},
+	"giftpagetext7":{
+		"des":"礼包页面文本7",
+		"text":"Required logins not met"
+	},
+	"noticepagetext1":{
+		"des":"邮件界面文本1",
+		"text":"y ago"
+	},
+	"noticepagetext2":{
+		"des":"邮件界面文本1",
+		"text":"m ago"
+	},
+	"noticepagetext3":{
+		"des":"邮件界面文本2",
+		"text":"w ago"
+	},
+	"noticepagetext4":{
+		"des":"邮件界面文本3",
+		"text":"d ago"
+	},
+	"noticepagetext5":{
+		"des":"邮件界面文本5",
+		"text":"h ago"
+	},
+	"noticepagetext6":{
+		"des":"邮件界面文本6",
+		"text":"min ago"
+	},
+	"noticepagetext7":{
+		"des":"邮件界面文本7",
+		"text":"s ago"
+	},
+	"rankpagetext1":{
+		"des":"排行界面文本1",
+		"text":"Unranked"
+	},
+	"vippagetext1":{
+		"des":"VIP界面文本1",
+		"text":"Reward claimed"
+	},
+	"vippagetext2":{
+		"des":"VIP界面文本2",
+		"text":"Congrats on getting\n\nYuJie Fragment x60、Whip of Love x5、Expired Cake x5、Clown Mask x5、Money x20000"
+	},
+	"vippagetext3":{
+		"des":"VIP界面文本3",
+		"text":"\nExclusive Character：YuJie"
+	},
+	"vippagetext4":{
+		"des":"VIP界面文本4",
+		"text":"Whip of Love*5\nExpired Cake*5\nClown Mask*5"
+	},
+	"vippagetext5":{
+		"des":"VIP界面文本5",
+		"text":"Spend 6 RMB to buy Bottlecaps？"
+	},
+	"vippagetext6":{
+		"des":"VIP界面文本6",
+		"text":"Insufficient points. Recharge?"
+	},
+	"vippagetext7":{
+		"des":"VIP界面文本7",
+		"text":"Successful purchase!"
+	},
+	"vippagetext8":{
+		"des":"VIP界面文本8",
+		"text":"Today's reward claimed"
+	},
+	"vippagetext9":{
+		"des":"VIP界面文本9",
+		"text":"Congrats on getting\n\nWhip of Love x3、Expired Cake x3、Clown Mask x3"
+	},
+	"vippagetext10":{
+		"des":"VIP界面文本10",
+		"text":"Spend 10 RMB to buy VIP Card?"
+	},
+	"vippagetext11":{
+		"des":"VIP界面文本11",
+		"text":"Thank you for your purchase, now check out your new perks!"
+	},
+	"startpagetext1":{
+		"des":"开始界面文本1",
+		"text":"Clear Stage 5 to unlock Slaves feature"
+	},
+	"startpagetext2":{
+		"des":"开始界面文本2",
+		"text":"Failed to unlock event！"
+	},
+	"startpagetext3":{
+		"des":"开始界面文本3",
+		"text":"Clear Stage 3 to unlock"
+	},
+	"itemusertext1":{
+		"des":"物品使用文本1",
+		"text":"&num added to Stamina with Mineral Water"
+	},
+	"itemusertext2":{
+		"des":"物品使用文本2（废）",
+		"text":"点"
+	},
+	"itemusertext3":{
+		"des":"物品使用文本3",
+		"text":"Stamina restored to full with Coffee Machine"
+	},
+	"noticetext1":{
+		"des":"邮件文本1",
+		"text":"Congratulations for finishing 1st in Double-7th and winning a Android cell phone, plus 300 Bottlecaps! Please contact topani@126.com to receive physical prize."
+	},
+	"noticetext2":{
+		"des":"邮件文本2",
+		"text":"Congratulations for finishing 2nd in Double-7th and winning a Chicken Little doll, plus 500 Bottlecaps! Please contact topani@126.com to receive physical prize."
+	},
+	"noticetext3":{
+		"des":"邮件文本3",
+		"text":"Congratulations for finishing 3rd in Double-7th and winning a Maubert doll, plus 400 Bottlecaps! Please contact topani@126.com to receive physical prize."
+	},
+	"noticetext4":{
+		"des":"邮件文本4",
+		"text":"Congratulations for finishing in #&rank in Double-7th and winning 200 Bottlecaps!"
+	},
+	"noticetext5":{
+		"des":"邮件文本5（废）",
+		"text":"名！奖励瓶盖200，请查收。"
+	},
+	"noticetext6":{
+		"des":"邮件文本6",
+		"text":"Congratulations for winning 50 Bottlecaps in Double-7th Matchmaking Party!"
+	},
+	"noticetext7":{
+		"des":"邮件文本7",
+		"text":"Congratulations for finishing in #&rank in The Great Parkour Race and winning &token Bottlecaps!"
+	},
+	"noticetext8":{
+		"des":"邮件文本8（废）",
+		"text":"名！获得奖金"
+	},
+	"noticetext9":{
+		"des":"邮件文本9（废）",
+		"text":"瓶盖，请查收！"
+	},
+	"noticetext10":{
+		"des":"邮件文本10",
+		"text":"Sorry, you did not finish in the top 10 in The Great Parkour Race, but here are &token Bottlecaps as consolation prize."
+	},
+	"noticetext11":{
+		"des":"邮件文本11（废）",
+		"text":"瓶盖，请查收"
+	},
+	"noticetext12":{
+		"des":"邮件文本12",
+		"text":"Friends"
+	},
+	"playertext1":{
+		"des":"玩家文本1",
+		"text":"Insufficient Money, &money more needed. Get more? "
+	},
+	"playertext2":{
+		"des":"玩家文本2（废）",
+		"text":" 金币，是否前往获取？"
+	},
+	"playertext3":{
+		"des":"玩家文本3",
+		"text":"Insufficient Bottlecaps, &token more needed. Get more? "
+	},
+	"playertext4":{
+		"des":"玩家文本4（废）",
+		"text":" 瓶盖，是否前往获取？"
+	},
+	"sharetext1":{
+		"des":"分享文本1",
+		"text":"Try sharing to restore Stamina to full!\nYou can share &num times today"
+	},
+	"sharetext2":{
+		"des":"分享文本2",
+		"text":"You cannot restore Stamina through sharing again today, try store purchase."
+	},
+	"sharetext3":{
+		"des":"分享文本3",
+		"text":"The Adventures of JiXiaoDe"
+	},
+	"sharetext4":{
+		"des":"分享文本4",
+		"text":"I run, I jump, I eat. I'm fat and I'm proud. I'm JiXiaoDe~"
+	},
+	"prompttext1":{
+		"des":"提示文本1",
+		"text":"Congrats on getting"
+	},
+	"prompttext2":{
+		"des":"提示文本2",
+		"text":"You got"
+	},
+	"shopdataname1001":{
+		"des":"1001商品名字",
+		"text":"JiXiaoDe Fragment"
+	},
+	"shopdataname1002":{
+		"des":"1002商品名字",
+		"text":"XiaoMei Fragment"
+	},
+	"shopdataname1003":{
+		"des":"1003商品名字",
+		"text":"FaTiao Fragment"
+	},
+	"shopdataname1004":{
+		"des":"1004商品名字",
+		"text":"A'Lian Fragment"
+	},
+	"shopdataname1005":{
+		"des":"1005商品名字",
+		"text":"ShaSha Fragment"
+	},
+	"shopdataname1006":{
+		"des":"1006商品名字",
+		"text":"HuiHui Fragment"
+	},
+	"shopdataname1007":{
+		"des":"1007商品名字",
+		"text":"GuLaoBan Fragment"
+	},
+	"shopdataname1008":{
+		"des":"1008商品名字",
+		"text":"YuJie Fragment"
+	},
+	"shopdataname1031":{
+		"des":"1031商品名字",
+		"text":"Naruto Fragment"
+	},
+	"shopdataname1032":{
+		"des":"1032商品名字",
+		"text":"Sasuke Fragment"
+	},
+	"shopdataname1033":{
+		"des":"1033商品名字",
+		"text":"Violent Sakura Fragment"
+	},
+	"shopdataname2001":{
+		"des":"2001商品名字",
+		"text":"Tranquil Forest"
+	},
+	"shopdataname2002":{
+		"des":"2002商品名字",
+		"text":"Icy Paradise"
+	},
+	"shopdataname4001":{
+		"des":"4001商品名字",
+		"text":"Coffee of Respawning"
+	},
+	"shopdataname4002":{
+		"des":"4002商品名字",
+		"text":"Missile"
+	},
+	"shopdataname4003":{
+		"des":"4003商品名字",
+		"text":"Mine"
+	},
+	"shopdataname4004":{
+		"des":"4004商品名字",
+		"text":"Shield"
+	},
+	"shopdataname4005":{
+		"des":"4005商品名字",
+		"text":"Hot Balloon"
+	},
+	"shopdataname4006":{
+		"des":"4006商品名字",
+		"text":"Fountain of Life"
+	},
+	"shopdataname4007":{
+		"des":"4007商品名字",
+		"text":"Time Machine"
+	},
+	"shopdataname4008":{
+		"des":"4008商品名字",
+		"text":"Rain"
+	},
+	"shopdataname4009":{
+		"des":"4009商品名字",
+		"text":"Tibetan Mastiff"
+	},
+	"shopdataname4010":{
+		"des":"4010商品名字",
+		"text":"Paper Plane"
+	},
+	"shopdataname4011":{
+		"des":"4011商品名字",
+		"text":"Mineral Water"
+	},
+	"shopdataname4012":{
+		"des":"4012商品名字",
+		"text":"Coffee Maker"
+	},
+	"shopdataname4013":{
+		"des":"4013商品名字",
+		"text":"Red JiXiaoDe Envelope"
+	},
+	"shopdataname4014":{
+		"des":"4014商品名字",
+		"text":"Red XiaoMei Envelope"
+	},
+	"shopdataname4015":{
+		"des":"4015商品名字",
+		"text":"Red FaTiao Envelope"
+	},
+	"shopdataname4016":{
+		"des":"4016商品名字",
+		"text":"Red Lian Envelope"
+	},
+	"shopdataname4017":{
+		"des":"4017商品名字",
+		"text":"Red GuLaoBan Envelope"
+	},
+	"shopdataname4018":{
+		"des":"4018商品名字",
+		"text":"Red ShaSha Envelope"
+	},
+	"shopdataname4019":{
+		"des":"4019商品名字",
+		"text":"Red YuJie Envelope"
+	},
+	"shopdataname4020":{
+		"des":"4020商品名字",
+		"text":"Red HuiHui Envelope"
+	},
+	"shopdataname4021":{
+		"des":"4021商品名字",
+		"text":"Whip of Love"
+	},
+	"shopdataname4022":{
+		"des":"4022商品名字",
+		"text":"Expired Cake"
+	},
+	"shopdataname4023":{
+		"des":"4023商品名字",
+		"text":"Clown Mask"
+	},
+	"shopdataname5001":{
+		"des":"5001商品名字",
+		"text":"Money"
+	},
+	"shopdatadesc1001":{
+		"des":"1001商品描述",
+		"text":"Required to collect and level up JiXiaoDe"
+	},
+	"shopdatadesc1002":{
+		"des":"1002商品描述",
+		"text":"Required to collect and level up XiaoMei"
+	},
+	"shopdatadesc1003":{
+		"des":"1003商品描述",
+		"text":"Required to collect and level up FaTiao"
+	},
+	"shopdatadesc1004":{
+		"des":"1004商品描述",
+		"text":"Required to collect and level up Lian"
+	},
+	"shopdatadesc1005":{
+		"des":"1005商品描述",
+		"text":"Required to collect and level up ShaSha"
+	},
+	"shopdatadesc1006":{
+		"des":"1006商品描述",
+		"text":"Required to collect and level up HuiHui"
+	},
+	"shopdatadesc1007":{
+		"des":"1007商品描述",
+		"text":"Required to collect and level up GuLaoBan"
+	},
+	"shopdatadesc1008":{
+		"des":"1008商品描述",
+		"text":"Required to collect and level up YuJie"
+	},
+	"shopdatadesc1031":{
+		"des":"1031商品描述",
+		"text":"Required to collect and level up Naruto"
+	},
+	"shopdatadesc1032":{
+		"des":"1032商品描述",
+		"text":"Required to collect and level up Sasuke"
+	},
+	"shopdatadesc1033":{
+		"des":"1033商品描述",
+		"text":"Required to collect and level up Violent Sakura"
+	},
+	"shopdatadesc2001":{
+		"des":"2001商品描述",
+		"text":"Default Backdrop"
+	},
+	"shopdatadesc2002":{
+		"des":"2002商品描述",
+		"text":"Ice-Themed Backdrop"
+	},
+	"shopdatadesc4001":{
+		"des":"4001商品描述",
+		"text":"Use to respawn"
+	},
+	"shopdatadesc4002":{
+		"des":"4002商品描述",
+		"text":"Anyone hit with a missile loses HP"
+	},
+	"shopdatadesc4003":{
+		"des":"4003商品描述",
+		"text":"Anyone stepping on a mine loses HP"
+	},
+	"shopdatadesc4004":{
+		"des":"4004商品描述",
+		"text":"Shield can soak damage for you"
+	},
+	"shopdatadesc4005":{
+		"des":"4005商品描述",
+		"text":"Hot balloon can carry you over obstacles"
+	},
+	"shopdatadesc4006":{
+		"des":"4006商品描述",
+		"text":"Hot balloon can carry you over obstacles"
+	},
+	"shopdatadesc4007":{
+		"des":"4007商品描述",
+		"text":"Time Machine is a device of dark technology"
+	},
+	"shopdatadesc4008":{
+		"des":"4008商品描述",
+		"text":"Brings rainstorm"
+	},
+	"shopdatadesc4009":{
+		"des":"4009商品描述",
+		"text":"Release the hound, then shut the door"
+	},
+	"shopdatadesc4010":{
+		"des":"4010商品描述",
+		"text":"Flies you over obstacles, no control necessary"
+	},
+	"shopdatadesc4011":{
+		"des":"4011商品描述",
+		"text":"Use from Inventory to restore 1 Stamina."
+	},
+	"shopdatadesc4012":{
+		"des":"4012商品描述",
+		"text":"Replenishes Stamina to full, cannot be use at full Stamina. (Limit 1 per purchase.)"
+	},
+	"shopdatadesc4013":{
+		"des":"4013商品描述",
+		"text":"Gain 5,000 Money"
+	},
+	"shopdatadesc4014":{
+		"des":"4014商品描述",
+		"text":"Gain 33,000 Money"
+	},
+	"shopdatadesc4015":{
+		"des":"4015商品描述",
+		"text":"Gain 90,000 Money"
+	},
+	"shopdatadesc4016":{
+		"des":"4016商品描述",
+		"text":"Gain 195,000 Money"
+	},
+	"shopdatadesc4017":{
+		"des":"4017商品描述",
+		"text":"Gain 420,000 Money"
+	},
+	"shopdatadesc4018":{
+		"des":"4018商品描述",
+		"text":"Gain 1,125,000 Money"
+	},
+	"shopdatadesc4019":{
+		"des":"4019商品描述",
+		"text":"Gain 2,437,500 Money"
+	},
+	"shopdatadesc4020":{
+		"des":"4020商品描述",
+		"text":"Gain 4,687,500 Money"
+	},
+	"shopdatadesc4021":{
+		"des":"4021商品描述",
+		"text":"Spend this to flog slaves; cannot be used directly"
+	},
+	"shopdatadesc4022":{
+		"des":"4022商品描述",
+		"text":"Spned this to give a treat to slaves; cannot be used directly"
+	},
+	"shopdatadesc4023":{
+		"des":"4023商品描述",
+		"text":"Spend this to brown-nose your master; cannot be used directly"
+	},
+	"shopdatadesc5001":{
+		"des":"5001商品描述",
+		"text":""
+	},
+	"shopdatafirstrecharge":{
+		"des":"首充获得标识",
+		"text":"FirstCharge"
+	},
+	"shopdatatimelimit":{
+		"des":"限时获得标识",
+		"text":"Activity"
+	},
+	"achievetypedesc1":{
+		"des":"成就分享类型1",
+		"text":"First complete the game"
+	},
+	"achievetypedesc2":{
+		"des":"成就分享类型2",
+		"text":"Buy any role at a time"
+	},
+	"achievetypedesc3":{
+		"des":"成就分享类型3",
+		"text":"Buy any road at a time"
+	},
+	"achievetypedesc4":{
+		"des":"成就分享类型4",
+		"text":"Buy any backdrop at a time"
+	},
+	"achievetypedesc5":{
+		"des":"成就分享类型5",
+		"text":"Single game goes beyond a friend"
+	},
+	"achievetypedesc6":{
+		"des":"成就分享类型6",
+		"text":"Single game to refresh the highest score"
+	},
+	"achievetypedesc7":{
+		"des":"成就分享类型7",
+		"text":"First on the total ranking list"
+	},
+	"achievetypedesc8":{
+		"des":"成就分享类型8",
+		"text":"First on the daily ranking list everyday"
+	},
+	"achievetypedesc9":{
+		"des":"成就分享类型9",
+		"text":"First on the friendy ranking list everyweek"
+	},
+	"achievetypedesc10":{
+		"des":"成就分享类型10",
+		"text":"Score &data points in an Endless game"
+	},
+	"achievetypedesc11":{
+		"des":"成就分享类型11",
+		"text":"Win &data worth of money in an Endless game"
+	},
+	"achievetypedesc12":{
+		"des":"成就分享类型12",
+		"text":"Die &data times"
+	},
+	"achievetypedesc13":{
+		"des":"成就分享类型13",
+		"text":"Win &data worth of money in games"
+	},
+	"achievetypedesc14":{
+		"des":"成就分享类型14",
+		"text":"Clear &data stages"
+	},
+	"achievetypedesc15":{
+		"des":"成就分享类型15",
+		"text":"Use coffee &data times"
+	},
+	"achievetypedesc16":{
+		"des":"成就分享类型16",
+		"text":"Make top-&data in Overall Rankings"
+	},
+	"achievetypedesc17":{
+		"des":"成就分享类型17",
+		"text":"Make top-&data in Daily Rankings"
+	},
+	"achievetypedesc18":{
+		"des":"成就分享类型18",
+		"text":"Make top-&data in Friend Rankings"
+	},
+	"achievetypedesc19":{
+		"des":"成就分享类型19",
+		"text":"Spend a total of &data in money"
+	},
+	"achievetypedesc20":{
+		"des":"成就分享类型20",
+		"text":"&data days of game login"
+	},
+	"achievetypedesc21":{
+		"des":"成就分享类型21",
+		"text":"Make &data shares"
+	},
+	"achievetypedesc22":{
+		"des":"成就分享类型22",
+		"text":"Own &data characters"
+	},
+	"achievetypedesc23":{
+		"des":"成就分享类型23",
+		"text":"Own &data roads"
+	},
+	"achievetypedesc24":{
+		"des":"成就分享类型24",
+		"text":"Own &data backdrops"
+	},
+	"achievetypedesc25":{
+		"des":"成就分享类型25",
+		"text":"Own the &name character"
+	},
+	"achievetypedesc26":{
+		"des":"成就分享类型26",
+		"text":"Own &data roads"
+	},
+	"achievetypedesc27":{
+		"des":"成就分享类型27",
+		"text":"Own &data backdrops"
+	},
+	"achievetypedesc28":{
+		"des":"成就分享类型28",
+		"text":"Use &role in &data games"
+	},
+	"achievetypedesc29":{
+		"des":"成就分享类型29",
+		"text":"Use &road in &data games"
+	},
+	"achievetypedesc30":{
+		"des":"成就分享类型30",
+		"text":"Use &scene in &data games"
+	},
+	"achievetypedesc31":{
+		"des":"成就分享类型31",
+		"text":"Clear &data stages in Stage Mode"
+	},
+	"achievetypedesc32":{
+		"des":"成就分享类型32",
+		"text":"Get &data Stars in Stage Mode"
+	},
+	"achievetypedesc33":{
+		"des":"成就分享类型33",
+		"text":"Capture &data slaves"
+	},
+	"achievedataname1001":{
+		"des":"成就名字1001",
+		"text":"Road to Unknown"
+	},
+	"achievedataname1002":{
+		"des":"成就名字1002",
+		"text":"Transcendant Journey"
+	},
+	"achievedataname1003":{
+		"des":"成就名字1003",
+		"text":"Endless March"
+	},
+	"achievedataname1004":{
+		"des":"成就名字1004",
+		"text":"Take Not What Ain't Yours"
+	},
+	"achievedataname1005":{
+		"des":"成就名字1005",
+		"text":"Moneymonger"
+	},
+	"achievedataname1006":{
+		"des":"成就名字1006",
+		"text":"Money Magnet"
+	},
+	"achievedataname1007":{
+		"des":"成就名字1007",
+		"text":"Look Not Where You're Going"
+	},
+	"achievedataname1008":{
+		"des":"成就名字1008",
+		"text":"Gullible"
+	},
+	"achievedataname1009":{
+		"des":"成就名字1009",
+		"text":"Born Yesterday"
+	},
+	"achievedataname1010":{
+		"des":"成就名字1010",
+		"text":"Rookie Financier"
+	},
+	"achievedataname1011":{
+		"des":"成就名字1011",
+		"text":"Piggy Bank"
+	},
+	"achievedataname1012":{
+		"des":"成就名字1012",
+		"text":"Money Smart"
+	},
+	"achievedataname1013":{
+		"des":"成就名字1013",
+		"text":"Trailblazer"
+	},
+	"achievedataname1014":{
+		"des":"成就名字1014",
+		"text":"Parkour Pro"
+	},
+	"achievedataname1015":{
+		"des":"成就名字1015",
+		"text":"Pro Gamer"
+	},
+	"achievedataname1016":{
+		"des":"成就名字1016",
+		"text":"Hard to Kill"
+	},
+	"achievedataname1017":{
+		"des":"成就名字1017",
+		"text":"Full Respawn"
+	},
+	"achievedataname1018":{
+		"des":"成就名字1018",
+		"text":"Coffee Fiend"
+	},
+	"achievedataname1019":{
+		"des":"成就名字1019",
+		"text":"Leaderboard Master"
+	},
+	"achievedataname1020":{
+		"des":"成就名字1020",
+		"text":"Up-and-Comer"
+	},
+	"achievedataname1021":{
+		"des":"成就名字1021",
+		"text":"Second to None"
+	},
+	"achievedataname1022":{
+		"des":"成就名字1022",
+		"text":"Best of the Day"
+	},
+	"achievedataname1023":{
+		"des":"成就名字1023",
+		"text":"On Fire"
+	},
+	"achievedataname1024":{
+		"des":"成就名字1024",
+		"text":"Showoff"
+	},
+	"achievedataname1025":{
+		"des":"成就名字1025",
+		"text":"Friendly Fellow"
+	},
+	"achievedataname1026":{
+		"des":"成就名字1026",
+		"text":"友情第二"
+	},
+	"achievedataname1027":{
+		"des":"成就名字1027",
+		"text":"比赛第一"
+	},
+	"achievedataname1028":{
+		"des":"成就名字1028",
+		"text":"Big Spender"
+	},
+	"achievedataname1029":{
+		"des":"成就名字1029",
+		"text":"Rich and Out of Control"
+	},
+	"achievedataname1030":{
+		"des":"成就名字1030",
+		"text":"Affluent Upstart"
+	},
+	"achievedataname1031":{
+		"des":"成就名字1031",
+		"text":"7-Day Login"
+	},
+	"achievedataname1032":{
+		"des":"成就名字1032",
+		"text":"Persistant"
+	},
+	"achievedataname1033":{
+		"des":"成就名字1033",
+		"text":"Accumulator"
+	},
+	"achievedataname1034":{
+		"des":"成就名字1034",
+		"text":"Tight Circle"
+	},
+	"achievedataname1035":{
+		"des":"成就名字1035",
+		"text":"发文高手"
+	},
+	"achievedataname1036":{
+		"des":"成就名字1036",
+		"text":"社交达人"
+	},
+	"achievedataname1037":{
+		"des":"成就名字1037",
+		"text":"团结力量"
+	},
+	"achievedataname1038":{
+		"des":"成就名字1038",
+		"text":"幻想家"
+	},
+	"achievedataname1039":{
+		"des":"成就名字1039",
+		"text":"Met XiaoMei"
+	},
+	"achievedataname1040":{
+		"des":"成就名字1040",
+		"text":"Snow country scenery"
+	},
+	"achievedataname1041":{
+		"des":"成就名字1041",
+		"text":"Snatched XiaoMei"
+	},
+	"achievedataname1042":{
+		"des":"成就名字1042",
+		"text":"拥抱白雪"
+	},
+	"achievedataname1043":{
+		"des":"成就名字1043",
+		"text":"Star Hog"
+	},
+	"achievedataname1044":{
+		"des":"成就名字1044",
+		"text":"Bountiful Stars"
+	},
+	"achievedataname1045":{
+		"des":"成就名字1045",
+		"text":"Star-Studded"
+	},
+	"achievedataname1046":{
+		"des":"成就名字1046",
+		"text":"First-Time Runner"
+	},
+	"achievedataname1047":{
+		"des":"成就名字1047",
+		"text":"Cat-Like Reflexes"
+	},
+	"achievedataname1048":{
+		"des":"成就名字1048",
+		"text":"Unstoppable"
+	},
+	"achievedataname1049":{
+		"des":"成就名字1049",
+		"text":"Unscrupulous Boss"
+	},
+	"achievedataname1050":{
+		"des":"成就名字1050",
+		"text":"Rampant Terror"
+	},
+	"achievedataname1051":{
+		"des":"成就名字1051",
+		"text":"Money Makes Right"
+	},
+	"achievedataname3001":{
+		"des":"成就名字3001",
+		"text":"死亡分享"
+	},
+	"achievedatadesc1001":{
+		"des":"成就描述1001",
+		"text":"\"Left or right...? I'll take the middle.\""
+	},
+	"achievedatadesc1002":{
+		"des":"成就描述1002",
+		"text":"\"My footprints are all over the world!\""
+	},
+	"achievedatadesc1003":{
+		"des":"成就描述1003",
+		"text":"\"I want to know!!Who else?\""
+	},
+	"achievedatadesc1004":{
+		"des":"成就描述1004",
+		"text":"\"Everything I find is mine!\""
+	},
+	"achievedatadesc1005":{
+		"des":"成就描述1005",
+		"text":"\"All I want is gold, and silver… and money!\""
+	},
+	"achievedatadesc1006":{
+		"des":"成就描述1006",
+		"text":"\"Monies come to me themselves.\""
+	},
+	"achievedatadesc1007":{
+		"des":"成就描述1007",
+		"text":"\"What are roads? Can you eat them?\""
+	},
+	"achievedatadesc1008":{
+		"des":"成就描述1008",
+		"text":"\"Falling for scams is my specialty.\""
+	},
+	"achievedatadesc1009":{
+		"des":"成就描述1009",
+		"text":"\"I'm the only opponent you should fear!\""
+	},
+	"achievedatadesc1010":{
+		"des":"成就描述1010",
+		"text":"\"Come with me if you want to make money.\""
+	},
+	"achievedatadesc1011":{
+		"des":"成就描述1011",
+		"text":"\"I have no idea how much money I got.\""
+	},
+	"achievedatadesc1012":{
+		"des":"成就描述1012",
+		"text":"\"You can't hope to beat me when it comes to wealth.\""
+	},
+	"achievedatadesc1013":{
+		"des":"成就描述1013",
+		"text":"\"Let me try this Parkour stuff…\""
+	},
+	"achievedatadesc1014":{
+		"des":"成就描述1014",
+		"text":"\"Life is a marathon.\""
+	},
+	"achievedatadesc1015":{
+		"des":"成就描述1015",
+		"text":"\"Got any harder difficulty I can try?\""
+	},
+	"achievedatadesc1016":{
+		"des":"成就描述1016",
+		"text":"\"Give me a minute and I'll clear the stage...\""
+	},
+	"achievedatadesc1017":{
+		"des":"成就描述1017",
+		"text":"\"I got the hookup so I'm afraid of who again?\""
+	},
+	"achievedatadesc1018":{
+		"des":"成就描述1018",
+		"text":"\"Relax, have a cup of coffee.\""
+	},
+	"achievedatadesc1019":{
+		"des":"成就描述1019",
+		"text":"\"This looks like high-quality paper.\""
+	},
+	"achievedatadesc1020":{
+		"des":"成就描述1020",
+		"text":"\"I'm a rising star!\""
+	},
+	"achievedatadesc1021":{
+		"des":"成就描述1021",
+		"text":"\"I love watching people scrambling beneath me.\""
+	},
+	"achievedatadesc1022":{
+		"des":"成就描述1022",
+		"text":"\"I made it to the top, even if just for a day.\""
+	},
+	"achievedatadesc1023":{
+		"des":"成就描述1023",
+		"text":"\"Advancing at the speed of light!\""
+	},
+	"achievedatadesc1024":{
+		"des":"成就描述1024",
+		"text":"\"Are you a great player or not?\""
+	},
+	"achievedatadesc1025":{
+		"des":"成就描述1025",
+		"text":"\"Time for some mutual damage.\""
+	},
+	"achievedatadesc1026":{
+		"des":"成就描述1026",
+		"text":"\"I love watching people scrambling beneath me.\""
+	},
+	"achievedatadesc1027":{
+		"des":"成就描述1027",
+		"text":"\"I love watching people scrambling beneath me.\""
+	},
+	"achievedatadesc1028":{
+		"des":"成就描述1028",
+		"text":"\"Here's a hundred, keep the change.\""
+	},
+	"achievedatadesc1029":{
+		"des":"成就描述1029",
+		"text":"\"I'll take everything you have.\""
+	},
+	"achievedatadesc1030":{
+		"des":"成就描述1030",
+		"text":"\"Don't need anyone's pity when I still got money.\""
+	},
+	"achievedatadesc1031":{
+		"des":"成就描述1031",
+		"text":"\"Is it true that you might get a wish when you log in?\""
+	},
+	"achievedatadesc1032":{
+		"des":"成就描述1032",
+		"text":"\"It's not easy to log in every day.\""
+	},
+	"achievedatadesc1033":{
+		"des":"成就描述1033",
+		"text":"\"I did it!!!\""
+	},
+	"achievedatadesc1034":{
+		"des":"成就描述1034",
+		"text":"\"Different strokes--and fireworks--for different folks.\""
+	},
+	"achievedatadesc1035":{
+		"des":"成就描述1035",
+		"text":"\"Different strokes--and fireworks--for different folks.\""
+	},
+	"achievedatadesc1036":{
+		"des":"成就描述1036",
+		"text":"\"Different strokes--and fireworks--for different folks.\""
+	},
+	"achievedatadesc1037":{
+		"des":"成就描述1037",
+		"text":"“超讨厌孤孤单单一个人”"
+	},
+	"achievedatadesc1038":{
+		"des":"成就描述1038",
+		"text":"“这才叫画！”"
+	},
+	"achievedatadesc1039":{
+		"des":"成就描述1039",
+		"text":"\"Now you think of me.\""
+	},
+	"achievedatadesc1040":{
+		"des":"成就描述1040",
+		"text":"“这是啥，看着都觉得冷”"
+	},
+	"achievedatadesc1041":{
+		"des":"成就描述1041",
+		"text":"\"How many times I have to tell you before you'll listen?\""
+	},
+	"achievedatadesc1042":{
+		"des":"成就描述1042",
+		"text":"“去之前记得穿得厚点”"
+	},
+	"achievedatadesc1043":{
+		"des":"成就描述1043",
+		"text":"\"Hands off my Star!\""
+	},
+	"achievedatadesc1044":{
+		"des":"成就描述1044",
+		"text":"\"Hands off my Star!\""
+	},
+	"achievedatadesc1045":{
+		"des":"成就描述1045",
+		"text":"\"So many Stars, so little time for counting…\""
+	},
+	"achievedatadesc1046":{
+		"des":"成就描述1046",
+		"text":"\"One small step for me, one giant leap for mankind!\""
+	},
+	"achievedatadesc1047":{
+		"des":"成就描述1047",
+		"text":"\"Might as well jump! (Jump!) Go 'head, jump!\""
+	},
+	"achievedatadesc1048":{
+		"des":"成就描述1048",
+		"text":"\"No mortal alive can stop me!\""
+	},
+	"achievedatadesc1049":{
+		"des":"成就描述1049",
+		"text":"\"No rest for the wicked, so you better keep working!\""
+	},
+	"achievedatadesc1050":{
+		"des":"成就描述1050",
+		"text":"\"You don't tell me what to do!\""
+	},
+	"achievedatadesc1051":{
+		"des":"成就描述1051",
+		"text":"\"I'll save the expired cake for the slaves as a treat!\""
+	},
+	"achievedatadesc3001":{
+		"des":"成就描述3001",
+		"text":"每日首次死亡分享获得咖啡"
+	},
+	"sharetext1":{
+		"des":"分享文字1",
+		"text":"The more you see someone, the tighter you become, so visit more often!"
+	},
+	"sharetext2":{
+		"des":"分享文字2",
+		"text":"I belong to you now, so take good care of me!"
+	},
+	"sharetext3":{
+		"des":"分享文字3",
+		"text":"I'll go where the money is."
+	},
+	"sharetext4":{
+		"des":"分享文字4",
+		"text":"Just lightening the mood… (shy)"
+	},
+	"sharetext5":{
+		"des":"分享文字5",
+		"text":"You just look good behind papa! (cute)"
+	},
+	"sharetext6":{
+		"des":"分享文字6",
+		"text":"I am awesome and single. (smile)"
+	},
+	"sharetext7":{
+		"des":"分享文字7",
+		"text":"Making the rankings is just a minor step."
+	},
+	"sharetext8":{
+		"des":"分享文字8",
+		"text":"Keep being excellent like this!"
+	},
+	"sharetext9":{
+		"des":"分享文字9",
+		"text":"Come, friend, you can rely on me!"
+	},
+	"sharetext10":{
+		"des":"分享文字10",
+		"text":"It sure is lonely at the top."
+	},
+	"sharetext11":{
+		"des":"分享文字11",
+		"text":"You need to be 10x better before you can even hope to beat me!"
+	},
+	"sharetext12":{
+		"des":"分享文字12",
+		"text":"I'm in the money, I'm in the money!"
+	},
+	"sharetext13":{
+		"des":"分享文字13",
+		"text":"Would it kill you to let me win sometime?"
+	},
+	"sharetext14":{
+		"des":"分享文字14",
+		"text":"I'll be rich soon enough! Who's with me?"
+	},
+	"sharetext15":{
+		"des":"分享文字15",
+		"text":"This game is tough! We'll see how good you are."
+	},
+	"sharetext16":{
+		"des":"分享文字16",
+		"text":"Don't like it? Fight me!"
+	},
+	"sharetext17":{
+		"des":"分享文字17",
+		"text":"It's time for my coronation!"
+	},
+	"sharetext18":{
+		"des":"分享文字18",
+		"text":"The sun is shining brighter today."
+	},
+	"sharetext19":{
+		"des":"分享文字19",
+		"text":"Too people are trying to get some time with you. (giggle)"
+	},
+	"sharetext20":{
+		"des":"分享文字20",
+		"text":"I'm good looking and rich, I rule!"
+	},
+	"sharetext21":{
+		"des":"分享文字21",
+		"text":"I want you to come see me everyday!"
+	},
+	"sharetext22":{
+		"des":"分享文字22",
+		"text":"Social darlings are out to recruit stars!"
+	},
+	"sharetext23":{
+		"des":"分享文字23",
+		"text":"Be envious that everybody loves me."
+	},
+	"sharetext24":{
+		"des":"分享文字24",
+		"text":"I'm good looking and popular, I rule!"
+	},
+	"sharetext25":{
+		"des":"分享文字25",
+		"text":"See all this? It's everything I fought for you!"
+	},
+	"sharetext26":{
+		"des":"分享文字26",
+		"text":"I caught another cute one!"
+	},
+	"sharetext27":{
+		"des":"分享文字27",
+		"text":"Let me get it ready and we can be on the road. (smile)"
+	},
+	"sharetext28":{
+		"des":"分享文字28",
+		"text":"Found another good spot for our date."
+	},
+	"sharetext29":{
+		"des":"分享文字29",
+		"text":"You understand me, you complete me."
+	},
+	"sharetext30":{
+		"des":"分享文字30",
+		"text":"I don't fear the new, I just miss the old."
+	},
+	"sharetext31":{
+		"des":"分享文字31",
+		"text":"Want to know which is my favorite room?"
+	},
+	"sharetext32":{
+		"des":"分享文字32",
+		"text":"I collected &star Stars in The Adventures of Chicken Little!"
+	},
+	"sharetext33":{
+		"des":"分享文字33",
+		"text":"I'm at the Stage &chapter in The Adventure of Chicken Little. Can you top that?"
+	},
+	"sharetext34":{
+		"des":"分享文字34",
+		"text":"Go ahead, keep calling for help till you're hoarse, nobody's coming."
+	},
+	"sharetext1001":{
+		"des":"分享文字1001",
+		"text":"I got JiXiaoDe, a new character in \"The Adventures of JiXiaoDe\", an incredibly fun game you should play too!"
+	},
+	"sharetext1002":{
+		"des":"分享文字1002",
+		"text":"I got XiaoMei, a new character in \"The Adventures of JiXiaoDe\", an incredibly fun game you should play too!"
+	},
+	"sharetext1003":{
+		"des":"分享文字1003",
+		"text":"I got FaTiao, a new character in \"The Adventures of JiXiaoDe\", an incredibly fun game you should play too!"
+	},
+	"sharetext1004":{
+		"des":"分享文字1004",
+		"text":"I got Lian, a new character in \"The Adventures of JiXiaoDe\", an incredibly fun game you should play too!"
+	},
+	"sharetext1005":{
+		"des":"分享文字1005",
+		"text":"I got GuLaoBan, a new character in \"The Adventures of JiXiaoDe\", an incredibly fun game you should play too!"
+	},
+	"sharetext1006":{
+		"des":"分享文字1006",
+		"text":"I got ShaSha, a new character in \"The Adventures of JiXiaoDe\", an incredibly fun game you should play too!"
+	},
+	"sharetext1007":{
+		"des":"分享文字1007",
+		"text":"I got YuJie, a new character in \"The Adventures of JiXiaoDe\", an incredibly fun game you should play too!"
+	},
+	"sharetext1008":{
+		"des":"分享文字1008",
+		"text":"I got HuiHui, a new character in \"The Adventures of JiXiaoDe\", an incredibly fun game you should play too!"
+	},
+	"sharetext1031":{
+		"des":"分享文字1031",
+		"text":"I got Naruto, a new character in \"The Adventures of JiXiaoDe\", an incredibly fun game you should play too!"
+	},
+	"sharetext1032":{
+		"des":"分享文字1032",
+		"text":"I got Sasuke, a new character in \"The Adventures of JiXiaoDe\", an incredibly fun game you should play too!"
+	},
+	"sharetext1033":{
+		"des":"分享文字1033",
+		"text":"I got  Violent Sakura, a new character in \"The Adventures of JiXiaoDe\", an incredibly fun game you should play too!"
+	},
+	"sharetext2005":{
+		"des":"分享文字2005",
+		"text":"I'm feeling cool walking on the trail."
+	},
+	"sharetext7001":{
+		"des":"分享文字7001",
+		"text":"我敢打赌，你拿到的万圣节礼物不会比我好！不信来试试？"
+	},
+	"roledataname1001":{
+		"des":"角色名字1001",
+		"text":"JiXiaoDe"
+	},
+	"roledataname1002":{
+		"des":"角色名字1002",
+		"text":"XiaoMei"
+	},
+	"roledataname1003":{
+		"des":"角色名字1003",
+		"text":"FaTiao"
+	},
+	"roledataname1004":{
+		"des":"角色名字1004",
+		"text":"Lian"
+	},
+	"roledataname1005":{
+		"des":"角色名字1005",
+		"text":"GuLaoBan"
+	},
+	"roledataname1006":{
+		"des":"角色名字1006",
+		"text":"ShaSha"
+	},
+	"roledataname1007":{
+		"des":"角色名字1007",
+		"text":"YuJie"
+	},
+	"roledataname1008":{
+		"des":"角色名字1008",
+		"text":"HuiHui"
+	},
+	"roledataname1031":{
+		"des":"角色名字1031",
+		"text":"Naruto"
+	},
+	"roledataname1032":{
+		"des":"角色名字1032",
+		"text":"Sasuke"
+	},
+	"roledataname1033":{
+		"des":"角色名字1033",
+		"text":"Violent Sakura"
+	},
+	"roledataspecialty1001":{
+		"des":"角色特点1001",
+		"text":"Normal"
+	},
+	"roledataspecialty1002":{
+		"des":"角色特点1002",
+		"text":"Immunity"
+	},
+	"roledataspecialty1003":{
+		"des":"角色特点1003",
+		"text":"High HP  Lucky"
+	},
+	"roledataspecialty1004":{
+		"des":"角色特点1004",
+		"text":"Recovery"
+	},
+	"roledataspecialty1005":{
+		"des":"角色特点1005",
+		"text":"Immunity  Shield"
+	},
+	"roledataspecialty1006":{
+		"des":"角色特点1006",
+		"text":"Summon Paper Plane"
+	},
+	"roledataspecialty1007":{
+		"des":"角色特点1007",
+		"text":"Respawn  Immunity"
+	},
+	"roledataspecialty1008":{
+		"des":"角色特点1008",
+		"text":"Stamina Recovery"
+	},
+	"roledataspecialty1031":{
+		"des":"角色特点1031",
+		"text":"Clone  Recovery"
+	},
+	"roledataspecialty1032":{
+		"des":"角色特点1032",
+		"text":"Shield  Recovery"
+	},
+	"roledataspecialty1033":{
+		"des":"角色特点1033",
+		"text":"Recovery"
+	},
+	"skilldataname1":{
+		"des":"技能名字1",
+		"text":"Robust"
+	},
+	"skilldataname2":{
+		"des":"技能名字2",
+		"text":"Full of Life"
+	},
+	"skilldataname3":{
+		"des":"技能名字3",
+		"text":"Karma"
+	},
+	"skilldataname4":{
+		"des":"技能名字4",
+		"text":"Immunity"
+	},
+	"skilldataname5":{
+		"des":"技能名字5",
+		"text":"Scoring"
+	},
+	"skilldataname6":{
+		"des":"技能名字6",
+		"text":"Bottlecap"
+	},
+	"skilldataname7":{
+		"des":"技能名字7",
+		"text":"Revive"
+	},
+	"skilldataname8":{
+		"des":"技能名字8",
+		"text":"Paper Plane"
+	},
+	"skilldataname9":{
+		"des":"技能名字9",
+		"text":"Recovery"
+	},
+	"skilldataname10":{
+		"des":"技能名字10",
+		"text":"Loot"
+	},
+	"skilldataname11":{
+		"des":"技能名字11",
+		"text":"Shield"
+	},
+	"skilldataname12":{
+		"des":"技能名字12",
+		"text":"Lucky Day"
+	},
+	"skilldataname13":{
+		"des":"技能名字13",
+		"text":"Stamina"
+	},
+	"skilldataname14":{
+		"des":"技能名字14",
+		"text":"Clones"
+	},
+	"skilldataname15":{
+		"des":"技能名字15",
+		"text":"Immortal"
+	},
+	"skilldataname16":{
+		"des":"技能名字16",
+		"text":"Nine Tail"
+	},
+	"skilldataname17":{
+		"des":"技能名字17",
+		"text":"SUSANOO"
+	},
+	"skilldataname18":{
+		"des":"技能名字18",
+		"text":"Ultra Eye"
+	},
+	"skilldataname19":{
+		"des":"技能名字19",
+		"text":"Omni Eye"
+	},
+	"skilldataname20":{
+		"des":"技能名字20",
+		"text":"Recovery"
+	},
+	"skilldataname21":{
+		"des":"技能名字21",
+		"text":"Life Battery"
+	},
+	"skilldataname22":{
+		"des":"技能名字22",
+		"text":"The Slug"
+	},
+	"skilldataoverview1":{
+		"des":"技能概述1",
+		"text":"Gain additional Defense."
+	},
+	"skilldataoverview2":{
+		"des":"技能概述2",
+		"text":"Gain additional Life."
+	},
+	"skilldataoverview3":{
+		"des":"技能概述3",
+		"text":"Gain additional Karma."
+	},
+	"skilldataoverview4":{
+		"des":"技能概述4",
+		"text":"Gain additional Immunity %."
+	},
+	"skilldataoverview5":{
+		"des":"技能概述5",
+		"text":"Gain bonus score after clearing a stage."
+	},
+	"skilldataoverview6":{
+		"des":"技能概述6",
+		"text":"Gain bonus Money after clearing a stage."
+	},
+	"skilldataoverview7":{
+		"des":"技能概述7",
+		"text":"1 time per stage, respawn and restore HP."
+	},
+	"skilldataoverview8":{
+		"des":"技能概述8",
+		"text":"A chance of activating paper plane for a duration after taking damage."
+	},
+	"skilldataoverview9":{
+		"des":"技能概述9",
+		"text":"Recover HP per 5 obstacles cleared, with a 30-second cooldown."
+	},
+	"skilldataoverview10":{
+		"des":"技能概述10",
+		"text":"Improves chance of getting item rewards after clearing a stage."
+	},
+	"skilldataoverview11":{
+		"des":"技能概述11",
+		"text":"A chance of activating a shield for a duration after taking damage."
+	},
+	"skilldataoverview12":{
+		"des":"技能概述12",
+		"text":"Improves the character's Luck."
+	},
+	"skilldataoverview13":{
+		"des":"技能概述13",
+		"text":"A chance of recovering 1 Stamina after clearing a stage."
+	},
+	"skilldataoverview14":{
+		"des":"技能概述14",
+		"text":"Summon a clone to take damage for you."
+	},
+	"skilldataoverview15":{
+		"des":"技能概述15",
+		"text":"Create extra clones, each one provides a recovery."
+	},
+	"skilldataoverview16":{
+		"des":"技能概述16",
+		"text":"Creates extra clones, each one able to soak more damage."
+	},
+	"skilldataoverview17":{
+		"des":"技能概述17",
+		"text":"Summon Entity of Valor to soak damage for you."
+	},
+	"skilldataoverview18":{
+		"des":"技能概述18",
+		"text":"Entity of Valor converts damage received into HP."
+	},
+	"skilldataoverview19":{
+		"des":"技能概述19",
+		"text":"Gain a HP recovery when Entity of Valor expires."
+	},
+	"skilldataoverview20":{
+		"des":"技能概述20",
+		"text":"Recover signficant HP."
+	},
+	"skilldataoverview21":{
+		"des":"技能概述21",
+		"text":"Gain Marking, all items provide HP recovery."
+	},
+	"skilldataoverview22":{
+		"des":"技能概述22",
+		"text":"Gain Marking, improved healing while Marked."
+	},
+	"skilldatadesc1":{
+		"des":"技能描述1",
+		"text":"Gain <font color=0xff0000>&data%</font> Defense"
+	},
+	"skilldatadesc2":{
+		"des":"技能描述2",
+		"text":"Gain <font color=0xff0000>&data%</font> HP"
+	},
+	"skilldatadesc3":{
+		"des":"技能描述3",
+		"text":"Gain <font color=0xff0000>&data%</font> Karma"
+	},
+	"skilldatadesc4":{
+		"des":"技能描述4",
+		"text":"Gain <font color=0xff0000>&data%</font> Immunity"
+	},
+	"skilldatadesc5":{
+		"des":"技能描述5",
+		"text":"Gain <font color=0xff0000>&data%</font> bonus points after clearing a stage."
+	},
+	"skilldatadesc6":{
+		"des":"技能描述6",
+		"text":"Gain <font color=0xff0000>&data%</font> bonus Bottlecaps after clearning a stage"
+	},
+	"skilldatadesc7":{
+		"des":"技能描述7",
+		"text":" time per game, instant respawn upon death and recover <font color=0xff0000>&data%</font> of maximum HP"
+	},
+	"skilldatadesc8":{
+		"des":"技能描述8",
+		"text":"<font color=0xff0000>&data%</font> chance of activating Paper Plane for 5 seconds when dealt damage."
+	},
+	"skilldatadesc9":{
+		"des":"技能描述9",
+		"text":"Recover <font color=0xff0000>&data</font> HP per 5 obstacles leaped; activates 1 time every 30 seconds and resets after 5th obstacle leaped."
+	},
+	"skilldatadesc10":{
+		"des":"技能描述10",
+		"text":"+<font color=0xff0000>&data%</font> to get items after clearing a stage"
+	},
+	"skilldatadesc11":{
+		"des":"技能描述11",
+		"text":"30% chance of manifesting a shield lasting 5 seconds that soaks up to <font color=0xff0000>&data</font> HP. Excess damage ends the shield; its effect does not stack."
+	},
+	"skilldatadesc12":{
+		"des":"技能描述12",
+		"text":"+<font color=0xff0000>&data%</font> Luck"
+	},
+	"skilldatadesc13":{
+		"des":"技能描述13",
+		"text":"<font color=0xff0000>&data%</font> chance of recovering 1 Stamina after clearing a stage."
+	},
+	"skilldatadesc14":{
+		"des":"技能描述14",
+		"text":"Summon <font color=0xff0000>2</font> clones for 5 seconds, each can soak up to <font color=0xff0000>&data</font> points of damage"
+	},
+	"skilldatadesc15":{
+		"des":"技能描述15",
+		"text":"+<font color=0xff0000>1</font> clone when using Shadow Clones. Original character recovers <font color=0xff0000>&data</font> HP every second per clone present."
+	},
+	"skilldatadesc16":{
+		"des":"技能描述16",
+		"text":"+<font color=0xff0000>1</font> clone when using Shadow Clones, each clone can soak <font color=0xff0000>&data%</font> more points of damage"
+	},
+	"skilldatadesc17":{
+		"des":"技能描述17",
+		"text":"Summon Entity of Valor for 5 seconds that can soak up to <font color=0xff0000>&data</font> points of damage. Excess damage ends the Entity."
+	},
+	"skilldatadesc18":{
+		"des":"技能描述18",
+		"text":"Entity of Valor converts <font color=0xff0000>&data%</font> points of damage into HP"
+	},
+	"skilldatadesc19":{
+		"des":"技能描述19",
+		"text":"Recover up to <font color=0xff0000>&data%</font> HP when Entity of Valor ends"
+	},
+	"skilldatadesc20":{
+		"des":"技能描述20",
+		"text":"Recover <font color=0xff0000>&data</font> HP immediately"
+	},
+	"skilldatadesc21":{
+		"des":"技能描述21",
+		"text":" Battery activates for 5 seconds upon regeneration, during which any item can heal <font color=0xff0000>&data</font> HP"
+	},
+	"skilldatadesc22":{
+		"des":"技能描述22",
+		"text":"Immune to damage while Life Battery is in effect, and gain +<font color=0xff0000>&data%</font> to all recoveries"
+	},
+	"itemdataname1":{
+		"des":"道具名1",
+		"text":"JiXiaoDeFragment"
+	},
+	"itemdataname2":{
+		"des":"道具名2",
+		"text":"XiaoMeiFragment"
+	},
+	"itemdataname3":{
+		"des":"道具名3",
+		"text":"FaTiaoFragment"
+	},
+	"itemdataname4":{
+		"des":"道具名4",
+		"text":"LianFragment"
+	},
+	"itemdataname5":{
+		"des":"道具名5",
+		"text":"GuLaoBanFragment"
+	},
+	"itemdataname6":{
+		"des":"道具名6",
+		"text":"ShaShaFragment"
+	},
+	"itemdataname7":{
+		"des":"道具名7",
+		"text":"YuJieFragment"
+	},
+	"itemdataname8":{
+		"des":"道具名8",
+		"text":"HuiHuiFragment"
+	},
+	"itemdataname31":{
+		"des":"道具名31",
+		"text":"Naruto Fragment"
+	},
+	"itemdataname32":{
+		"des":"道具名32",
+		"text":"Sasuke Fragment"
+	},
+	"itemdataname33":{
+		"des":"道具名33",
+		"text":"Violent Sakura Fragment"
+	},
+	"itemdataname9":{
+		"des":"道具名9",
+		"text":"Missile"
+	},
+	"itemdataname10":{
+		"des":"道具名10",
+		"text":"Mine"
+	},
+	"itemdataname11":{
+		"des":"道具名11",
+		"text":"Shield"
+	},
+	"itemdataname12":{
+		"des":"道具名12",
+		"text":"Hot Balloon"
+	},
+	"itemdataname13":{
+		"des":"道具名13",
+		"text":"Fountain of Life"
+	},
+	"itemdataname14":{
+		"des":"道具名14",
+		"text":"Time Machine"
+	},
+	"itemdataname15":{
+		"des":"道具名15",
+		"text":"Umbrella"
+	},
+	"itemdataname16":{
+		"des":"道具名16",
+		"text":"Tibetan Mastiff"
+	},
+	"itemdataname17":{
+		"des":"道具名17",
+		"text":"Paper Plane"
+	},
+	"itemdataname18":{
+		"des":"道具名18",
+		"text":"Tranquil Forest"
+	},
+	"itemdataname19":{
+		"des":"道具名19",
+		"text":"Icy Paradise"
+	},
+	"itemdataname20":{
+		"des":"道具名20",
+		"text":"Coffee of Respawning"
+	},
+	"itemdataname21":{
+		"des":"道具名21",
+		"text":"Money"
+	},
+	"itemdataname3001":{
+		"des":"道具名3001",
+		"text":"森林小径"
+	},
+	"itemdataname22":{
+		"des":"道具名22",
+		"text":"Mineral Water"
+	},
+	"itemdataname23":{
+		"des":"道具名23",
+		"text":"Coffee Maker"
+	},
+	"itemdataname401":{
+		"des":"道具名401",
+		"text":"Whip of Love"
+	},
+	"itemdataname402":{
+		"des":"道具名402",
+		"text":"Expired Cake"
+	},
+	"itemdataname403":{
+		"des":"道具名403",
+		"text":"Clown Mask"
+	},
+	"itemdataname701":{
+		"des":"道具名701",
+		"text":"Magpie Feather"
+	},
+	"itemdataname702":{
+		"des":"道具名701",
+		"text":"Lucky Card"
+	},
+	"itemdatadesc1":{
+		"des":"道具描述1",
+		"text":"Required to collect and level up JiXiaoDe"
+	},
+	"itemdatadesc2":{
+		"des":"道具描述2",
+		"text":"Required to collect and level up XiaoMei"
+	},
+	"itemdatadesc3":{
+		"des":"道具描述3",
+		"text":"Required to collect and level up FaTiao"
+	},
+	"itemdatadesc4":{
+		"des":"道具描述4",
+		"text":"Required to collect and level up Lian"
+	},
+	"itemdatadesc5":{
+		"des":"道具描述5",
+		"text":"Required to collect and level up GuLaoBan"
+	},
+	"itemdatadesc6":{
+		"des":"道具描述6",
+		"text":"Required to collect and level up ShaSha"
+	},
+	"itemdatadesc7":{
+		"des":"道具描述7",
+		"text":"Required to collect and level up YuJie"
+	},
+	"itemdatadesc8":{
+		"des":"道具描述8",
+		"text":"Required to collect and level up HuiHui"
+	},
+	"itemdatadesc31":{
+		"des":"道具描述31",
+		"text":"Required to collect and level up Naruto"
+	},
+	"itemdatadesc32":{
+		"des":"道具描述32",
+		"text":"Required to collect and level up Sasuke"
+	},
+	"itemdatadesc33":{
+		"des":"道具描述33",
+		"text":"Required to collect and level up Violent Sakura"
+	},
+	"itemdatadesc9":{
+		"des":"道具描述9",
+		"text":"Anyone hit with a missile loses HP"
+	},
+	"itemdatadesc10":{
+		"des":"道具描述10",
+		"text":"Anyone stepping on a mine loses HP"
+	},
+	"itemdatadesc11":{
+		"des":"道具描述11",
+		"text":"Shield can soak damage for you"
+	},
+	"itemdatadesc12":{
+		"des":"道具描述12",
+		"text":"Hot balloon can carry you over obstacles"
+	},
+	"itemdatadesc13":{
+		"des":"道具描述13",
+		"text":"Fountain of Life can restore HP"
+	},
+	"itemdatadesc14":{
+		"des":"道具描述14",
+		"text":"Time Machine is a device of dark technology"
+	},
+	"itemdatadesc15":{
+		"des":"道具描述15",
+		"text":"Brings rainstorm"
+	},
+	"itemdatadesc16":{
+		"des":"道具描述16",
+		"text":"Release the hound, then shut the door"
+	},
+	"itemdatadesc17":{
+		"des":"道具描述17",
+		"text":"Flies you over obstacles, no control necessary"
+	},
+	"itemdatadesc18":{
+		"des":"道具描述18",
+		"text":"Default Backdrop"
+	},
+	"itemdatadesc19":{
+		"des":"道具描述19",
+		"text":"Ice-Themed Backdrop"
+	},
+	"itemdatadesc20":{
+		"des":"道具描述20",
+		"text":"Use to respawn"
+	},
+	"itemdatadesc21":{
+		"des":"道具描述21",
+		"text":""
+	},
+	"itemdatadesc3001":{
+		"des":"道具描述3001",
+		"text":"森林小径"
+	},
+	"itemdatadesc22":{
+		"des":"道具描述22",
+		"text":"Use from Inventory to restore 1 Stamina."
+	},
+	"itemdatadesc23":{
+		"des":"道具描述23",
+		"text":"Replenishes Stamina to full, cannot be use at full Stamina. (Limit 1 per purchase.)"
+	},
+	"itemdatadesc401":{
+		"des":"道具描述401",
+		"text":"Spend this to flog slaves; cannot be used directly"
+	},
+	"itemdatadesc402":{
+		"des":"道具描述402",
+		"text":"Spned this to give a treat to slaves; cannot be used directly"
+	},
+	"itemdatadesc403":{
+		"des":"道具描述403",
+		"text":"Spend this to brown-nose your master; cannot be used directly"
+	},
+	"itemdatadesc701":{
+		"des":"道具描述701",
+		"text":"\"Pre-Double-7th Warmup\" exclusive loot, acquired by clearing event stage"
+	},
+	"itemdatadesc702":{
+		"des":"道具描述702",
+		"text":"\"Pre-Great Parkour Race Warmup\" exclusive loot, acquired by clearing event stage"
+	},
+	"chaptertipdatadesc1":{
+		"des":"提示描述1",
+		"text":"Paper Plane: Ride a paper plane to auto-fly over all obstacles, but watch out, it only lasts for a short while!"
+	},
+	"chaptertipdatadesc2":{
+		"des":"提示描述2",
+		"text":"Mines: Look out for mines, you're not tough enough to handle one yet!"
+	},
+	"chaptertipdatadesc3":{
+		"des":"提示描述3",
+		"text":"Potions: The designers put these in the game to heal you. Just open one to get HP back!"
+	},
+	"chaptertipdatadesc4":{
+		"des":"提示描述4",
+		"text":"Random Chests: Each one contains various mystery items for you to try your luck!"
+	},
+	"chaptertipdatadesc5":{
+		"des":"提示描述5",
+		"text":"Random Chests: Each one contains various mystery items for you to try your luck!"
+	},
+	"chaptertipdatadesc6":{
+		"des":"提示描述6",
+		"text":"Snow: Chilly weather that deals damage every 3 seconds, plus extra freezing damage if you get caught in it too many times!"
+	},
+	"chaptertipdatadesc7":{
+		"des":"提示描述7",
+		"text":"Pay attention to the Bottlecaps under your feet, for they are the primary game currency, so don't skip over them!"
+	},
+	"eventtipdesc1":{
+		"des":"气泡说明1",
+		"text":"Touch me and fly"
+	},
+	"eventtipdesc2":{
+		"des":"气泡说明2",
+		"text":"Guaranteed damage"
+	},
+	"eventtipdesc3":{
+		"des":"气泡说明3",
+		"text":"Heal damag"
+	},
+	"eventtipdesc4":{
+		"des":"气泡说明4",
+		"text":"Not for the unlucky"
+	},
+	"loadingtipdesc1":{
+		"des":"加载文字1",
+		"text":"It costs Stamina to challenge a stage, but you can recover Stamina gradually with time."
+	},
+	"loadingtipdesc2":{
+		"des":"加载文字2",
+		"text":"Use small leaps and big leaps to hurdle obstacles, but don't miss Bottlecaps in the meantime!"
+	},
+	"loadingtipdesc3":{
+		"des":"加载文字3",
+		"text":"It costs Energy to use an active skill, but you can recover Energy with time."
+	},
+	"loadingtipdesc4":{
+		"des":"加载文字4",
+		"text":"You recover Energy spent for big leaps and small leaps at different rates."
+	},
+	"loadingtipdesc5":{
+		"des":"加载文字5",
+		"text":"There's always an event at 12:00 and 18:00 every day, don't miss it!"
+	},
+	"loadingtipdesc6":{
+		"des":"加载文字6",
+		"text":"Shadow Clones can both soak damage for you and restore HP"
+	},
+	"loadingtipdesc7":{
+		"des":"加载文字7",
+		"text":"Violent Sakura is a tremendous healer."
+	},
+	"loadingtipdesc8":{
+		"des":"加载文字8",
+		"text":"Sasuke's cool ghostly armor that can convert damage into recovery!"
+	},
+	"loadingtipdesc9":{
+		"des":"加载文字9",
+		"text":"A master can exploit slaves every day for big profits."
+	},
+	"loadingtipdesc10":{
+		"des":"加载文字10",
+		"text":"Every slave thinks about how he can become the master everyday."
+	},
+	"loadingtipdesc11":{
+		"des":"加载文字11",
+		"text":"Think the stages are tough? Try Endless and see what tough really means!"
+	},
+	"eventsdatarule101":{
+		"des":"累计积分规则1",
+		"text":"1. Get 1 point per Stamina spent during event. \n2. Qualify for reward at a certain score.\n3. You can claim reward only once per phase."
+	},
+	"eventsdatarule102":{
+		"des":"累计积分规则2",
+		"text":"1. Get 1 point for every 100 Bottlecaps spent during event.\n2. Qualify for reward at a certain score.\n3. You can claim reward only once per phase."
+	},
+	"eventsdatarule103":{
+		"des":"累计积分规则3",
+		"text":"1. Get 1 point per Bottlecap spent during event.\n2. Qualify for reward at a certain score. \n3. You can claim reward only once per phase."
+	},
+	"eventsdatarule104":{
+		"des":"累计积分规则4",
+		"text":"1. Get 1 point for clearing any 1 stage during event.\n2. Qualify for reward at a certain score.\n3. You can claim reward only once per phase."
+	},
+	"eventsdatarule105":{
+		"des":"累计积分规则5",
+		"text":"1. Get 1 point per respawn in a stage during event.\n2. Qualify for reward at a certain score.\n3. You can claim reward only once per phase."
+	},
+	"eventsdatarule106":{
+		"des":"累计积分规则6",
+		"text":"1. Get 1 point per slave captured during event.\n2. Qualify for reward at a certain score.\n3. You can claim reward only once per phase."
+	},
+	"eventsdatarule201":{
+		"des":"积分排名规则1",
+		"text":"1. Get 1 point per Stamina spent during event.\n2. Rankings are determined by scores from high to low.\n3. Claim rewards according to rank within 24 hours following the event; all unclaimed rewards are forfeited after 24 hours.\n4. Ranking Reward can only be claimed once."
+	},
+	"eventsdatarule202":{
+		"des":"积分排名规则2",
+		"text":"1. Get 1 point for every 100 Money spent during event.\n2. Rankings are determined by scores from high to low.\n3. Claim rewards according to rank within 24 hours following the event; all unclaimed rewards are forfeited after 24 hours.\n4. Ranking Reward can only be claimed once."
+	},
+	"eventsdatarule203":{
+		"des":"积分排名规则3",
+		"text":"1. Get 1 point per Bottlecap spent during event.\n2. Rankings are determined by scores from high to low.\n3.Claim rewards according to rank within 24 hours following the event; all unclaimed rewards are forfeited after 24 hours.\n4. Ranking Reward can only be claimed once."
+	},
+	"eventsdatarule204":{
+		"des":"积分排名规则4",
+		"text":"1. Get 1 point for clearing any 1 stage during event.\n2. Rankings are determined by scores from high to low.\n3. Claim rewards according to rank within 24 hours following the event; all unclaimed rewards are forfeited after 24 hours.\n4. Ranking Reward can only be claimed once."
+	},
+	"eventsdatarule205":{
+		"des":"积分排名规则5",
+		"text":"1. Get 1 point per respawn in a stage during event.\n2. Rankings are determined by scores from high to low.\n3. Claim rewards according to rank within 24 hours following the event; all unclaimed rewards are forfeited after 24 hours.\n4. Ranking Reward can only be claimed once."
+	},
+	"eventsdatarule206":{
+		"des":"积分排名规则6",
+		"text":"1. Get 1 point per slave captured during event.\n2. Rankings are determined by scores from high to low.\n3. Claim rewards according to rank within 24 hours following the event; all unclaimed rewards are forfeited after 24 hours.\n4. Ranking Reward can only be claimed once."
+	},
+	"eventsdataname1":{
+		"des":"积分活动名字1",
+		"text":"体力大暴走"
+	},
+	"eventsdataname2":{
+		"des":"积分活动名字2",
+		"text":"土豪集结"
+	},
+	"eventsdataname3":{
+		"des":"积分活动名字3",
+		"text":"瓶盖回收"
+	},
+	"eventsdataname4":{
+		"des":"积分活动名字4",
+		"text":"闯关达人秀"
+	},
+	"eventsdataname5":{
+		"des":"积分活动名字5",
+		"text":"复活达人"
+	},
+	"eventsdataname6":{
+		"des":"积分活动名字6",
+		"text":"地主斗奴隶"
+	},
+	"maildatatext1":{
+		"des":"邮箱文字1",
+		"text":"You've been captured and enslaved by &master. Life is going to be rough for you now."
+	},
+	"maildatatext2":{
+		"des":"邮箱文字2",
+		"text":"&master tried to capture and enslave you without success."
+	},
+	"maildatatext3":{
+		"des":"邮箱文字3",
+		"text":"&master has captured you and your slaves have all ran away. Life is going to be rough for you now."
+	},
+	"maildatatext4":{
+		"des":"邮箱文字4",
+		"text":"Your &slave has escaped servitude and is now free."
+	},
+	"maildatatext5":{
+		"des":"邮箱文字5",
+		"text":"Hallelujah, your master has been defeated and you can resume a free life!"
+	},
+	"maildatatext6":{
+		"des":"邮箱文字6",
+		"text":"Your hard work is rewarded as you took a portion of your wages when you left your master."
+	},
+	"maildatatext7":{
+		"des":"邮箱文字7",
+		"text":"Your slave &slave has escaped after reading \"72 Ways to Jailbreak\". All you could retrieve was a portion of his savings."
+	},
+	"maildatatext8":{
+		"des":"邮箱文字8",
+		"text":"Your slave &slave is acting suspciously, perhaps intending to escape, and should be watched closely."
+	},
+	"maildatatext9":{
+		"des":"邮箱文字9",
+		"text":"Your slave &slave has paid you a large sum to buy freedom."
+	},
+	"maildatatext10":{
+		"des":"邮箱文字10",
+		"text":"Your master &master has amicably given you your freedom back!"
+	},
+	"maildatatext11":{
+		"des":"邮箱文字11",
+		"text":"Your hard labor is rewarded as you get paid for your service."
+	},
+	"maildatatext12":{
+		"des":"邮箱文字12",
+		"text":"Your perseverance paid off as you've regained freedom, along with the proper reward you deserved!"
+	},
+	"maildatatext13":{
+		"des":"邮箱文字13",
+		"text":"The contract for your slave &slave is up, and he expressed gratitude before he left to enjoy newfound freedom."
+	},
+	"maildatatext14":{
+		"des":"邮箱文字14",
+		"text":"You've gained the title \"Upstart\" and may begin capture slaves for yourself."
+	},
+	"maildatatext15":{
+		"des":"邮箱文字15",
+		"text":"You've gained the title \"Unscrupulous Boss\" and may expand your roster of slaves."
+	},
+	"maildatatext16":{
+		"des":"邮箱文字16",
+		"text":"You've gained the title \"Rampant Terror\", but look out for others trying to capture you back!"
+	},
+	"maildatatext17":{
+		"des":"邮箱文字17",
+		"text":"You've gained the title \"Money Makes Right\" and are past the point of return on the road to ultimate evil!"
+	},
+	"maildatatext18":{
+		"des":"邮箱文字18",
+		"text":"&master tells you, \"You've done well lately, so in 365 months I will consider making you full-time so you can get paid!\""
+	},
+	"maildatatext19":{
+		"des":"邮箱文字19",
+		"text":"While whipping you, &master says, \"I'm flogging you for your own good and because I love you!\""
+	},
+	"maildatatext20":{
+		"des":"邮箱文字20",
+		"text":"\"You've been working very hard, &slave, and you should get more nourishment,\" says &master, as a half-eaten chicken thigh is shoved into your mouth."
+	},
+	"maildatatext21":{
+		"des":"邮箱文字21",
+		"text":"Said &slave as you are handed a little red flower, \"It is my honor and pleasure to make you happy!\""
+	},
+	"maildatatext22":{
+		"des":"邮箱文字22",
+		"text":"\"You miserable, pathetic bully!\" thought &slave, as a spike punctured a tire of your car."
+	},
+	"radiodatatext1":{
+		"des":"走马灯文字1",
+		"text":"&name used unmatched speed and nimbleness to take 1st place in The Great Parkour Race!"
+	},
+	"radiodatatext2":{
+		"des":"走马灯文字2",
+		"text":"&name grabbed 2nd place in The Great Parkour Race with undeterred resolve!"
+	},
+	"radiodatatext3":{
+		"des":"走马灯文字3",
+		"text":"&name overcame obstacles and broke through in The Great Parkour Race for a 3rd-place finish!"
+	},
+	"radiodatatext4":{
+		"des":"走马灯文字4",
+		"text":"The legendary manual speed that earned &name 1st place in the rankings shall now enter the history book!"
+	},
+	"radiodatatext5":{
+		"des":"走马灯文字5",
+		"text":"&name has attained 2nd place in rankings amid great excitement!"
+	},
+	"radiodatatext6":{
+		"des":"走马灯文字6",
+		"text":"&name stood out and placed 3rd in the rankings!"
+	},
+	"radiodatatext7":{
+		"des":"走马灯文字7",
+		"text":"The legendary manual speed that earned &name 1st place in the daily rankings shall now enter the history book!"
+	},
+	"radiodatatext8":{
+		"des":"走马灯文字8",
+		"text":"&name has attained 2nd place in daily rankings amid great excitement!"
+	},
+	"radiodatatext9":{
+		"des":"走马灯文字9",
+		"text":"&name stood out and placed 3rd in daily rankings!"
+	},
+	"radiodatatext10":{
+		"des":"走马灯文字10",
+		"text":"Through pure effort, &name has earned &role!"
+	},
+	"radiodatatext11":{
+		"des":"走马灯文字11",
+		"text":"&name had a moment of brilliance and cleared Stage &chapter in Stage Mode!"
+	},
+	"radiodatatext12":{
+		"des":"走马灯文字12",
+		"text":"&name has subjugated &slave for services."
+	}
+}

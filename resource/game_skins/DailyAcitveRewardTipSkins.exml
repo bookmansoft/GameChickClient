@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyAcitveRewardTipSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="wait_di_png" width="640" height="1136" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="_bg" source="jiangli_di_png" horizontalCenter="0" verticalCenter="-113.5"/>
+	<e:Scroller id="_scroller" width="470" height="185" x="88" y="383" anchorOffsetY="0">
+		<e:Group id="_listGroup" width="524" height="660" anchorOffsetY="0" y="0" anchorOffsetX="0">
+		</e:Group>
+	</e:Scroller>
+	<e:Button id="_sureButton" label="" y="798" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_queding_l_png" source.down="anniu_queding_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

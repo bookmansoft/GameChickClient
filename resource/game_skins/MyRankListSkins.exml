@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MyRankListSkins" width="524" height="85" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="paihang_wotiao_png" horizontalCenter="0" verticalCenter="7.5"/>
+	<e:BitmapLabel id="_scoreLabel" width="120" height="30" x="396" text="12345" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" font="lannum_fnt" scaleX="1" scaleY="1" y="34"/>
+	<e:Label id="_nameLabel" text="名字" x="192" height="30" bold="true" anchorOffsetX="0" width="205" size="24" scaleX="1" scaleY="1" fontFamily="微软雅黑" anchorOffsetY="0" textColor="0x245f9d" y="34"/>
+	<e:Label id="_rankNumLabel" text="未上榜" x="23" height="30" bold="true" anchorOffsetX="0" width="87" size="24" scaleX="1" scaleY="1" fontFamily="微软雅黑" textAlign="center" textColor="0x245f9d" y="34"/>
+	<e:Image id="_userIma" width="50" height="50" x="127" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="5.5"/>
+</e:Skin>

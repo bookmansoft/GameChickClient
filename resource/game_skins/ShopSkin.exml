@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopSkin" width="135" height="190" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg" source="shop_kuang_lan_png" x="0" y="0" locked="true"/>
+	<e:Group id="_roleGroup" width="135" height="190" x="0" y="0">
+		<e:Image id="_roleImage" width="100" height="100" x="18" y="34" source="fenxiang_daoju_hongbaoft_png"/>
+		<e:Group id="_roleGold" width="135" height="190" x="0" y="0">
+			<e:Image id="_roleGoldType" source="shop_jinbi_png" x="10" y="150" anchorOffsetX="0" width="23" anchorOffsetY="0" height="26" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="_rolePriceLabel" width="90" height="28" x="34" y="147" anchorOffsetX="0" text="00000" textAlign="center" anchorOffsetY="0" scaleX="1" scaleY="1" font="shoplnum_fnt"/>
+		</e:Group>
+		<e:Label id="_roleTipLabel" text="需解的锁角色" x="11" y="152" fontFamily="微软雅黑" size="18" bold="true" anchorOffsetX="0" width="117" textAlign="center" textColor="0xff1c11" height="20"/>
+
+	</e:Group>
+	<e:Group id="_itemGroup" width="135" height="190" x="0" y="0" visible="false">
+		<e:Image id="_itemImage" x="19" y="34" width="100" height="100" source="fenxiang_daoju_hongbaoft_png"/>
+		<e:Image id="_itemGoldType" source="shop_jinbi_png" x="10" y="150" anchorOffsetX="0" width="23" anchorOffsetY="0" height="26" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="_itemPriceLabel" width="90" height="28" x="35" y="147" anchorOffsetX="0" text="00000" textAlign="center" anchorOffsetY="0" scaleX="1" scaleY="1" font="shoplnum_fnt"/>
+	</e:Group>
+	<e:Group id="_themeGroup" width="135" height="190" x="0" y="0" visible="false">
+		<e:Image id="_themeImage" x="19" y="34" width="100" height="100" source="fenxiang_daoju_hongbaoft_png"/>
+		<e:Group id="_themeGold" width="135" height="190" x="0" y="0">
+			<e:Image id="_themeGoldType" source="shop_jinbi_png" x="10" y="149" anchorOffsetX="0" width="23" anchorOffsetY="0" height="26" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="_themePriceLabel" width="90" height="28" x="35" y="147" anchorOffsetX="0" text="0000" textAlign="center" anchorOffsetY="0" scaleX="1" scaleY="1" font="shoplnum_fnt"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="_rmbGroup" width="141" height="195" x="0" y="0">
+		<e:Image x="18.5" y="35" scaleX="1" scaleY="1" source="fenxiang_jifen_png"/>
+
+		<e:BitmapLabel id="_goldLabel" width="135" height="28" y="102" font="goldnum_fnt" text="87654" textAlign="center" horizontalCenter="0"/>
+		<e:BitmapLabel id="_rmbLabel" width="135" height="32" y="147" anchorOffsetX="0" text="3 rmb" textAlign="center" anchorOffsetY="0" scaleX="1" scaleY="1" x="0" font="shoplnum_fnt"/>
+		<e:Image id="_shopStateIma" source="shop_remai_png" x="67" y="-0.5" scaleX="0.7" scaleY="0.7"/>
+	</e:Group>
+	<e:Image id="_zhekouIma" x="-2" source="shop_shuangbeixs_png" top="0"/>
+</e:Skin>

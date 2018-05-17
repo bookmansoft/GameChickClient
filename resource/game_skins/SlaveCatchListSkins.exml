@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Slave" width="466" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="nulizhuabu_tiao_png" x="0" y="0" locked="true"/>
+	<e:Image id="_headImage" width="100" height="100" x="16" y="11" locked="true"/>
+	<e:Button id="_catchButton" label="" x="326" y="28" width="127" height="70">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="nuli_an_zhuabuh_l_png" source.down="nuli_an_zhuabuh_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_nameLabel" text="" x="124" y="18" textColor="0x245f9d" fontFamily="微软雅黑" size="24" anchorOffsetX="0" width="190" height="24" bold="true"/>
+	<e:Label id="_shenfenLabel" text="" x="124" y="51" textColor="0x245F9D" fontFamily="微软雅黑" size="20" anchorOffsetX="0" width="190" height="20"/>
+</e:Skin>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IntegralRankListSkins" width="540" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="_rankListGroup" width="540" height="130" y="33" horizontalCenter="-2">
+		<e:Image verticalCenter="-15.5" right="6" x="23" y="0" scaleX="1" scaleY="1" source="jifenpaihang_di_png"/>
+		<e:Image source="jifenduihuan_wpkuang_png" x="341" y="19" scaleX="1" scaleY="1"/>
+		<e:Image source="jifenduihuan_wpkuang_png" x="430" y="19" scaleX="1" scaleY="1"/>
+
+	</e:Group>
+	<e:Group id="_MyRankListGroup" width="540" height="130" y="33" horizontalCenter="-2">
+		<e:Image verticalCenter="-14.5" right="6" x="23" y="0" scaleX="1" scaleY="1" source="jifenpaihang_zjdi_png"/>
+		<e:Image x="341" y="19" scaleX="1" scaleY="1" source="jifenpaihang_zjwpkuang_png"/>
+		<e:Image x="430" y="19" scaleX="1" scaleY="1" source="jifenpaihang_zjwpkuang_png"/>
+
+	</e:Group>
+	<e:Label id="_xiaofeiLabel" text="消费积分：" x="135" y="83" anchorOffsetX="0" width="190" textColor="0x245f9d" size="24" bold="true" verticalAlign="middle" textAlign="left" fontFamily="微软雅黑" scaleX="1" scaleY="1"/>
+	<e:Image id="_rankNumBgIma" x="7" scaleX="1" scaleY="1" y="4" source="jifen_paiming_1_png"/>
+	<e:Label id="_integralNumLabel" text="Label" x="136" y="113" anchorOffsetX="0" width="190" size="24" textColor="0x245f9d" fontFamily="微软雅黑" bold="true" verticalAlign="middle" scaleX="1" scaleY="1"/>
+	<e:Label id="_playerNameLabel" text="Label" x="136" y="42" anchorOffsetX="0" width="190" textColor="0x245f9d" size="30" bold="true" verticalAlign="middle" textAlign="left" fontFamily="微软雅黑" scaleX="1" scaleY="1"/>
+	<e:Image id="_playerIconIma" width="100" height="100" x="19" y="44" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	<e:Image id="_itemIcon1" width="80" height="80" x="339" y="52" scaleX="1" scaleY="1"/>
+	<e:Image id="_itemIcon2" width="80" height="80" x="428" y="52" scaleX="1" scaleY="1"/>
+	<e:BitmapLabel id="_itemNumLabel1" width="100" height="31" y="107" font="inteitemnumfont1_fnt" text="00" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" x="338.8" scaleX="0.8" scaleY="0.8"/>
+	<e:BitmapLabel id="_itemNumLabel2" width="100" height="31" x="427.8" y="107.2" font="inteitemnumfont1_fnt" text="00" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" scaleX="0.8" scaleY="0.8"/>
+	<e:BitmapLabel id="_rankNumLabel" width="155" height="32" x="-7" y="13" font="inteitemnumfont1_fnt" text="" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoadFriIconSkins" width="52" height="63" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_friendIcon" width="60" height="60" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="youxi_haoyou_di_png" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

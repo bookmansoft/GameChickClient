@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameUISkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+
+
+
+
+
+
+	<e:Image source="gamejinbi_png" x="605" y="4"/>
+
+	<e:BitmapLabel id="_scoreLabel" width="147" height="35" x="450" y="52.5" anchorOffsetX="0" anchorOffsetY="0" font="scorenum_fnt" text="0" textAlign="right"/>
+	<e:BitmapLabel id="_moneyLabel" width="148" height="36" x="449" y="7" anchorOffsetX="0" anchorOffsetY="0" font="moneynum_fnt" text="0" textAlign="right"/>
+
+
+
+	<e:Group id="_group" width="243" height="79" y="0.5" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-128.5">
+		<e:Image source="tilitb_png" x="11" y="42" scaleX="1" scaleY="1"/>
+		<e:Image source="tilitiao_di_png" x="56" y="44" scaleX="1" scaleY="1"/>
+		<e:Image id="_dicengXueIma" source="tilitiao_tiaob_png" x="58" y="46" scaleX="1" scaleY="1"/>
+		<e:Image id="_bloodImage" source="tilitiao_tiao_png" x="58" y="46" fillMode="clip" scaleX="1" scaleY="1"/>
+		<e:Image id="_shanXueIma" source="tilitiao_hudun_png" x="58.5" y="46" visible="false"/>
+		<e:Image source="shijiantb_png" x="15" y="4" scaleX="1" scaleY="1"/>
+		<e:Image source="shijiantiao_di_png" x="56" y="9" scaleX="1" scaleY="1"/>
+		<e:Image id="_timeImage" source="shijiantiao_tiao_png" x="58" y="11" fillMode="clip" scaleX="1" scaleY="1"/>
+
+		<e:Group id="_timeUiAniGroup" width="219" height="35" x="16" y="5" anchorOffsetY="0" scaleX="1" scaleY="1" anchorOffsetX="0">
+			<e:Image source="shijiantb_shan_png" x="1" y="-0.6" scaleX="1" scaleY="1"/>
+			<e:Image source="shijiantiao_time_png" x="40" y="4" scaleX="1" scaleY="1"/>
+
+		</e:Group>
+
+		<e:Label id="_bloodLabel" text="100/100" x="55" y="48" scaleX="1" scaleY="1" anchorOffsetX="0" width="170" size="20" fontFamily="微软雅黑" bold="true" textAlign="right"/>
+
+		<e:Label id="_timeLabel" text="180s" x="55" y="13" scaleX="1" scaleY="1" anchorOffsetX="0" width="170" size="20" fontFamily="微软雅黑" bold="true" textAlign="right"/>
+	</e:Group>
+	<e:Image source="jifen_png" x="600" y="49"/>
+	<e:Group id="_checkGroup" width="70" height="94" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="gameGuanQiaNum_di_png" x="1" y="-1" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="_guanqiaLabel" width="69" height="35" y="8" font="guanqia_fnt" text="5" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" verticalAlign="center" scaleX="1" scaleY="1" x="0"/>
+		<e:BitmapLabel id="_textLabel" width="69" height="37" y="38" font="guanqia_fnt" text="g" anchorOffsetX="0" anchorOffsetY="0" x="0" textAlign="center" verticalAlign="center" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="_skillGroup" width="114" height="121" x="453" y="945">
+		<e:Image id="_skillBg" source="guanka_qipao_di_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="_skillMaskIma" x="0" y="0" scaleX="1" scaleY="1" source="guanka_qipao_zhezhao_png"/>
+
+		<e:Image id="_skillIma" width="114" height="121" x="0" y="0"/>
+		<e:Image id="_jinzhiIma" source="paokuskillan_hongtiao_png" x="3" y="2" touchEnabled="false"/>
+		<e:Label id="_energyLabel" text="Label" y="42" bold="true" fontFamily="微软雅黑" horizontalCenter="0" border="false" stroke="2" touchEnabled="false" verticalAlign="middle" textAlign="center" width="100" height="30" visible="false"/>
+	</e:Group>
+
+
+
+</e:Skin>

@@ -1,0 +1,22 @@
+{
+	"1":{
+		"eventname":"纸飞机",
+		"eventid":"E1",
+		"desc":"eventtipdesc1"
+	},
+	"2":{
+		"eventname":"炸弹",
+		"eventid":"E2",
+		"desc":"eventtipdesc2"
+	},
+	"3":{
+		"eventname":"幸运宝箱",
+		"eventid":"E3",
+		"desc":"eventtipdesc3"
+	},
+	"4":{
+		"eventname":"随机宝箱",
+		"eventid":"E4",
+		"desc":"eventtipdesc4"
+	}
+}

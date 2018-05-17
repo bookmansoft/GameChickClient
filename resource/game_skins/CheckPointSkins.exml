@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CheckPointSkins" width="170" height="350" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_noJieSuoIma" source="zhujiemianxg_guanka1_d_png" x="9.5" y="49"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<e:Group id="_jiesuoGroup" width="170" height="350" horizontalCenter="0" verticalCenter="0" touchChildren="true">
+		<e:Image id="_bgIma" source="zhujiemianxg_guanka1_png" y="84" horizontalCenter="0" x="8" scaleX="1" scaleY="1" touchEnabled="true"/>
+		<e:BitmapLabel id="_checkpointIDLabel" width="129" height="32" y="254" text="g123" anchorOffsetX="0" anchorOffsetY="0" font="guanqianum_fnt" textAlign="center" verticalAlign="center" horizontalCenter="0.5" x="21" scaleX="1" scaleY="1"/>
+		<e:Group id="_canRushGroup" width="170" height="254" y="0" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0" touchThrough="true">
+			<e:Image id="_chooseIma" source="zhujiemianxg_jiangli_di_png" y="28" horizontalCenter="0" x="5" scaleX="1" scaleY="1"/>
+			<e:Group id="_rewardGroup" width="51" height="55" y="7" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" horizontalCenter="0" x="60">
+			<e:Image source="zhujiemianxg_jiangli_chuang_png" x="5" y="2" scaleX="1" scaleY="1"/>
+			<e:Image id="_rewardImage" width="36" height="36" x="9" y="5" scaleX="1" scaleY="1"/>
+			</e:Group>
+			<e:Group id="_tiliGroup" width="149" height="40" x="143" y="144.5" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1">
+			<e:Image x="1" y="1" scaleX="1" scaleY="1" source="shandian_l_png"/>
+			<e:BitmapLabel id="_tiliLabel" width="66" height="22" x="32" y="7" anchorOffsetX="0" font="guanqiaspendnum_fnt" text="-60" anchorOffsetY="0" scaleX="1" scaleY="1" verticalAlign="center"/>
+			</e:Group>
+			<e:Button id="_rushButton" label="" y="142.5" horizontalCenter="0" x="24" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="zhujiemianxg_an_kaishi_l_png" source.down="zhujiemianxg_an_kaishi_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Image id="_starImage0" source="zhujiemianxg_xing_off_png" x="35" y="201" scaleX="1" scaleY="1"/>
+		<e:Image id="_starImage1" source="zhujiemianxg_xing_off_png" y="218" horizontalCenter="0" x="70" scaleX="1" scaleY="1"/>
+		<e:Image id="_starImage2" source="zhujiemianxg_xing_off_png" x="103" y="201" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

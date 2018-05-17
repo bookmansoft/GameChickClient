@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendGameScoreSkins" width="257" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="touxiang_mr_jpg" x="19" y="44"/>
+	<e:Label id="_friendNameLabel" text="鸡小德" x="4" y="4" anchorOffsetX="0" width="250" fontFamily="微软雅黑" size="35" textColor="0x244f5b" bold="true" textAlign="left"/>
+	<e:Image id="_friendIma" width="50" height="50" x="19" y="44" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:BitmapLabel id="_friendScoreLabel" width="163" height="45" x="82" y="49" font="smallnum_fnt" text="123" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image source="youxi_haoyoutou_kuang_png" x="17" y="42"/>
+</e:Skin>

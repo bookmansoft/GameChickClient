@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagPageSkins" width="134" height="171" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="134" height="171" x="0" y="0" source="beibao_kuang_png" locked="true"/>
+	<e:Image id="_itemImage" width="113" height="113" x="11" y="27" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:BitmapLabel id="_countLabel" width="113" height="34" x="10" y="108" font="bagnum_fnt" text="" anchorOffsetX="0" textAlign="right" anchorOffsetY="0"/>
+</e:Skin>

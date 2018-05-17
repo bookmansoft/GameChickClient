@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BagTipSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wait_di_png" x="0" y="0" width="640" height="1136" locked="true"/>
+	<e:Image source="beibao_tanchuang_png" x="54" y="391" locked="true"/>
+	<e:Image id="_itemImage" width="100" height="100" x="115" y="469" locked="true"/>
+	<e:Label id="_textLabel1" text="名称：" x="226" y="460" fontFamily="微软雅黑" size="24" bold="true" textColor="0x245f9d"/>
+	<e:Label id="_nameLabel" text="" x="307" y="460" fontFamily="微软雅黑" size="24" bold="true" textColor="0x245F9D" anchorOffsetX="0" width="255" height="24"/>
+	<e:Label id="_countLabel" text="" x="307" y="580" fontFamily="微软雅黑" size="24" bold="true" textColor="0x245F9D" anchorOffsetX="0" width="255" height="24"/>
+	<e:Label id="_descLabel" text="" x="307" y="494" fontFamily="微软雅黑" size="24" bold="true" textColor="0x245F9D" anchorOffsetX="0" width="255" anchorOffsetY="0" height="83"/>
+	<e:Label id="_textLabel2" text="说明：" x="226" y="494" fontFamily="微软雅黑" size="24" bold="true" textColor="0x245F9D"/>
+	<e:Label id="_textLabel3" text="拥有：" x="226" y="580" fontFamily="微软雅黑" size="24" bold="true" textColor="0x245F9D"/>
+	<e:Button id="_useButton" label="" y="643" x="242" locked="true" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="beibao_an_qushiyong_l_png" source.down="beibao_an_qushiyong_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="_buttonGroup" width="640" height="70" x="0" y="643" anchorOffsetY="0" anchorOffsetX="0" locked="true">
+		<e:Button id="_useAllButton" label="" y="0" x="141">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="beibao_an_quanbushiyong_l_png" source.down="beibao_an_quanbushiyong_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_useOneButton" label="" y="0" x="353">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="beibao_an_shiyong1ge_l_png" source.down="beibao_an_shiyong1ge_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Button id="_closeButton" label="" y="751.1" x="272">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_guanbi_l_png" source.down="chengjiu2_guanbi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

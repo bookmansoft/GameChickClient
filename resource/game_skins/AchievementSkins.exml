@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AchievementPage" width="170" height="238" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="chengjiu_kuang_png" x="0" y="0" locked="true"/>
+	<e:Group id="_effectGroup" width="130" height="130" x="23" y="51"/>
+	<e:Image id="_image" width="130" height="130" x="23" y="51" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="_label" text="未获得" x="0" y="203" size="20" fontFamily="微软雅黑" anchorOffsetX="0" width="170" textAlign="center" bold="true" textColor="0xffffff"/>
+	<e:Label id="_nameLabel" text="敛财专家" x="5" y="11.5" anchorOffsetX="0" width="112" textAlign="center" fontFamily="微软雅黑" size="22" bold="true" textColor="0xffffff"/>
+	<e:Image id="_redIma" source="tishi_hongdian_png" x="139" y="29"/>
+</e:Skin>

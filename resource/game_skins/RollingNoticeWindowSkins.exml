@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RollingNoticeWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="zoumadeng_di_png" y="170" horizontalCenter="0"/>
+	<e:Label id="_noticeLabel" text="鸡小德地方斯蒂芬通过努力，获得了御姐" x="146" y="175" anchorOffsetX="0" width="358" textAlign="left" bold="true" size="22" fontFamily="微软雅黑" height="23"/>
+	<e:Rect id="_maskRect" width="375" height="29" y="172" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="1" horizontalCenter="0"/>
+</e:Skin>

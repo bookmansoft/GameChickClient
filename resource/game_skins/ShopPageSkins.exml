@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopPageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="shop_shuzidi_png" x="117" y="240"/>
+	<e:Image source="shop_shuzidi_png" x="388.5" y="239"/>
+
+	<e:BitmapLabel id="_totalGoldLabel" width="155" height="33" x="126.5" y="244" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" text="34355456" font="shopmnum_fnt"/>
+	<e:Image source="shop_jinbi_png" x="66.5" y="226"/>
+	<e:Image source="shop_jifen_png" x="323.5" y="226"/>
+	<e:BitmapLabel id="_totalPingGaiLabel" width="155" height="33" x="398.5" y="243" anchorOffsetX="0" anchorOffsetY="0" textAlign="left" text="34355464" font="shopmnum_fnt"/>
+
+	<e:RadioButton id="_roleRadio" label="" x="52" y="136" selected="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_juese_off_png" source.down="anniu_juese_on_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:RadioButton>
+	<e:RadioButton id="_themeRadio" label="" x="187" y="136">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_changjing_off_png" source.down="anniu_changjing_on_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:RadioButton>
+	<e:RadioButton id="_itemRadio" label="" x="322" y="136">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_daoju_off_png" source.down="anniu_daoju_on_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:RadioButton>
+	<e:RadioButton id="_rechargeRadio" label="" x="457" y="136">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_chongzhi_off_png" source.down="anniu_chongzhi_on_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:RadioButton>
+	<e:Group id="_roleGroup" width="540" height="665" x="48" y="313" anchorOffsetY="0">
+		<e:Scroller width="540" height="645" x="0" y="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Group id="_roleScroller"/>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="_themeGroup" width="540" height="665" x="48" y="313" anchorOffsetY="0">
+		<e:Image x="0" y="0" scaleX="1" scaleY="1" source="shop_di_png" width="540"/>
+		<e:RadioButton id="_sceneRadio" label="" y="560" x="133" scaleX="1" scaleY="1" selected="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="anniu_zhuti_off_png" source.down="anniu_zhuti_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:RadioButton>
+		<e:RadioButton id="_roadRadio" label="" y="560" x="292" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="anniu_lujing_off_png" source.down="anniu_lujing_on_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:RadioButton>
+		<e:Scroller id="_scene" width="540" height="533" x="0" y="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Group id="_sceneScroller"/>
+		</e:Scroller>
+		<e:Scroller id="_road" width="540" height="533" x="0" y="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Group id="_roadScroller"/>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="_itemGroup" width="540" height="665" x="48" y="313" anchorOffsetY="0">
+		<e:Scroller width="540" height="645" x="0" y="0" anchorOffsetY="0">
+			<e:Group id="_itemScroller"/>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="_rechargeGroup" width="540" height="665" x="48" y="313" anchorOffsetY="0">
+		<e:Scroller width="540" height="645" x="0" y="0" anchorOffsetY="0" scaleX="1" scaleY="1">
+			<e:Group id="_rechargeScroller"/>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,46 @@
+{
+	"roadNum":1,
+	"posiX":[
+		[
+			[312,0]
+		]
+			],
+	"roadType":[
+			[0]
+		],
+		
+	"cenji":[
+			[0]
+		],
+	"road":[
+		{
+			"type:":0,
+			"ifCanJump":1,
+			"allRoadId":0,
+			"lastType":[-1],
+			"kuaiType":[
+				{"type":1,"der":0,"num":7,"doorID":0,"intersect":-1},
+				{"type":2,"der":1,"num":1,"doorID":0,"intersect":-1},
+				{"type":1,"der":1,"num":2,"doorID":0,"intersect":-1},
+				{"type":1,"der":2,"num":6,"doorID":0,"intersect":-1},
+				{"type":1,"der":1,"num":3,"doorID":0,"intersect":-1},
+				{"type":2,"der":1,"num":1,"doorID":0,"intersect":-1},
+				{"type":1,"der":0,"num":6,"doorID":0,"intersect":-1},
+				{"type":2,"der":2,"num":1,"doorID":0,"intersect":-1},
+				{"type":1,"der":2,"num":4,"doorID":0,"intersect":-1},
+				{"type":2,"der":2,"num":1,"doorID":0,"intersect":-1},
+				{"type":1,"der":0,"num":1,"doorID":0,"intersect":-1},
+				{"type":2,"der":1,"num":1,"doorID":0,"intersect":-1},
+				{"type":1,"der":1,"num":4,"doorID":0,"intersect":-1},
+				{"type":2,"der":1,"num":1,"doorID":0,"intersect":-1},
+				{"type":1,"der":0,"num":3,"doorID":0,"intersect":-1}
+			]
+		}
+	],
+	"house":[
+		[445,619],[221,1095]
+		],
+	"balloon":[
+		[145,152],[439,214],[264,695]
+		]
+}

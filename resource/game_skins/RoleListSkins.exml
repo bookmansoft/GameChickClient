@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleListSkins" width="524" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="_baiDiGroup" width="524" height="160" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="jueseliebiao_di_l_png" horizontalCenter="0" verticalCenter="0" x="-2" y="2" scaleX="1" scaleY="1"/>
+		<e:Button id="_peiYangButton" label="" x="373" y="57" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="peiyang_l_png" source.down="peiyang_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="_baiDiNameLabel" text="Label" x="148" y="42" size="30" fontFamily="微软雅黑" anchorOffsetX="0" width="197" bold="true" textColor="0x245f9d" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="_lanDiGroup" width="524" height="160" horizontalCenter="1" verticalCenter="0" x="10" y="10">
+		<e:Image source="jueseliebiao_di_a_png" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="_lanDiNameLabel" text="Label" x="148" y="42" size="30" fontFamily="微软雅黑" anchorOffsetX="0" width="197" bold="true" scaleX="1" scaleY="1" textColor="0xfefefe"/>
+		<e:Button id="_jieSuoButton" label="" x="322" y="23">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="jiesuo_l_png" source.disabled="jiesuo_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="_textLabel" text="收集进度：" x="146" y="85" textColor="0xfefefe" size="24" bold="true" fontFamily="微软雅黑"/>
+		<e:Image source="suipianshoujit_di_png" x="147" y="114"/>
+		<e:Image id="_jinDuTiaoIma" source="suipianshoujit_tiao_png" x="147" y="114" fillMode="repeat" anchorOffsetX="0" width="171"/>
+		<e:Label id="_jinDuLabel" text="100/100" x="190" y="116" size="20" fontFamily="微软雅黑" textColor="0xfefefe" anchorOffsetX="0" width="129" anchorOffsetY="0" height="21" bold="true" textAlign="center" verticalAlign="middle"/>
+		<e:Button id="_yulanButton" label="" x="372" y="57">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="yulan_l_png" source.down="yulan_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Label id="_levelLabel" text="Label" x="19" y="7" textColor="0x935102" fontFamily="微软雅黑" size="24" anchorOffsetX="0" width="93" bold="true" textAlign="left"/>
+	<e:Image id="_roleIcon" width="100" height="100" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-191" verticalCenter="12" source="touxiang_jixiaode_png"/>
+	<e:Image id="_redIma" source="tishi_hongdian_png" x="477" y="44" touchEnabled="false"/>
+</e:Skin>

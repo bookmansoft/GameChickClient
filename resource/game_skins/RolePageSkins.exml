@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RolePageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="_scroller" width="524" height="836" x="56" y="125" anchorOffsetY="0">
+		<e:Group id="_roleGroup" anchorOffsetY="0" height="838"/>
+	</e:Scroller>
+</e:Skin>

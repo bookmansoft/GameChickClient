@@ -1,0 +1,32 @@
+{
+	"0":{
+		"name":"eventsdataname1",
+		"cumulativerule":"eventsdatarule101",
+		"rankingrule":"eventsdatarule201"
+	},
+	"1":{
+		"name":"eventsdataname2",
+		"cumulativerule":"eventsdatarule102",
+		"rankingrule":"eventsdatarule202"
+	},
+	"2":{
+		"name":"eventsdataname3",
+		"cumulativerule":"eventsdatarule103",
+		"rankingrule":"eventsdatarule203"
+	},
+	"3":{
+		"name":"eventsdataname4",
+		"cumulativerule":"eventsdatarule104",
+		"rankingrule":"eventsdatarule204"
+	},
+	"4":{
+		"name":"eventsdataname5",
+		"cumulativerule":"eventsdatarule105",
+		"rankingrule":"eventsdatarule205"
+	},
+	"5":{
+		"name":"eventsdataname6",
+		"cumulativerule":"eventsdatarule106",
+		"rankingrule":"eventsdatarule206"
+	}
+}

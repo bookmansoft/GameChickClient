@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSelectSkins" width="165" height="207" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+
+	<e:Image id="_selectImage" source="guankaxj_xuanzhong_png" horizontalCenter="-3" verticalCenter="1"/>
+	<e:Image id="_selectBgImage" source="guankaxj_kuang_png" horizontalCenter="-4.5" verticalCenter="0"/>
+	<e:Image id="_roleImage" width="100" height="100" x="35" y="55.5"/>
+	<e:Label id="_roleNameLabel" text="鸡小德" x="24" y="161" anchorOffsetX="0" width="121" size="23" verticalAlign="middle" textAlign="center" bold="true" fontFamily="微软雅黑"/>
+	<e:Button id="_sceneIma" label="" left="0" top="0" width="67" height="71">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="guankaxj_jiaobiao_png" source.down="guankaxj_jiaobiao_png" source.disabled="guankaxj_jiaobiao_off_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+</e:Skin>

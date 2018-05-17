@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin  width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="genxin,weihu" >
+	<e:Image id="_bg" source="tishi_di_png" includeIn="weihu" x="0" y="0"/>
+
+	<e:Button id="_weihuButton" label="" includeIn="weihu" x="242" y="611">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_queding_l_png" source.down="anniu_queding_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller width="465" height="236" includeIn="weihu" x="89" y="339">
+		<e:Group>
+			<e:Label id="_weihuLabel" text="Label" includeIn="weihu" x="0" y="0" anchorOffsetX="0" width="465" anchorOffsetY="0" height="236" bold="true" textColor="0x632210" fontFamily="微软雅黑" maxHeight="236" maxWidth="465" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Scroller>
+
+	<e:Image source="gonggao_di_png" y="0" x="0" includeIn="genxin"/>
+
+
+	<e:Image id="_nameImage" source="wenzi_xitongonggao_png" includeIn="genxin" x="226" y="219"/>
+	<e:Button id="_closeButton" label="" includeIn="genxin" y="700" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_queding_l_png" source.down="anniu_queding_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Scroller width="422" height="373" includeIn="genxin" x="104" y="301">
+		<e:Group>
+			<e:Label id="_neirongLabel" text="Label" x="0" y="0" size="22" fontFamily="微软雅黑" anchorOffsetX="0" width="422" anchorOffsetY="0" height="373" bold="true" textColor="0x5e3a0f" maxHeight="373" maxWidth="422" includeIn="genxin" scaleX="1" scaleY="1"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

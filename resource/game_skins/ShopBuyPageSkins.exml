@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShopBuyPageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wait_di_png" width="640" height="1136" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="_bg" source="goumaits_di_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Button id="_buyOneButton" label="" x="245" y="541">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="goumaits_jia1_l_png" source.down="goumaits_jia1_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_buyTenButton" label="" x="357" y="541">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="goumaits_jia10_l_png" source.down="goumaits_jia10_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_buyFivetyButton" label="" x="467" y="541">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="goumaits_jia50_l_png" source.down="goumaits_jia50_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_closeButton" label="" x="154" y="730">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_quxiao_l_png" source.down="anniu_quxiao_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_buyButton" label="" x="359" y="730">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="goumaits_an_goumai_l_png" source.down="goumaits_an_goumai_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_itemIconIma" width="100" height="100" x="116" y="382"/>
+	<e:Label id="_textLabel1" text="名称：" x="231" y="367" textColor="0x245f9d" bold="true" size="24" fontFamily="微软雅黑"/>
+	<e:Label id="_textLabel2" text="说明：" x="231" y="403" textColor="0x245f9d" size="24" fontFamily="微软雅黑" bold="true"/>
+	<e:Label id="_textLabel3" text="拥有：" x="231" y="490" textColor="0x245f9d" bold="true" size="24" fontFamily="微软雅黑"/>
+	<e:Label id="_nameLabel" text="" x="308" y="367" textColor="0x245f9d" size="24" fontFamily="微软雅黑" bold="true" anchorOffsetY="0" height="24" anchorOffsetX="0" width="250"/>
+	<e:Label id="_descLabel" text="" x="308" y="403" textColor="0x245f9d" size="24" fontFamily="微软雅黑" bold="true" anchorOffsetX="0" width="250" anchorOffsetY="0" height="76"/>
+	<e:Label id="_haveNumLabel" text="0" x="308" y="490" textColor="0x245f9d" size="24" bold="true" fontFamily="微软雅黑" anchorOffsetX="0" width="250" height="24"/>
+	<e:Label id="_buyNumLabel" text="999" x="295" y="627" textColor="0x245f9d" size="24" fontFamily="微软雅黑" bold="true" anchorOffsetX="0" width="176" height="24"/>
+	<e:Label id="_buyMoneyLabel" text="999999999" x="310" y="677" textColor="0x245f9d" size="24" bold="true" fontFamily="微软雅黑" anchorOffsetX="0" width="171" height="24"/>
+	<e:Image id="_buyTypeIma" source="shop_jinbi_png" x="278.06" y="670.5" anchorOffsetX="0" width="30.37" anchorOffsetY="0" height="37"/>
+</e:Skin>

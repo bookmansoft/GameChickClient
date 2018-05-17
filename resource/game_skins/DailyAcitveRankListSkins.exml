@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyAcitveRankListSkins" width="470" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Image id="_bgImage" x="0" scaleX="1" scaleY="1" top="0" bottom="0" width="470" source="huodong_paihang_tiao_png"/>
+	<e:BitmapLabel id="_scoreLabel" width="100" height="30" x="364" text="12345" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" font="bainum_fnt" scaleX="1" scaleY="1" verticalCenter="3"/>
+	<e:Label id="_nameLabel" text="名字" x="202" height="30" bold="true" anchorOffsetX="0" width="189" size="24" scaleX="1" scaleY="1" fontFamily="微软雅黑" anchorOffsetY="0" verticalCenter="0"/>
+	<e:Image id="_rankImage" source="mingci_1_png" x="45" verticalCenter="0"/>
+	<e:BitmapLabel id="_rankNumLabel" width="68" height="35" x="24" text="1" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" scaleX="1" scaleY="1" font="rankNum_fnt" verticalCenter="3.5"/>
+	<e:Image id="_userIma" width="50" height="50" x="128" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="1"/>
+	<e:Image id="_rankUserIma" source="touxiang_kuang_1_png" x="89" verticalCenter="0"/>
+
+	<e:Group id="_bonusGroup" width="60" height="60" x="370" y="0">
+		<e:Image id="_bonusItemIma" source="fenxiang_jifen_png" x="0" y="0" width="60" height="60"/>
+		<e:Label id="_bonusNumLabel" text="0" x="0" y="39" width="60" height="20" size="22" textAlign="center" bold="true"/>
+	</e:Group>
+	<e:Label id="_noRankLabel" text="Unranked" x="3" fontFamily="微软雅黑" size="24" textAlign="left" bold="true" verticalCenter="0" anchorOffsetX="0" width="123"/>
+</e:Skin>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SuccFailPageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg" source="wait_di_png" width="640" height="1136" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="_succFailIma" y="178.76" source="chuanguancg_di_png" horizontalCenter="0.5"/>
+	<e:Button id="_sureButton" label="" y="828.51" horizontalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chuanguansb_an_queding_l_png" source.down="chuanguansb_an_queding_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="_winGroup" width="640" height="1136" x="0" y="0">
+		<e:Button id="_shareButton" label="" y="818.69" horizontalCenter="0" x="190" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chuanguancg_an_xuanyao_l_png" source.down="chuanguancg_an_xuanyao_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_lookEndButton" label="" y="907" horizontalCenter="0" x="190" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chuanguancg_an_chakan_l_png" source.down="chuanguancg_an_chakan_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:BitmapLabel id="_scoreLabel" width="544.24" height="80.6" y="76.15" font="succPageScore_fnt" text="f054546" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" x="48" scaleX="1" scaleY="1" textAlign="center" verticalAlign="center"/>
+		<e:BitmapLabel id="_rankLabel" width="238.16" height="48" y="600.04" anchorOffsetX="0" anchorOffsetY="0" text="d 560 m" textAlign="center" verticalAlign="center" scaleX="1" scaleY="1" font="succPageRankNum_fnt" horizontalCenter="11"/>
+		<e:Image id="_mohuIma" source="chuanguancg_chaoyue_xu_png" x="-78.09" y="666.33" scaleX="1" scaleY="1" visible="false"/>
+		<e:Group id="_upRankGroup" width="199" height="68" x="439.8" y="587" anchorOffsetY="0" anchorOffsetX="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image id="_upRankAniIma" source="chuanguancg_chaoyue_shangsheng_png" x="30" y="0" scaleX="0.5" scaleY="0.5" skewX="0" skewY="-180"/>
+			<e:BitmapLabel id="_upRankLabel" width="162" height="48" x="34.65" y="10" anchorOffsetX="0" anchorOffsetY="0" font="upRank_fnt" text="" verticalAlign="center"/>
+		</e:Group>
+		<e:Group id="_downInfoGroup" width="385.24" height="106" x="250" y="875" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="chuanguancg_chaoyue_di_png" x="0" y="0"/>
+			<e:Image id="_downAniIma" x="280.59" y="25" source="chuanguancg_chaoyue_xiajiang_x_png"/>
+			<e:Image x="280.59" y="25" source="chuanguancg_chaoyue_xiajiang_png"/>
+			<e:Image id="_downInfoIcon" width="48" height="46" x="17.95" y="16" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label id="_downInfoNameLabel" text="Label" x="78.95" y="14" textColor="0x245F9D" size="30" fontFamily="微软雅黑" bold="true" anchorOffsetX="0" width="180" height="30"/>
+			<e:Label id="_downInfoScoreLabel" text="Label" x="78.95" y="48.48" textColor="0x245F9D" size="30" fontFamily="微软雅黑" bold="true" anchorOffsetX="0" width="180"/>
+			<e:Image source="chuanguancg_chaoyue_dihui_png" x="-1.01" y="0.05" scaleX="1" scaleY="1"/>
+		</e:Group>
+		<e:Group id="_upInfoGroup" width="393.24" height="134" x="10" y="727" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="chuanguancg_chaoyue_di_png" x="55" y="17.48"/>
+			<e:Image id="_upAniIma" source="chuanguancg_chaoyue_shangsheng_x_png" x="24.01" y="-30"/>
+			<e:Image source="chuanguancg_chaoyue_shangsheng_png" x="24.01" y="-30"/>
+			<e:Image id="_upInfoIcon" width="48" height="46" x="73" y="33" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Label id="_upInfoNameLabel" text="Label" x="134" y="31" textColor="0x245f9d" size="30" fontFamily="微软雅黑" bold="true" anchorOffsetX="0" width="180" height="30"/>
+			<e:Label id="_upInfoScoreLabel" text="Label" x="134" y="65.48" textColor="0x245F9D" size="30" fontFamily="微软雅黑" bold="true" anchorOffsetX="0" width="180"/>
+		</e:Group>
+		<e:Group id="_shareRewardGroup" width="483" height="121" y="772.37" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" x="79" scaleX="1" scaleY="1">
+			<e:Button id="_shareRewardButton" label="" x="0" y="0" touchChildren="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="chuanguancg_an_fenxiang_l_png" source.down="chuanguancg_an_fenxiang_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="_shareRewardIma" width="80" height="80" x="328" y="14" touchEnabled="false"/>
+			<e:Label id="_shareRewardNumLabel" text="" x="326" y="71" anchorOffsetX="0" width="82" textAlign="right" size="24" height="24" bold="true" verticalAlign="middle"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

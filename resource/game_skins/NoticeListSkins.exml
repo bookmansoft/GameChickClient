@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="NoticeSkins" width="524" height="137" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_notice" source="xiaoxidi_huang_png" x="0" y="0" width="524"/>
+	<e:Label id="_timeLabel" text="Label" x="20" y="6" textColor="0xb57026" fontFamily="微软雅黑" size="20" anchorOffsetX="0" width="90" textAlign="center" bold="true" height="20"/>
+	<e:Group id="_group1" width="489" height="101" x="11" y="30" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Label id="_information1" text="Label" x="14" y="13" size="20" fontFamily="微软雅黑" textColor="0x245f9d" anchorOffsetX="0" width="466" anchorOffsetY="0" height="73" bold="true" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group id="_group2" width="489" height="101" x="11" y="30" anchorOffsetY="0" anchorOffsetX="0">
+
+		<e:Group id="_itemGroup1" width="83" height="85" x="394" y="7" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image x="1.5" y="1.5" scaleX="1" scaleY="1" source="xiaoxi_wupink_png"/>
+			<e:Image id="_itemIcon1" width="80" height="80" x="1.5" y="1.5" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="_itemNumLabel1" width="99.25" height="31" x="2.5" y="56.5" font="inteitemnumfont1_fnt" text="x5" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" scaleX="0.8" scaleY="0.8"/>
+		</e:Group>
+		<e:Group id="_itemGroup2" width="86" height="85" x="300" y="7" anchorOffsetY="0" anchorOffsetX="0">
+			<e:Image x="3" y="2" scaleX="1" scaleY="1" source="xiaoxi_wupink_png"/>
+			<e:Image id="_itemIcon2" width="80" height="80" x="3" y="2" scaleX="1" scaleY="1"/>
+			<e:BitmapLabel id="_itemNumLabel2" width="96.75" height="31" x="5" y="57" font="inteitemnumfont1_fnt" text="x5" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" scaleX="0.8" scaleY="0.8"/>
+		</e:Group>
+
+
+
+
+		<e:Label id="_information2" text="Label" x="14" y="13" size="20" fontFamily="微软雅黑" textColor="0x245F9D" anchorOffsetX="0" width="275" anchorOffsetY="0" height="73" bold="true" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image id="_redIma" source="tishi_hongdian_png" x="483" y="14" touchEnabled="false"/>
+</e:Skin>

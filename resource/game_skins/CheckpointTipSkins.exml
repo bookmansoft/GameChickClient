@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CheckpointTipSkins" width="640" height="1136" currentState="firstTip" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="firstTip" >
+	<e:Image source="wait_di_png" width="640" height="1136" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="xinshou_baoxiangts_png" includeIn="firstTip" y="337" horizontalCenter="0"/>
+	<e:Button id="_yesButton" label="" includeIn="firstTip" x="226" y="588">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_jixu_time_l_png" source.down="anniu_jixu_time_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_iconIma" width="98" height="98" includeIn="firstTip" x="116" y="426" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="_daojishiLabel" text="(3s)" includeIn="firstTip" x="357" y="608" size="24" textColor="0x935102" bold="true" fontFamily="微软雅黑" anchorOffsetX="0" width="70" textAlign="center"/>
+	<e:Label id="_msgLabel" text="Label" includeIn="firstTip" x="240" y="425" anchorOffsetX="0" width="304" anchorOffsetY="0" height="103" textColor="0x436391" size="24" bold="true" fontFamily="微软雅黑" verticalAlign="middle" textAlign="left"/>
+</e:Skin>

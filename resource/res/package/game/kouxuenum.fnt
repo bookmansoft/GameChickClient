@@ -1,0 +1,12 @@
+{"file":"kouxuenum.png","frames":{
+"1":{"x":50,"y":1,"w":13,"h":19,"offX":1,"offY":3,"sourceW":15,"sourceH":26},
+"2":{"x":18,"y":1,"w":14,"h":19,"offX":0,"offY":3,"sourceW":15,"sourceH":26},
+"3":{"x":1,"y":43,"w":13,"h":19,"offX":1,"offY":3,"sourceW":14,"sourceH":26},
+"4":{"x":1,"y":1,"w":15,"h":19,"offX":0,"offY":3,"sourceW":15,"sourceH":26},
+"5":{"x":16,"y":43,"w":13,"h":19,"offX":0,"offY":3,"sourceW":13,"sourceH":26},
+"6":{"x":17,"y":22,"w":14,"h":19,"offX":0,"offY":3,"sourceW":14,"sourceH":26},
+"7":{"x":34,"y":1,"w":14,"h":19,"offX":0,"offY":3,"sourceW":14,"sourceH":26},
+"8":{"x":33,"y":22,"w":14,"h":19,"offX":0,"offY":3,"sourceW":14,"sourceH":26},
+"9":{"x":1,"y":22,"w":14,"h":19,"offX":0,"offY":3,"sourceW":14,"sourceH":26},
+"-":{"x":31,"y":43,"w":8,"h":3,"offX":1,"offY":13,"sourceW":10,"sourceH":26},
+"0":{"x":49,"y":22,"w":14,"h":19,"offX":0,"offY":3,"sourceW":14,"sourceH":26}}}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GetItemTipSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wait_di_png" x="0" y="0" width="640" height="1136"/>
+	<e:Image id="_bg" source="huodedaoju_png" x="55" y="392"/>
+	<e:Button id="_button" label="" x="227" y="647">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_queding_time_l_png" source.down="anniu_queding_time_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_timeLabel" text="(3)" x="364" y="667" textColor="0x935102" size="24" fontFamily="微软雅黑" bold="true" textAlign="center" anchorOffsetX="0" width="65"/>
+</e:Skin>

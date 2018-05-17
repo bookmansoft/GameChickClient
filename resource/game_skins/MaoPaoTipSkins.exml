@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MaoPaoTipSkins" width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="_smallMaoPaoTipGroup" width="82" height="69" x="154.5" y="32.5" anchorOffsetX="0" anchorOffsetY="0" touchChildren="false" touchEnabled="false" touchThrough="true">
+		<e:Image source="tongyong_qipaoxiao_png" x="0" y="0" scaleX="1" scaleY="1" touchEnabled="false"/>
+		<e:Label id="_smallMaoPaoLabel" text="碰我能飞" x="24" y="9.5" anchorOffsetX="0" width="36" size="16" anchorOffsetY="0" height="46" verticalAlign="middle" textAlign="left" fontFamily="微软雅黑" textColor="0x000000" lineSpacing="5" bold="true"/>
+	</e:Group>
+	<e:Group id="_bigMaoPaoTipGroup" width="250" height="122" x="75" y="129" anchorOffsetX="0" anchorOffsetY="0" touchEnabled="false" touchChildren="false" touchThrough="true">
+		<e:Image source="tongyong_qipao_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="_bigMaoPaoLabel" text="Label" x="12" y="12" anchorOffsetX="0" width="225" anchorOffsetY="0" height="86" size="20" textColor="0x000000" bold="true" textAlign="left" fontFamily="微软雅黑" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WaitPageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wait_di_png" width="640" height="1136" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="_cnImage" source="dengdai_shaodeng_png" y="366" horizontalCenter="-33.5" visible="false"/>
+	<e:Image id="_dianIma1" source="dengdai_dian_png" x="376" y="370"/>
+	<e:Image id="_dianIma2" source="dengdai_dian_png" x="399" y="370"/>
+	<e:Image id="_dianIma3" source="dengdai_dian_png" x="422" y="370"/>
+	<e:Group id="_waitTipGroup" width="640" height="230" y="636" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Image source="wait_di_png" x="0" y="0" width="640" height="230" scaleX="1" scaleY="1"/>
+		<e:Image source="dengdai_tb_duihua_png" x="30" y="28" scaleX="1" scaleY="1"/>
+		<e:Image source="dengdai_tb_dian_png" x="42" y="142" scaleX="1" scaleY="1"/>
+		<e:Label id="_waitTipLabel1" text="" x="88" y="26" anchorOffsetX="0" width="510" anchorOffsetY="0" height="96" textColor="0x7afffa" size="24" fontFamily="微软雅黑" bold="true" lineSpacing="10"/>
+		<e:Label id="_waitTipLabel2" text="" x="88" y="136" anchorOffsetX="0" width="510" anchorOffsetY="0" height="96" bold="true" textColor="0x7afffa" size="24" fontFamily="微软雅黑" lineSpacing="10"/>
+	</e:Group>
+	<e:Image id="_enImage" source="dengdai_shaodeng_en_png" x="39" y="370"/>
+</e:Skin>

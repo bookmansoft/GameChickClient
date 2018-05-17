@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FirstChargePageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg" source="shouchong_di_png" x="20" y="166"/>
+	<e:Button id="_buyButton" label="" y="790" x="209" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shouchong_an_lijigoumai_l_png" source.down="shouchong_an_lijigoumai_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_rewardButton" label="" x="208.5" y="790" locked="true" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shouchong_an_lingqujiangli_l_png" source.down="shouchong_an_lingqujiangli_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="_tipGroup" width="191" height="122" x="123" y="496">
+		<e:Image source="shouchong_tips_png" x="0" y="0"/>
+		<e:Label id="_tipLabel" text="爱的鞭子 * 5\n爱的鞭子 * 5\n爱的鞭子 * 5" x="0" y="16" width="191" textAlign="center" size="18" fontFamily="微软雅黑" anchorOffsetY="0" height="92" lineSpacing="15" bold="true"/>
+	</e:Group>
+	<e:Image id="_yujieTip" source="wait_di_png" x="129.5" y="638" anchorOffsetX="0" width="100" anchorOffsetY="0" height="100" alpha="0.01"/>
+	<e:Image id="_giftTip" source="wait_di_png" x="272" y="638" anchorOffsetX="0" width="100" anchorOffsetY="0" height="100" alpha="0.01"/>
+	<e:Image id="_moneyTip" source="wait_di_png" x="413" y="638" anchorOffsetX="0" width="100" anchorOffsetY="0" height="100" alpha="0.01"/>
+</e:Skin>

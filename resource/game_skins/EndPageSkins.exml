@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EndPageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="wait_di_png" width="640" height="101136"/>
+	<e:Image id="_bg" source="jiesuan_di_png" x="0" y="0"/>
+	<e:Group id="_starGroup" width="640" height="140" x="0" y="201" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image id="_starImage0" source="xing_zuo_png" x="183" y="43" scaleX="1" scaleY="1"/>
+		<e:Image id="_starImage1" source="xing_zhong_png" x="300" y="25" scaleX="1" scaleY="1"/>
+		<e:Image id="_starImage2" source="xing_you_png" x="417" y="46" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Label id="_scoreLabel" text="99999" x="329" y="435" anchorOffsetX="0" width="258" anchorOffsetY="0" height="29" textColor="0x245f9d" fontFamily="微软雅黑" bold="true" textAlign="right"/>
+	<e:Label id="_maxScoreLabel" text="99999" x="329" y="525" anchorOffsetX="0" width="258" anchorOffsetY="0" height="29" textColor="0x245F9D" fontFamily="微软雅黑" bold="true" textAlign="right"/>
+	<e:Label id="_moneyLabel" text="99999" x="327" y="615" anchorOffsetX="0" width="258" anchorOffsetY="0" height="29" textColor="0x245F9D" fontFamily="微软雅黑" bold="true" textAlign="right"/>
+	<e:Group id="_rewardGroup" width="294" height="70" x="306" y="687" anchorOffsetX="0">
+		<e:Label id="_rewardLabel" text="阿联碎片x999" x="89" y="3" anchorOffsetX="0" width="195" anchorOffsetY="0" height="64" textColor="0x245F9D" fontFamily="微软雅黑" bold="true" textAlign="right" verticalAlign="middle"/>
+		<e:Image id="_rewardBgIma" source="suipian_di_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="_rewardImage" width="64" height="64" x="3" y="3" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Button id="_againButton" label="" x="139" y="831">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_zailaiyici_l_png" source.down="anniu_zailaiyici_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_changeButton" label="" x="348" y="831">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_genghuanjuese_l_png" source.down="anniu_genghuanjuese_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_returnButton" label="" x="69" y="942">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_fanhuizhuye_l_png" source.down="anniu_fanhuizhuye_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_shareButton" label="" x="243" y="942">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_fenxiang_l_png" source.down="anniu_fenxiang_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_continueButton" label="" x="417" y="942">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_jixu_l_png" source.down="anniu_jixu_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_newImage" source="newgame_png" x="369" y="470"/>
+	<e:Image id="_fristImage" source="suipian_jiao_png" x="278" y="675"/>
+
+
+
+
+
+</e:Skin>

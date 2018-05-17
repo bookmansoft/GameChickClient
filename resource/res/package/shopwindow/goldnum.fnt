@@ -1,0 +1,11 @@
+{"file":"/goldnum.png","frames":{
+"3":{"x":17,"y":0,"w":15,"h":25,"offX":1,"offY":1,"sourceW":17,"sourceH":28},
+"4":{"x":0,"y":27,"w":15,"h":24,"offX":1,"offY":2,"sourceW":17,"sourceH":28},
+"5":{"x":17,"y":27,"w":15,"h":24,"offX":0,"offY":2,"sourceW":16,"sourceH":28},
+"6":{"x":34,"y":27,"w":14,"h":25,"offX":1,"offY":1,"sourceW":16,"sourceH":28},
+"7":{"x":32,"y":54,"w":14,"h":24,"offX":1,"offY":2,"sourceW":16,"sourceH":28},
+"8":{"x":0,"y":0,"w":15,"h":25,"offX":1,"offY":1,"sourceW":16,"sourceH":28},
+"9":{"x":0,"y":53,"w":14,"h":25,"offX":1,"offY":1,"sourceW":16,"sourceH":28},
+"0":{"x":16,"y":53,"w":14,"h":25,"offX":1,"offY":1,"sourceW":16,"sourceH":28},
+"1":{"x":51,"y":0,"w":9,"h":24,"offX":0,"offY":2,"sourceW":10,"sourceH":28},
+"2":{"x":34,"y":0,"w":15,"h":25,"offX":1,"offY":1,"sourceW":17,"sourceH":28}}}

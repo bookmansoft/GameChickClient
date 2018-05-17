@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DailyAcitveYuReWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg" horizontalCenter="0" verticalCenter="0" source="richangyure_di_png"/>
+	<e:Button id="_closeButton" label="" y="1001" horizontalCenter="0.5">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_guanbi_l_png" source.down="chengjiu2_guanbi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:ns1="*"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_pingGaiNumLabel" text="0" x="451" y="740" textColor="0xce6f41" size="20" fontFamily="微软雅黑" bold="true" height="20" width="90"/>
+	<e:Label id="_itemNumLabel" text="x0" x="272" y="793" size="20" fontFamily="微软雅黑" bold="true" height="20" width="75" textColor="0xffffff"/>
+	<e:Button id="_chooseButton1" label="" x="180" y="713">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="richangyure_an_jiayou_l_png" source.down="richangyure_an_jiayou_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_lineIma" source="qixiyure_ganggan_png" x="236.5" y="670" anchorOffsetX="115.5" anchorOffsetY="3.5" rotation="0" visible="false"/>
+	<e:Button id="_chooseButton2" label="" x="264" y="697" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="qixiyure_an_danshengou_l_png" source.down="qixiyure_an_danshengou_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="_blueGroup" width="100" height="100" x="101.5" y="559" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+		<e:Image source="qixiyure_youqingrenxin_png" x="0" y="18"/>
+		<e:BitmapLabel id="_blueNumLabel" width="150" height="25" y="13" font="qixinum_fnt" text="5891r" horizontalCenter="0" anchorOffsetX="75" anchorOffsetY="12.5" textAlign="center"/>
+	</e:Group>
+	<e:Group id="_redGroup" width="100" height="100" x="280" y="559" visible="false">
+		<e:Image source="qixiyure_danshengouxin_png" x="0" y="18"/>
+		<e:BitmapLabel id="_redNumLabel" width="150" height="25" y="13" font="qixinum_fnt" text="5891r" horizontalCenter="0" anchorOffsetX="75" anchorOffsetY="12.5" textAlign="center"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendListSkins" width="524" height="160" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="jueseliebiao_di_l_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="tili_tb_png" x="12" y="7" scaleX="0.8" scaleY="0.8"/>
+	<e:Button id="_zhaoButton" label="" x="361" y="57" visible="false">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="zhaohui_l_png" source.down="zhaohui_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_zanButton" label="" x="439" y="57" width="77" height="70">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="dianzan_l_png" source.down="dianzan_a_png" source.disabled="dianzan_off_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_friendIcon" width="100" height="100" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-192" verticalCenter="12"/>
+	<e:Label id="_qinmiLabel" text="Label" x="43" y="6" textColor="0x935102" fontFamily="微软雅黑" size="24" anchorOffsetX="0" width="74" bold="true"/>
+	<e:Label id="_nameLabel" text="Label" x="135" y="46" textColor="0x245f9d" size="30" fontFamily="微软雅黑" anchorOffsetX="0" width="220" bold="true" multiline="false" anchorOffsetY="0" height="28"/>
+	<e:Label id="_scoreLabel" text="Label" x="135" y="81" textColor="0x245F9D" size="24" fontFamily="微软雅黑" anchorOffsetX="0" width="220" bold="true" anchorOffsetY="0" height="22"/>
+	<e:Label id="_curStateLabel" text="Label" x="135" y="113" size="24" fontFamily="微软雅黑" anchorOffsetX="0" width="220" textColor="0xce4728" bold="true" anchorOffsetY="0" height="22"/>
+	<e:Button id="_shouButton" label="" x="439" y="56" width="77" height="70" visible="false">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="shouqu_l_png" source.down="shouqu_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="_redIma" source="tishi_hongdian_png" x="491" y="42"/>
+</e:Skin>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSkillShowSkins" width="180" height="70" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_skillIma" source="jineng_hudun_png" x="8.5" scaleX="0.5" scaleY="0.5" verticalCenter="0"/>
+	<e:Image id="_skillNameIma" source="jineng_wz_busi_png" x="54.5" verticalCenter="0.5"/>
+</e:Skin>

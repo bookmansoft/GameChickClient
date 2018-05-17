@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RevivePageSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Image source="siwang_dingk_png" y="280" horizontalCenter="0"/>
+	<e:Image source="siwang_kafei_png" x="342" y="290"/>
+	<e:BitmapLabel id="_countLabel" width="83" height="42" x="255" y="291" font="smallnum_fnt" text="10" anchorOffsetX="0" anchorOffsetY="0" textAlign="center"/>
+
+
+	<e:Image horizontalCenter="0" verticalCenter="48" source="tanchuang2_png"/>
+	<e:Label id="_textLabel1" text="不小心挂了？来杯咖啡提提精神吧！" x="144.6" y="490.92" size="24" textColor="0x245F9D" bold="true" fontFamily="微软雅黑" anchorOffsetY="0" height="80" verticalAlign="bottom" wordWrap="false" width="384"/>
+	<e:Label id="_textLabel2" text="需求：" x="137.11" y="592.2" size="24" textColor="0x245F9D" bold="true" fontFamily="微软雅黑" anchorOffsetX="0" width="160" textAlign="right"/>
+	<e:Label id="_textLabel3" text="x 1" x="360.88" y="592.2" size="24" textColor="0x245F9D" bold="true" fontFamily="微软雅黑"/>
+	<e:Image x="296.47" y="571.02" anchorOffsetX="0" width="60" anchorOffsetY="0" height="60" source="fenxiang_daoju_kf_png"/>
+	<e:Button id="_noButton" label="" y="692.56" x="150.91">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_quxiao_l_png" source.down="anniu_quxiao_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_yesButton" label="" y="692.56" x="331.41">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_queding_l_png" source.down="anniu_queding_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

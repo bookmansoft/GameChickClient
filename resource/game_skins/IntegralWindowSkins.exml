@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IntegralWindowSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:RadioButton id="_integralExchangeRadio" label="" x="66.5" y="146" selected="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="jifen_an_duihuan_lan_png" source.down="jifen_an_duihuan_huang_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:RadioButton id="_integralRankRadio" label="" x="239" y="148">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="jifen_an_paihang_lan_png" source.down="jifen_an_paihang_huang_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"/>
+			</e:Skin>
+		</e:skinName>
+	</e:RadioButton>
+	<e:Label id="_integralTimeLabel" text="活动时间：544644" y="934" anchorOffsetX="0" width="509" verticalAlign="middle" textAlign="center" height="30" bold="true" size="24" fontFamily="微软雅黑" horizontalCenter="0.5"/>
+	<e:Button id="_ruleButton" label="" x="503" y="146">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="jifen_paiming_xiangqing_png" source.down="jifen_paiming_xiangqing_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="_exchangeGroup" width="540" height="752" y="219" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Scroller id="_exchangeScroller" width="540" height="690" y="12" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Group id="_exchangeListGroup" width="540" height="690" anchorOffsetY="0" y="30" anchorOffsetX="0"/>
+		</e:Scroller>
+	</e:Group>
+	<e:Group id="_rankGroup" width="540" height="752" y="219" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Scroller id="_rankScroller" width="540" height="610" y="68" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="0">
+			<e:Group id="_rankListGroup" width="540" height="610" anchorOffsetY="0" y="-1" anchorOffsetX="0"/>
+		</e:Scroller>
+		<e:Image source="jifen_tiao_di_png" y="5" scaleX="1" scaleY="1" horizontalCenter="0" width="540"/>
+		<e:Label id="_myRankNumLabel" text="我的排名:46546464" y="18" anchorOffsetX="0" width="472" textAlign="center" verticalAlign="middle" bold="true" size="24" fontFamily="微软雅黑" horizontalCenter="0"/>
+		<e:Label id="_integralTimeLabel0" text="每日00:00点刷新" y="684" anchorOffsetX="0" width="509" verticalAlign="middle" textAlign="center" height="30" bold="true" size="22" fontFamily="微软雅黑" horizontalCenter="-1.5" x="14" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

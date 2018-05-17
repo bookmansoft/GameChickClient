@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSkllListSkins" width="447" height="130" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="jineng_di_png" horizontalCenter="0" verticalCenter="0" locked="true"/>
+	<e:Label id="_skillDetailLabel" text="belLabelLabelLabelLabbelLabelLabelLabelLabelLabelelLabel" x="96" y="41.5" anchorOffsetX="0" width="341" anchorOffsetY="0" height="48" textColor="0x245F9D" size="20" fontFamily="微软雅黑" bold="true"/>
+	<e:Image id="_skillIcon" width="80" height="80" x="7" y="41"/>
+	<e:Image id="_lookDetailIma" source="juesexiangqing_chakanxq_l_png" x="98.34" y="97.66"/>
+
+	<e:Image id="_skillTypeIma" source="jineng_fenlei_zhudong_png" x="150" y="4"/>
+	<e:Label id="_skillNameLabel" text="Label" x="4" y="6" anchorOffsetX="0" width="138" textAlign="left" bold="true" size="22" fontFamily="微软雅黑"/>
+	<e:BitmapLabel id="_skillLevelLabel" width="63" height="24" x="24" y="97" font="roledetailnum_fnt" text="l0" anchorOffsetX="0" anchorOffsetY="0" textAlign="right" verticalAlign="center"/>
+	<e:Image id="_suoIma" source="jineng_suo_png" x="7" y="41"/>
+	<e:Group id="_qianghuaGroup" width="211" height="45" x="242" y="83" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="juesexiangqing_qianghuajb_di_png" x="-4" y="9" scaleX="1" scaleY="1"/>
+		<e:Button id="_qiangHuaButton" label="" x="123" y="-3" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="juesexiangqing_qianghua_l_png" source.down="juesexiangqing_qianghua_a_png" source.disabled="juesexiangqing_qianghua_off_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image source="fenxiang_jinbi_png" x="-2" y="3" scaleX="0.45" scaleY="0.45"/>
+		<e:Label id="_qiangHuaNumLabel" text="0" x="34" y="13" size="24" fontFamily="微软雅黑" bold="true" anchorOffsetX="0" width="90" scaleX="1" scaleY="1"/>
+		<e:Image id="_redIma" source="tishi_hongdian_png" x="187" y="-16" touchEnabled="false" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Group width="0" height="0" x="138" y="89" id="_skillDetailGroup" visible="false">
+		<e:Image source="jineng_tips_png" x="-25" y="-250"/>
+		<e:Image source="fenxiang_jinbi_png" x="63" y="-82" scaleX="0.45" scaleY="0.45"/>
+		<e:Label id="_qiangHuaNumLabel2" text="0" x="99" y="-72" size="24" fontFamily="微软雅黑" bold="true" anchorOffsetX="0" width="90" scaleX="1" scaleY="1"/>
+		<e:Label id="_skillDetailLabel2" text="Label" x="-10" y="-234" size="18" textColor="0x245F9D" bold="true" anchorOffsetX="0" width="289" anchorOffsetY="0" height="79" fontFamily="微软雅黑" scaleX="1" scaleY="1"/>
+		<e:Label id="_jieSuoRoleLabel1" text="" x="-7" y="-126" size="18" textColor="0x245F9D" bold="true" anchorOffsetX="0" width="140" anchorOffsetY="0" height="23" fontFamily="微软雅黑" scaleX="1" scaleY="1" lineSpacing="3" textAlign="left"/>
+		<e:Label id="_jieSuoRoleLabel2" text="" x="138" y="-126" size="18" textColor="0x245F9D" bold="true" anchorOffsetX="0" width="140" anchorOffsetY="0" height="23" fontFamily="微软雅黑" scaleX="1" scaleY="1" lineSpacing="3" textAlign="left"/>
+		<e:Label id="_jieSuoRoleLabel3" text="" x="-7" y="-102" size="18" textColor="0x245F9D" bold="true" anchorOffsetX="0" width="140" anchorOffsetY="0" height="23" fontFamily="微软雅黑" scaleX="1" scaleY="1" lineSpacing="3" textAlign="left"/>
+		<e:Label id="_jieSuoRoleLabel4" text="" x="138" y="-102" size="18" textColor="0x245F9D" bold="true" anchorOffsetX="0" width="140" anchorOffsetY="0" height="23" fontFamily="微软雅黑" scaleX="1" scaleY="1" lineSpacing="3" textAlign="left"/>
+		<e:Label id="_jieSuoTypeLabel" text="解锁需要" x="84" y="-153.5" size="18" textColor="0x245F9D" bold="true" anchorOffsetX="0" width="100" anchorOffsetY="0" height="25" fontFamily="微软雅黑" scaleX="1" scaleY="1" verticalAlign="middle" textAlign="center"/>
+	</e:Group>
+	<e:Rect id="_lookDetailRect" width="200" height="80" x="7" y="41" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" strokeAlpha="0" locked="true"/>
+</e:Skin>

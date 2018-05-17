@@ -1,0 +1,12 @@
+{"file":"scene_1.png","frames":{
+"cloud1_png":{"x":1,"y":815,"w":381,"h":187,"offX":1,"offY":0,"sourceW":382,"sourceH":187},
+"cloud2_png":{"x":384,"y":815,"w":334,"h":199,"offX":0,"offY":0,"sourceW":335,"sourceH":199},
+"cloud3_png":{"x":720,"y":815,"w":164,"h":180,"offX":0,"offY":2,"sourceW":164,"sourceH":182},
+"cloud4_png":{"x":481,"y":1,"w":439,"h":244,"offX":1,"offY":1,"sourceW":440,"sourceH":245},
+"mountain1_png":{"x":481,"y":247,"w":397,"h":253,"offX":0,"offY":0,"sourceW":397,"sourceH":253},
+"mountain2_png":{"x":1,"y":1,"w":478,"h":522,"offX":0,"offY":0,"sourceW":504,"sourceH":522},
+"mountain3_png":{"x":1,"y":525,"w":640,"h":288,"offX":0,"offY":0,"sourceW":640,"sourceH":288},
+"tree1_png":{"x":886,"y":815,"w":48,"h":97,"offX":0,"offY":1,"sourceW":48,"sourceH":100},
+"tree2_png":{"x":886,"y":914,"w":48,"h":97,"offX":0,"offY":0,"sourceW":48,"sourceH":100},
+"bird1_png":{"x":936,"y":502,"w":35,"h":29,"offX":1,"offY":0,"sourceW":36,"sourceH":30},
+"bird2_png":{"x":720,"y":997,"w":42,"h":14,"offX":1,"offY":0,"sourceW":44,"sourceH":14}}}

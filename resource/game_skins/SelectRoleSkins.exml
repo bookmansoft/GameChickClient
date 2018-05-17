@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectRoleSkins" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image id="_bg" width="640" height="1136" x="0" y="0" source="wait_di_png" locked="true"/>
+	<e:Image id="_name" source="guankaxj_di_png" x="190" y="129"/>
+	<e:Button id="_startButton" label="" x="379" y="917" width="167" height="70">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_kaishi_l_png" source.down="anniu_kaishi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+	<e:Button id="_closeButton" label="" y="917" x="113" width="157" height="70">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_quxiao_l_png" source.down="anniu_quxiao_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Scroller id="_scroller" width="524" height="650" y="237" anchorOffsetY="0" horizontalCenter="0">
+		<e:Group id="_roleGroup" anchorOffsetY="0" height="650"/>
+	</e:Scroller>
+</e:Skin>

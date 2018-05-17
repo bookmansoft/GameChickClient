@@ -1,0 +1,32 @@
+{
+	"roadNum":1,
+	"posiX":[
+		[
+			[312,0]
+		]
+			],
+	"roadType":[
+			[0]
+		],
+	"cenji":[
+			[0]
+		],
+
+	"road":[
+		{
+			"type:":0,
+			"ifCanJump":1,
+			"allRoadId":0,
+			"lastType":[-1],
+			"kuaiType":[
+				{"type":1,"der":0,"num":37,"doorID":0,"intersect":-1}
+			]
+		}
+	],
+	"house":[
+		[556,199],[88,837],[448,951]
+		],
+	"balloon":[
+		[262,121],[392,245],[256,581],[542,749]
+		]
+}

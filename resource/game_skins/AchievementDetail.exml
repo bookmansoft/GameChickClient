@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AchievementDetail" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="wait_di_png" x="0" y="1" width="640" height="1136"/>
+	<e:Image id="_bg" source="chengjiu2_di_png" y="73.69" x="51"/>
+	<e:Group id="_effectGroup" width="200" height="200" x="221" y="252"/>
+	<e:Button id="_rewardButton" label="" x="176" y="840">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_fenxiang_l_png" source.down="chengjiu2_fenxiang_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_closeButton" label="" x="270" y="957.46">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_guanbi_l_png" source.down="chengjiu2_guanbi_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Button id="_shareButton" label="" x="177.5" y="840">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="chengjiu2_fenxiang1_l_png" source.down="chengjiu2_fenxiang1_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+
+	</e:Button>
+	<e:Image id="_achImage" width="200" height="200" x="221" y="252" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="_rewardImage" width="100" height="100" x="271" y="668" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="_desLabel" text="这个是成就的描述这个是成就的描述这个是成就的描述" x="157.5" y="479.69" size="24" fontFamily="微软雅黑" anchorOffsetX="0" width="327" textColor="0x245f9d" bold="true" textAlign="left"/>
+	<e:Label id="_nameLabel" text="这个是成" y="153.69" size="35" fontFamily="微软雅黑" anchorOffsetX="0" width="420" bold="true" textAlign="center" textColor="0x245f9d" anchorOffsetY="0" height="75" verticalAlign="middle" x="112"/>
+	<e:Label id="_conditionLabel" text="单次游戏获得分数:1999/2000" x="129" y="553" anchorOffsetX="0" width="382" fontFamily="微软雅黑" size="24" textAlign="center" textColor="0xffffff" bold="true"/>
+	<e:Label id="_rewardLabel" text="角色：鸡小德" y="782" fontFamily="微软雅黑" anchorOffsetX="0" width="453" textAlign="center" size="24" textColor="0xffffff" bold="true" horizontalCenter="7.5"/>
+	<e:Image id="_getedImage" source="chengjiu2_yihuode_png" x="254" y="651"/>
+</e:Skin>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RankListSkins" width="524" height="72" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group id="_lanGroup" width="524" x="0" top="0" bottom="0">
+
+
+
+		<e:BitmapLabel id="_lanLabel1" width="122" height="30" x="399" text="12345" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" font="bainum_fnt" verticalCenter="0"/>
+		<e:Label id="_lanNameLabel" text="名字" x="206" height="30" bold="true" anchorOffsetX="0" width="215" size="24" scaleX="1" scaleY="1" fontFamily="微软雅黑" anchorOffsetY="0" verticalCenter="0" textColor="0xffffff"/>
+	</e:Group>
+	<e:Group id="_baiGroup" width="524" x="0" top="0" bottom="0">
+		<e:Image id="_bgImage" source="paihang_tiao_png" x="0" scaleX="1" scaleY="1" top="0" bottom="0" width="524"/>
+
+		<e:BitmapLabel id="_baiLabel1" width="122" height="30" x="399" text="12345" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" font="bainum_fnt" scaleX="1" scaleY="1" verticalCenter="0"/>
+		<e:Label id="_baiNameLabel" text="名字" x="206" height="30" bold="true" anchorOffsetX="0" width="215" size="24" scaleX="1" scaleY="1" fontFamily="微软雅黑" anchorOffsetY="0" verticalCenter="0"/>
+	</e:Group>
+	<e:Image source="touxiang_mr_jpg" x="132" y="12"/>
+	<e:Image id="_rankImage" source="mingci_1_png" x="56" verticalCenter="0"/>
+	<e:BitmapLabel id="_rankNumLabel" width="68" height="35" x="35" text="1" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" scaleX="1" scaleY="1" font="rankNum_fnt" verticalCenter="3.5"/>
+	<e:Image id="_userIma" width="50" height="50" x="132" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="1"/>
+	<e:Image id="_rankUserIma" source="touxiang_kuang_1_png" x="93" verticalCenter="0"/>
+	<e:Label id="_noRankLabel" text="Unranked" x="3" fontFamily="微软雅黑" size="24" textAlign="center" bold="true" verticalCenter="0" anchorOffsetX="0" width="131"/>
+</e:Skin>

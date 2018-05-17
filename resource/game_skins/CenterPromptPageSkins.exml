@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PromptPageSkins" width="640" height="1136" currentState="auto" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="normal,auto" >
+	<e:Image source="wait_di_png" width="640" height="1136" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image horizontalCenter="0" verticalCenter="0" source="tanchuang2_png"/>
+	<e:Label id="_msgLabel" text="Label" includeIn="normal,auto" y="483" anchorOffsetX="0" width="394.76" anchorOffsetY="0" height="86" size="24" fontFamily="微软雅黑" textAlign="center" verticalAlign="middle" horizontalCenter="14.5" textColor="0x436391" bold.auto="true" size.auto="24" textColor.auto="0x436391" size.normal="24" bold.normal="true" textColor.normal="0x436391" bold="true" horizontalCenter.normal="14.5" height.normal="139" y.normal="458" lineSpacing.normal="5" height.auto="128" horizontalCenter.auto="14.5" y.auto="464"/>
+
+	<e:Image id="_iconIma" source="siwang_kafei_png" includeIn="auto" x="294" y="481" visible="false"/>
+	<e:Button id="_noButton" label="" x="136.47" y="633.64" includeIn="normal" y.normal="637.64">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_quxiao_l_png" source.down="anniu_quxiao_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_shareButton" label="" x="137" y="638" includeIn="normal">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_fenxiang_l_png" source.down="anniu_fenxiang_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_yesButton" label="" x="395.36" y="638.2" includeIn="normal" x.normal="369.36" y.normal="638">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_queding_l_png" source.down="anniu_queding_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="_daojishiBtn" label="" x="220.88" y="636.68" includeIn="auto">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="anniu_queding_time_l_png" source.down="anniu_queding_time_a_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="_daojishiLabel" text="(3s)" includeIn="auto" x="350" y="657.07" anchorOffsetX="0" width="85" fontFamily="微软雅黑" size="24" bold="true" textAlign="center" textColor="0x935102" touchEnabled="true"/>
+</e:Skin>

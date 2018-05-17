@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SlavePageSkins" width="266" height="141" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="nuli_kuangdi_png" x="0" y="0"/>
+	<e:Group id="_openGroup" width="266" height="141" x="0" y="0">
+		<e:Group id="_mButtonGroup" width="266" height="42" x="0" y="84" scaleX="1" scaleY="1" visible="false">
+			<e:Button id="_rentButton" label="" x="12" y="0" visible="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_shouzu_l_png" source.down="nuli_an_shouzu_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="_mInterctiveButton" label="" y="0" x="46" width="77" height="42">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_hudong_l_png" source.down="nuli_an_hudong_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="_freedButton" label="" x="141" y="0" width="77" height="42">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_shifang_l_png" source.down="nuli_an_shifang_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="_sButtonGroup" width="266" height="42" x="0" y="84" scaleX="1" scaleY="1" visible="false">
+			<e:Button id="_ransomButton" label="" x="12" y="0" width="77" height="42">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_shushen_l_png" source.down="nuli_an_shushen_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="_sInterctiveButton" label="" y="0" x="95" width="77" height="42">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_hudong_l_png" source.down="nuli_an_hudong_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Button id="_rebellionButton" label="" x="178" y="0" width="77" height="42">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_fankang_l_png" source.down="nuli_an_fankang_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="_fButtonGroup" width="266" height="42" x="0" y="84" scaleX="1" scaleY="1">
+			<e:Button id="_fCatchButton" label="" y="0" x="77">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="nuli_an_zhuabu_l_png" source.down="nuli_an_zhuabu_a_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Label id="_freeLabel" text="你可以抓捕\n其他玩家" x="0" y="13.5" size="24" width="266" textAlign="center" anchorOffsetY="0" height="58" verticalAlign="middle" stroke="3" strokeColor="0x842400" textColor="0xffffff" lineSpacing="5" bold="true" fontFamily="微软雅黑" scaleX="1" scaleY="1" locked="true"/>
+		<e:Group id="_contentGroup" width="266" height="80" x="0" y="0" anchorOffsetY="0" scaleX="1" scaleY="1" visible="false">
+			<e:Image source="nuli_toudi_png" x="16" y="11" locked="true"/>
+			<e:Image id="_headImage" width="50" height="50" x="16" y="11" locked="true"/>
+			<e:Image id="_borderImage" source="nuli_toulaolong_png" x="9" y="5" locked="true"/>
+			<e:Label id="_nameLabel" text="玩家昵称" x="80" y="11" anchorOffsetX="0" width="164" textColor="0xffffff" size="24" bold="true" strokeColor="0x842400" stroke="3" fontFamily="微软雅黑" locked="true"/>
+			<e:Label id="_timeLabel" text="00:00:00后自由" y="41" anchorOffsetX="0" width="178" textColor="0xFFFFFF" size="24" strokeColor="0x842400" stroke="3" x="80" fontFamily="微软雅黑"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="_closeGroup" width="266" height="141" x="0" y="0" visible="false">
+		<e:Image source="nuli_kuangdi_suo_png" x="0" y="0" locked="true"/>
+		<e:Label id="_closeLabel" text="角色通关20关开启该牢笼" x="0" y="101" fontFamily="微软雅黑" size="20" textColor="0x842400" bold="true" width="266" textAlign="center"/>
+	</e:Group>
+</e:Skin>
