@@ -22,46 +22,42 @@ class CheckpointManager{
             var check: Checkpoint = new Checkpoint(data);
             CheckpointManager._checkpointSet.push(check);
         });
-        NetManager.SendRequest(["func=" + NetNumber.CheckpointList],
-                                CheckpointManager._ReceiveChecpointList.bind(CheckpointManager));
+        NetManager.SendRequest(["func=" + NetNumber.CheckpointList], function (jsonData: Object) {
+            if (jsonData["code"] != NetManager.SuccessCode) 
+                return;
 
-        ProcessManager.AddProcess(CheckpointManager._Process.bind(CheckpointManager));
-    }
-
-    /**
-     * 接收关卡初始化消息
-     */
-    private static _ReceiveChecpointList(jsonData: Object){
-        if (jsonData["code"] != NetManager.SuccessCode) return;
-        // 战斗状态数据
-        var battleData: Object = jsonData["data"]["battle"];
-        var state: number = battleData["state"];
-        CheckpointManager.BattleStatus = state;
-        CheckpointManager.RaidCheckpointID = (state == 2 || state == 3)? battleData["id"] : 0;
-        CheckpointManager.RaidTime = state == 2? battleData["time"] : 0;
-        // 关卡列表
-        var dataList: Object[] = jsonData["data"]["list"];
-        var hisGateNo: number = 1;
-        if (!!jsonData["data"]["hisGateNo"]){
-            hisGateNo = jsonData["data"]["hisGateNo"];
-        }
-        for (var i = 0; i < dataList.length; i++){
-            var data: Object = dataList[i];
-            var id: number = parseInt(data["id"]);
-            var score: number = data["score"];
-            var star: number = data["star"];
-            var state: number = data["state"];
-            var time: number = data["time"];
-            if (id >= hisGateNo) star = 0;
-            var checkpoint: Checkpoint = CheckpointManager.GetCheckpointByID(id);
-            if (checkpoint != null){
-                checkpoint.MaxScore = score;
-                checkpoint.Star = star;
-                checkpoint.IsPass = star > 0;
+            // 战斗状态数据
+            var battleData: Object = jsonData["data"]["battle"];
+            var state: number = battleData["state"];
+            CheckpointManager.BattleStatus = state;
+            CheckpointManager.RaidCheckpointID = (state == 2 || state == 3)? battleData["id"] : 0;
+            CheckpointManager.RaidTime = state == 2? battleData["time"] : 0;
+            // 关卡列表
+            var dataList: Object[] = jsonData["data"]["list"];
+            var hisGateNo: number = 1;
+            if (!!jsonData["data"]["hisGateNo"]){
+                hisGateNo = jsonData["data"]["hisGateNo"];
             }
-        }
-        CheckpointManager._isRevice = true;
-        GameEvent.DispatchEvent(EventType.UserStatusChange);
+            for (var i = 0; i < dataList.length; i++){
+                var data: Object = dataList[i];
+                var id: number = parseInt(data["id"]);
+                var score: number = data["score"];
+                var star: number = data["star"];
+                var state: number = data["state"];
+                var time: number = data["time"];
+                if (id >= hisGateNo) star = 0;
+                var checkpoint: Checkpoint = CheckpointManager.GetCheckpointByID(id);
+                if (checkpoint != null){
+                    checkpoint.MaxScore = score;
+                    checkpoint.Star = star;
+                    checkpoint.IsPass = star > 0;
+                }
+            }
+            CheckpointManager._isRevice = true;
+            GameEvent.DispatchEvent(EventType.UserStatusChange);
+        });
+
+        ProcessManager.AddProcess(CheckpointManager._Process);
     }
 
     /**

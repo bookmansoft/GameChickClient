@@ -18,11 +18,13 @@ class LoginMgr {
      * 本地数据保存Openkey
      */
     private static LocalOpenid: string = "localopenid";
+    private static $callback = null;
 
     /**
      * 登录流程
      */
-    public static Login(){
+    public static Login(callback=null){
+        LoginMgr.$callback = callback;
         if (!Main.IsNeedNetDebug){
             LoginMgr.LoginSuccess = true;
             UnitManager.CreatePlayer("1", "测试", 1000000, 1000000, 0, "", "resource/res/common/anniu_off.png");
@@ -98,21 +100,19 @@ class LoginMgr {
         // Main.AddDebug("Index服务器返回:" + jsonData["code"]);
         if (jsonData["code"] != NetManager.SuccessCode){
             if (LoginMgr._reLoginTime < 3){
-                LoginMgr.Login();
-                LoginMgr._reLoginTime += 1;
+                setTimeout(()=>{
+                    LoginMgr.Login();
+                }, 2000);
+                LoginMgr._reLoginTime++;
             }
             return;
         }
-        LoginMgr._isLoginIpSer = true;
+        LoginMgr.loginedIndexServer = true;
         var ip: string = jsonData["data"]["ip"];
         var port: string = jsonData["data"]["port"];
         NetManager.ServerUrl = ip;
         NetManager.ServerPort = port;
         Facade.instance().SocketInit(ip, port);
-
-        //开始登录游戏服
-        // Main.AddDebug(ip + ":" + port + "    设备信息:" + FBSDKMgr.GetPlatform());
-        LoginMgr.RealLogin();
     }
 
     /**
@@ -120,9 +120,11 @@ class LoginMgr {
      * @param isUseToken    是否使用本地Token登入
      */
     public static RealLogin(isUseToken: boolean = true){
-        if (!LoginMgr._isLoginIpSer) 
+        if (!LoginMgr.loginedIndexServer || LoginMgr.loginedLogicServer) {
             return;
-
+        }
+        LoginMgr.loginedLogicServer = true;
+        
         // 正式游戏信息
         var openkey: string = '123456'; //window["FBData"]["accessToken"];//FBSDKMgr.OpenKey;
         var pf: string = "wanba_ts";//FBSDKMgr.GetPF();
@@ -226,6 +228,10 @@ class LoginMgr {
             Main.Instance.StartCreateScene();
         }
 
+        if(!!LoginMgr.$callback){
+            LoginMgr.$callback();
+        }
+
         // 检测VIP
         NetManager.SendRequest(["func=" + NetNumber.VIPCheck],
                             LoginMgr._VIPCom);
@@ -261,8 +267,10 @@ class LoginMgr {
         UnitManager.Player.VIPTime = time;
     }
 
-    // 变量
+    //控制变量
+    public static loginedIndexServer: boolean = false;  // 是否已经登录索引服务器
+    public static loginedLogicServer: boolean = false;  // 是否登入游戏服
+    // 内部变量
     private static _reLoginTime: number = 0;            // 重连次数
-    private static _isLoginIpSer: boolean = false;      // 是否登入账号服务器
     private static _openid: string;
 }

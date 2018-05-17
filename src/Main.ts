@@ -152,12 +152,10 @@ class Main extends eui.UILayer {
         RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this._OnConfigComplete, this);
         RES.loadConfig(Main.CDNURL + "resource/default.res.json", Main.CDNURL + "resource/");
 
-        // FBSDKMgr.Login();
-        LoginMgr.Login();
         this._AddFunction();
         // FBSDKMgr.SetOnAddShortcutHandler();
         // FBSDKMgr.SetAppicon();
-        //this._LoadGonggao(); // 加载公告
+        this._LoadGonggao(); // 加载公告
     }
 
     /**
@@ -285,15 +283,22 @@ class Main extends eui.UILayer {
      * 加载公告
      */
     private _LoadGonggao(){
-        var url: string = "https://s4.app1105943531.qqopenapp.com/gonggao.json";
-        var loader = new egret.URLLoader();
-        loader.dataFormat = egret.URLLoaderDataFormat.TEXT;
-        var request = new egret.URLRequest(url); 
-        request.method = egret.URLRequestMethod.GET;
-        loader._request = request;
+        // 临时注释公告拉取部分：
+        // ori:
+        // var url: string = "https://s4.app1105943531.qqopenapp.com/gonggao.json";
+        // var loader = new egret.URLLoader();
+        // loader.dataFormat = egret.URLLoaderDataFormat.TEXT;
+        // var request = new egret.URLRequest(url); 
+        // request.method = egret.URLRequestMethod.GET;
+        // loader._request = request;
         // JsonpReq.process(loader);
-        loader.addEventListener(egret.Event.COMPLETE, this._loadGonggaoEnd, this);
-        loader.load(loader._request);
+        // loader.addEventListener(egret.Event.COMPLETE, this._loadGonggaoEnd, this);
+        // loader.load(loader._request);
+        // alt:
+        if(this._isThemeLoadEnd && this._isResourceLoadEnd){
+            this._CheckWeihu();
+        }
+        // end.
     }
 
     /**
@@ -311,11 +316,12 @@ class Main extends eui.UILayer {
      * 检测维护
      */
     private _CheckWeihu(){
-        if (Main._gonggaoJson == null) return;
-        var weihu: JSON = Main._gonggaoJson["fuwuqiweihu"];
-        if (weihu["isshow"]){
-            PromptManager.ShowWeihu();
-            return;
+        if (Main._gonggaoJson != null){
+            var weihu: JSON = Main._gonggaoJson["fuwuqiweihu"];
+            if (weihu["isshow"]){
+                PromptManager.ShowWeihu();
+                return;
+            }
         }
         this.StartCreateScene();
     }
@@ -326,8 +332,11 @@ class Main extends eui.UILayer {
     private _CreateScene(){
         if(this._isThemeLoadEnd && this._isResourceLoadEnd){
             Main._instance = this;
+
             // FBSDKMgr.Init();
-            this._CheckWeihu();
+            // FBSDKMgr.Login();
+            //登录成功后才进行回调
+            LoginMgr.Login(this._CheckWeihu.bind(this));
         }
     }
 
@@ -335,8 +344,12 @@ class Main extends eui.UILayer {
      * 创建场景界面
      */
     public StartCreateScene(): void {
-        if (!LoginMgr.LoginSuccess || !this._isResourceLoadEnd) return;
-        if (Main.IsCreated) return;
+        if (!LoginMgr.LoginSuccess || !this._isResourceLoadEnd) 
+            return;
+
+        if (Main.IsCreated) 
+            return;
+
         Main.IsCreated = true;
         // 初始化技能
         SkillManager.Init();
@@ -344,10 +357,10 @@ class Main extends eui.UILayer {
         UnitManager.Init();
         // 物品初始化
         ItemManager.Init();
-        // 成就初始化
-        AchievementManager.Init();
         // 关卡初始化
         CheckpointManager.Init();
+        // 成就初始化
+        AchievementManager.Init();
         // 活动初始化
         IntegralManager.Init();
         // 地图信息初始化

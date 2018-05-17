@@ -7,10 +7,10 @@ class Facade {
         this.SocketInit(NetManager.IndexServerInfo.host, NetManager.IndexServerInfo.port);
         ProcessManager.AddProcess(this._Process.bind(this));
     }
-    private socket: SocketIOClient.Socket;//webSocket通讯组件
-    private timerOfExpired: number = 0;                              // 超时检测时钟
-    private timerOfResent:number = 0;                                // 重发时钟
-    private timerOfActive:number = 0;                                // 心跳始终
+    private socket: SocketIOClient.Socket;                  //webSocket通讯组件
+    private timerOfExpired: number = 0;                     // 超时检测时钟
+    private timerOfResent:number = 0;                       // 重发时钟
+    private timerOfActive:number = 0;                       // 心跳始终
     /**
      * 打印日志
      */
@@ -61,6 +61,7 @@ class Facade {
                 let data = this.huancunSet.shift();
                 this.fetch(data[0],data[1]);
             }
+            LoginMgr.RealLogin();
         }.bind(this));
 
         this.socket.on('disconnect', function(){
