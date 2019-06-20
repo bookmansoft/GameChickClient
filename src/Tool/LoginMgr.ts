@@ -181,8 +181,8 @@ class LoginMgr {
         var maxScore: number = data["info"]["score"];
         if (maxScore == null || maxScore < 0){
             Main.AddDebug("分数数据异常：maxScore=" + maxScore);
+            maxScore = 0;
         }
-        else maxScore = 0;
         var name: string = decodeURIComponent(data["name"]);
         if (!name){
             Main.AddDebug("名字异常：name=" + name);

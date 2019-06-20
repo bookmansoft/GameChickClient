@@ -14,16 +14,18 @@ class FriendManager{
      */
     public static FriendInfo(jsonData: Object){
         if (jsonData["info"] != null){
-            for(let i = 0; i<jsonData["info"].length; i++){
-                // if(i<1){
-                    let data = jsonData["info"][i];
-                    let friend: Friend = new Friend(data);
-                    // 更新好友
-                    if(FriendManager.GetFriendByID(data["openid"]) == null){
-                        FriendManager._AddFriend(friend);
-                    }else{
-                        FriendManager.updataFrien = friend;
-                    }
+            for(let i = 0; i<jsonData["info"].length; i++) {
+                let data = jsonData["info"][i];
+                if(!data) {
+                    continue;
+                }
+                let friend: Friend = new Friend(data);
+                // 更新好友
+                if(FriendManager.GetFriendByID(data["openid"]) == null){
+                    FriendManager._AddFriend(friend);
+                }else{
+                    FriendManager.updataFrien = friend;
+                }
             }
         }
 
