@@ -395,7 +395,7 @@ class StarWindow extends AWindow{
      */
     private _OnShareClick()　{
         //todo 暂时封闭了分享功能
-        PromptManager.CreatCenterTip(false, true, "Comm soon...");
+        PromptManager.CreatCenterTip(false, true, "Coming soon...");
         return;
 
         // SoundManager.PlayButtonMusic();
@@ -444,7 +444,7 @@ class StarWindow extends AWindow{
      */
     private _OnKeepClick(){
         //todo 暂时封闭了分享功能
-        PromptManager.CreatCenterTip(false, true, "Comm soon...");
+        PromptManager.CreatCenterTip(false, true, "Coming soon...");
         return;
 
         // SoundManager.PlayButtonMusic();
@@ -596,7 +596,7 @@ class StarWindow extends AWindow{
      */
     private _OnSlaveClick(){
         //todo 暂时封闭
-        PromptManager.CreatCenterTip(false, true, "Comm soon...");
+        PromptManager.CreatCenterTip(false, true, "Coming soon...");
         return;
 
         // SoundManager.PlayButtonMusic();
@@ -638,7 +638,7 @@ class StarWindow extends AWindow{
      */
     private _OnDailyActiveClick(){
         //todo 暂时封闭
-        PromptManager.CreatCenterTip(false, true, "Comm soon...");
+        PromptManager.CreatCenterTip(false, true, "Coming soon...");
         return;
 
         // SoundManager.PlayButtonMusic();
@@ -719,7 +719,7 @@ class StarWindow extends AWindow{
      */
     private _OnIntegralClick(){
         //todo 暂时封闭
-        PromptManager.CreatCenterTip(false, true, "Comm soon...");
+        PromptManager.CreatCenterTip(false, true, "Coming soon...");
         return;
 
         // SoundManager.PlayButtonMusic();
