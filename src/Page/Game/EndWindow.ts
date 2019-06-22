@@ -252,7 +252,7 @@ class EndWindow extends AWindow{
                     if (item != null && data["id"] != 701 && data["id"] != 702){
                         res = item.ImageRes;
                         des = item.Name + "x" + data["num"];
-                        ItemManager.AddItem(data["id"], data["num"]);
+                        ItemManager.AddItem(ItemManager.GetXID(type, data["id"]), data["num"]);
                         hasItem = true;
                     }
 

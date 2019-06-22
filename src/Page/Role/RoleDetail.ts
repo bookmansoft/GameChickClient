@@ -70,9 +70,7 @@ class RoleDetail extends AWindow{
 	 */
 	private onGetDown(e){
         SoundManager.PlayButtonMusic();
-		if(this._curRole.GetCurRoleNum < this._curRole.UpLevelDebrisNum){
-			// let num:number = this._curRole.UpLevelDebrisNum - this._curRole.GetCurRoleNum;
-			// let _allMoney:number = ItemManager.GetItemByID(this._curRole.Pieceid).Price * num;
+		if(this._curRole.GetCurRoleNum < this._curRole.UpLevelDebrisNum) {
 			PromptManager.CreatCenterTip(false,false,StringMgr.GetText("roledetailtext4"),null,this._OnGoShopPage.bind(this));
 		}
 		// this._OnGoShopPage();
@@ -103,10 +101,7 @@ class RoleDetail extends AWindow{
 	 */
 	private _UpRoleReturn(jsonData: Object){
 		if(jsonData["code"] == NetManager.SuccessCode){
-			// console.log(jsonData);
-			ItemManager.SetItemCount(this._curRole.Pieceid,jsonData["data"]["chip"])
-			// ItemManager.UseItem(this._curRole.Pieceid,this._curRole.UpLevelDebrisNum);
-			// this._curRole.Level = jsonData["data"]["lv"];
+			ItemManager.SetItemCount(this._curRole.Pieceid, jsonData["data"]["chip"])
 			this.creatShenJiDroArm();
 		}
 		else{

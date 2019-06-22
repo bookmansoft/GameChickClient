@@ -55,7 +55,7 @@ class GiftWindow extends AWindow{
         if (bonus != null){
             bonusCount = bonus.length;
             var index: number = 1;
-            for (var i = 0; i < bonus.length && i < 2; i++){
+            for (var i = 0; i < bonus.length && i < 2; i++) {
                 var data: Object = bonus[i];
                 var type: string = data["type"];
                 if (type == "M"){
@@ -70,7 +70,7 @@ class GiftWindow extends AWindow{
                         this["_rewardImage" + index].source = item.ImageRes;
                         this["_countLabel" + index].text = data["num"];
                         this["_nameLabel" + index].text = item.Name;
-                        if (!isGet) ItemManager.AddItem(data["id"], data["num"]);
+                        if (!isGet) ItemManager.AddItem(ItemManager.GetXID(type, data["id"]), data["num"]);
                     }
                 }
                 else if(type == "A"){

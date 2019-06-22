@@ -153,9 +153,7 @@ class PromptManager extends egret.DisplayObjectContainer{
 	private static SlaveShareFun(shareDes: string){
 		window["shareCont"] = FBSDKMgr.Share(shareDes,"",1);
 		window["share"]();
-		// FBSDKMgr.Share(shareDes,"",1);
 	}
-
 
 	/**
 	 * 获取奖励的资源
@@ -192,7 +190,7 @@ class PromptManager extends egret.DisplayObjectContainer{
 						_bonusData = {"type":"item", "item":item, "res":item.ImageRes, "num":data["num"], "name":item.Name};
 						_endBonusData.push(_bonusData);
 						if($isAddItem){
-							ItemManager.AddItem(data["id"], data["num"]);
+							ItemManager.AddItem(ItemManager.GetXID(type, data["id"]), data["num"]);
 						}
 					}
 				}

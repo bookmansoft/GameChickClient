@@ -140,6 +140,9 @@ class RoleSkillList extends AWindow{
 			_labelSet[i].text = "";
 		}
 		for(let i=0; i<this._curSkill.JieSuoRole.length; i++){
+			if(!this._curSkill.JieSuoRole[i]) {
+				continue;
+			}
 			if(this._curSkill.JieSuoRole[i].Level < lv){
 				msg = "<font color=0xff0000>" + this._curSkill.JieSuoRole[i].Name + " " + lv + " " + StringMgr.GetText("roleskillpagetext1") + "</font>";
 			}else{

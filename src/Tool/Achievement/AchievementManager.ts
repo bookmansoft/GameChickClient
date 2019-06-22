@@ -171,8 +171,9 @@ class AchievementManager{
             case "I":
                 var id: number = parseInt(dataSet[1]);
                 var count: number = parseInt(dataSet[2]);
-                ItemManager.AddItem(id, count);
-                var item: Item = ItemManager.GetItemByID(id);
+                let xid = ItemManager.GetXID(dataSet[0], id);
+                ItemManager.AddItem(xid, count);
+                var item: Item = ItemManager.GetItemByID(xid);
                 if (item != null){
                     PromptManager.CreatTopTip(StringMgr.GetText("achievementtext6") + item.Name + "x" + count, item.ImageRes);
                 }

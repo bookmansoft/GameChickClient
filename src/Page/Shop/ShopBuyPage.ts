@@ -122,7 +122,6 @@ class ShopBuyPage extends AWindow{
 
 		// 限制购买数量
 		this._xianZhiBuyNum = 200;
-		// else if(this._item.ID == 22) this._xianZhiBuyNum = UnitManager.Player.MaxPhysical - UnitManager.Player.Physical;
 
 		this._nameLabel.text = StringMgr.GetText(this._itemData["name"]);
 		this._descLabel.text = StringMgr.GetText(this._itemData["desc"]);
@@ -168,13 +167,11 @@ class ShopBuyPage extends AWindow{
      * 获取道具商店信息
      */
     private getItemData(): Item{
-		if(this._shopData == null) this._shopData = RES.getRes("shopdata_json");
+		if(this._shopData == null) {
+			this._shopData = RES.getRes("shopdata_json");
+		}
 
         let data = this._shopData[this._shopID.toString()];
-        // let _bonus: string = type["bonus"];
-        // let _bonusArr: any[] = _bonus.split(","); 
-        // let _itemId: number = parseInt(_bonusArr[1]);
-        // let _item: Item = ItemManager.GetItemByID(_itemId);
         return data;
     }
 

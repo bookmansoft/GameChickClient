@@ -125,9 +125,9 @@ class ReviveWindow extends AWindow{
             Main.AddDebug("分享任务返回错误，错误码：" + jsonData["code"]);
             return;
         }
-        var itemData = jsonData["data"]["items"];
-        Object.keys(itemData).map(function(key){
-            ItemManager.SetItemCount(parseInt(key), itemData[key]["num"]);
+        let items = jsonData["data"]["items"];
+        Object.keys(items).map(function(key){
+            ItemManager.SetItemCount(parseInt(key), items[key]["num"]);
         });
         if (WindowManager.GetItemTip() == null){
             WindowManager.SetWindowFunction(this._OpenGetItemTip.bind(this));

@@ -220,7 +220,7 @@ class Main extends eui.UILayer {
             // RES.addEventListener(RES.ResourceEvent.GROUP_PROGRESS, this._OnResourceProgress, this);
             // Main.AddDebug("加载loading结束，开始加载preload");
             //设置加载进度界面
-            StringMgr.Language = StringMgr.EN;
+            StringMgr.Language = StringMgr.CN;
             this._loadingView = new LoadingUI();
             this._gameLayer.addChild(this._loadingView);
 

@@ -252,11 +252,13 @@ class Game extends egret.DisplayObjectContainer{
             WindowManager.WaitPage().IsVisibled = false;
         }
 
-        if(CheckpointManager.CurrentCheckpointID <= 5){
-            this.creatJiaoChengPage();
-        }else{
-            this.afterJiaoChengPage();
-        }
+        //todo 暂时屏蔽了新手引导
+        // if(CheckpointManager.CurrentCheckpointID <= 5){
+        //     this.creatJiaoChengPage();
+        // }else{
+        //     this.afterJiaoChengPage();
+        // }
+        this.afterJiaoChengPage();
 
         if (WindowManager.AchievementTip(false) != null){
             if (WindowManager.AchievementTip().IsVisibled){
@@ -1616,11 +1618,13 @@ class Game extends egret.DisplayObjectContainer{
      * 接收好友排行榜消息。获取开始前玩家在好友排行榜中的排名
      */
     private _ReceiveFriendRank(jsonData: Object){
+        //todo 暂时屏蔽了好友功能
+        return;
+
         this._friendRankSet2 = [];
         var data: Object = jsonData["data"]["list"];
         
-        if(data != null && data["length"] > 0)
-        {
+        if(data != null && data["length"] > 0) {
             for (var i = 0; i < data["length"]; i++){
                 var rank: string = (i + 1).toString();
                 var name: string = decodeURIComponent(data[i]["name"]);

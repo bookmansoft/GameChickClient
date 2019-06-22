@@ -44,7 +44,6 @@ class ShopPage extends AWindow{
      * 点击响应
      */
     private _OnClick(){
-
         var data : JSON = JSON.parse("{}");
         data["token"] = UnitManager.Player.GameToken;
         var shopID: number = Game.IsIos? this._shopID + 8 : this._shopID;
@@ -56,12 +55,6 @@ class ShopPage extends AWindow{
             return;
         }
         if (this._isCanBuy){
-            if (this._type == ShopPage.RoleType){
-                if (UnitManager.GetRole(this._shopID) == null){
-                    PromptManager.CreatCenterTip(false,false,StringMgr.GetText("shopbuypagetext7"));
-                    return;
-                }
-            }
             if(this._buyGoldType == "D"){
                 PromptManager.CreatShopBuyPage(this._shopID, this._BuyItem.bind(this),this._buyGoldType,this._endPrice);
             }else{
@@ -95,12 +88,6 @@ class ShopPage extends AWindow{
         let allPrice = this._endPrice * $num;
         if(this._buyGoldType == "D"){
             if (UnitManager.Player.TestPingGai(allPrice)){
-                if (this._shopID == 4012){
-                    if (UnitManager.Player.Physical >= UnitManager.Player.MaxPhysical){
-                        PromptManager.CreatCenterTip(false, true, StringMgr.GetText("shopbuypagetext8"));
-                        return;
-                    }
-                }
                 WindowManager.WaitPage().IsVisibled = true;
                 NetManager.SendRequest(["func=" + NetNumber.BuyItem + "&id=" + this._shopID + "&num=" + $num
                                     + "&oemInfo=" + JSON.stringify(data)],
@@ -120,21 +107,19 @@ class ShopPage extends AWindow{
      * 积分购买回调
      */
     private _OnBuyGoldCom(jsonData: Object){
-        var code: number = jsonData["data"]["code"];
+        var code: number = jsonData["code"];
         var data: Object = jsonData["data"];
         if (jsonData["code"] != NetManager.SuccessCode){
             if (code == 1004){ // 积分不足
                 PromptManager.CreatCenterTip(false,false,StringMgr.GetText("shopbuypagetext9"),null,this._OnPayClick.bind(this));
             }
+        } else {
+            var pingaiStr: string = data["bonus"];
+            let pingaiNum: string[] = pingaiStr.split(",");
+            if(pingaiNum[0] == "D"){
+                UnitManager.Player.PingGai += parseInt(pingaiNum[1]);
+            }
         }
-        // else if (jsonData["code"] == NetManager.SuccessCode){
-        //     // var data: Object = jsonData["data"];
-        //     // var pingaiStr: string = data["bonus"];
-        //     // let pingaiNum: string[] = pingaiStr.split(",");
-        //     // if(pingaiNum[0] == "D"){
-        //     //     UnitManager.Player.PingGai += parseInt(pingaiNum[1]);
-        //     // }
-        // }
     }
 
 	/**
@@ -185,15 +170,6 @@ class ShopPage extends AWindow{
                 ItemManager.SetItemCount(parseInt(key), data[key]["num"]);
             });
 
-            // if(this._buyGoldType == "D"){
-            //     UnitManager.Player.ConsumePingGai(this._endPrice * this._buyNum);
-            // }else{
-            //     UnitManager.Player.ConsumeMoney(this._endPrice * this._buyNum);
-            // }
-            
-            // if (this._type != ShopPage.ItemType && this._type != ShopPage.RoleType){
-            //     this._dataSet[2] = "0";
-            // }
             this.Update();
             if (this._shopID == 4012){
                 var shopData: JSON = RES.getRes("shopdata_json");
@@ -201,7 +177,12 @@ class ShopPage extends AWindow{
                 if (shop != null){
                     var bonus: string = shop["bonus"];
                     var bonusStr: string[] = bonus.split(",");
-                    var itemID: number = parseInt(bonusStr[1]);
+                    let itemID: number = 0;
+                    if(bonusStr.length == 3) {
+                        itemID = ItemManager.GetXID(bonusStr[0], parseInt(bonusStr[1]));
+                    } else {
+                        itemID = parseInt(bonusStr[0]);
+                    }
                     var upData : JSON = JSON.parse("{}");
                     data["token"] = UnitManager.Player.GameToken;
                     ItemManager.UseItem(itemID, this._buyNum);

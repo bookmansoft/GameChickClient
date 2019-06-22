@@ -30,17 +30,17 @@ class UnitManager{
     /**
      * 鸣人ID
      */
-    public static MingRenID: number = 1031;
+    public static MingRenID: number = 21031;
 
     /**
      * 佐助ID
      */
-    public static ZuoZuID: number = 1032;
+    public static ZuoZuID: number = 21032;
 
     /**
      * 小樱ID
      */
-    public static XiaoYingID: number = 1033;
+    public static XiaoYingID: number = 21033;
 
     /**
      * 初始化
@@ -48,10 +48,6 @@ class UnitManager{
     public static Init(){
         // 加载角色配置
         UnitManager._LoadRole();
-        // UnitManager._dieShareTime = 0;
-        // UnitManager._dieShareMaxTime = GameConstData.DieShareMaxTime;
-        // UnitManager._phyShareTime = 0;
-        // UnitManager._phyShareMaxTime = GameConstData.PhyShareMaxTime;
     }
 
     /**
@@ -81,7 +77,7 @@ class UnitManager{
         Object.keys(jsonData).map((key)=>{
             var data: JSON = jsonData[key];
             var role: Role = new Role(data);
-            if (UnitManager._currentRoleID == -1 || UnitManager._currentRoleID == role.ID){
+            if (UnitManager._currentRoleID == -1) {
                 role.Level = 1;
                 UnitManager._currentRoleID = role.ID;
             }
@@ -123,6 +119,18 @@ class UnitManager{
     public static GetRole(id: number): Role{
         for (var i = 0; i < UnitManager._roleSet.length; i++){
             if (id == UnitManager._roleSet[i].ID){
+                return UnitManager._roleSet[i];
+            }
+        }
+        return null;
+    }
+
+    /**
+     * 获取角色 by pieceid
+     */
+    public static GetRoleByPiece(id: number): Role{
+        for (var i = 0; i < UnitManager._roleSet.length; i++){
+            if (id == UnitManager._roleSet[i].Pieceid){
                 return UnitManager._roleSet[i];
             }
         }
@@ -407,9 +415,9 @@ class UnitManager{
             Main.AddDebug("分享任务返回错误，错误码：" + jsonData["code"]);
             return;
         }
-        var itemData = jsonData["data"];
-        Object.keys(itemData).map(function(key){
-            ItemManager.SetItemCount(parseInt(key), itemData[key]["num"]);
+        let items = jsonData["data"];
+        Object.keys(items).map(function(key){
+            ItemManager.SetItemCount(parseInt(key), items[key]["num"]);
         });
     }
 

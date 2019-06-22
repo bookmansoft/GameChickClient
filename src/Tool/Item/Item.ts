@@ -6,6 +6,7 @@ class Item{
      * 构造方法
      */
     public constructor(data: JSON){
+        this._xid = data["xid"];
         this._id = data["id"];
         this._name = data["name"];
         this._res = data["pic"];
@@ -19,6 +20,10 @@ class Item{
      */
     public get ID(): number{
         return this._id;
+    }
+
+    public get XID(): number{
+        return this._xid;
     }
 
     /**
@@ -100,6 +105,7 @@ class Item{
     }
 
     // 变量
+    private _xid: number;           // XID
     private _id: number;            // ID
     private _name: string;          // 名字
     private _res: string;           // 资源

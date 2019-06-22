@@ -1,5 +1,5 @@
 {
-	"1":{
+	"1001":{
 		"id":1,
 		"name":"itemdataname1",
 		"pic":"suipian_jixiaode",
@@ -7,7 +7,7 @@
 		"desc":"itemdatadesc1",
 		"price":5000
 	},
-	"2":{
+	"1002":{
 		"id":2,
 		"name":"itemdataname2",
 		"pic":"suipian_xiaomei",
@@ -15,7 +15,7 @@
 		"desc":"itemdatadesc2",
 		"price":5000
 	},
-	"3":{
+	"1003":{
 		"id":3,
 		"name":"itemdataname3",
 		"pic":"suipian_fatiao",
@@ -23,7 +23,7 @@
 		"desc":"itemdatadesc3",
 		"price":5000
 	},
-	"4":{
+	"1004":{
 		"id":4,
 		"name":"itemdataname4",
 		"pic":"suipian_alian",
@@ -31,7 +31,7 @@
 		"desc":"itemdatadesc4",
 		"price":5000
 	},
-	"5":{
+	"1005":{
 		"id":5,
 		"name":"itemdataname5",
 		"pic":"suipian_gulaoban",
@@ -39,7 +39,7 @@
 		"desc":"itemdatadesc5",
 		"price":5000
 	},
-	"6":{
+	"1006":{
 		"id":6,
 		"name":"itemdataname6",
 		"pic":"suipian_shasha",
@@ -47,7 +47,7 @@
 		"desc":"itemdatadesc6",
 		"price":5000
 	},
-	"7":{
+	"1007":{
 		"id":7,
 		"name":"itemdataname7",
 		"pic":"suipian_yujie",
@@ -55,7 +55,7 @@
 		"desc":"itemdatadesc7",
 		"price":5000
 	},
-	"8":{
+	"1008":{
 		"id":8,
 		"name":"itemdataname8",
 		"pic":"suipian_huihui",
@@ -63,7 +63,7 @@
 		"desc":"itemdatadesc8",
 		"price":5000
 	},
-	"31":{
+	"1031":{
 		"id":31,
 		"name":"itemdataname31",
 		"pic":"suipian_mingren",
@@ -71,7 +71,7 @@
 		"desc":"itemdatadesc31",
 		"price":0
 	},
-	"32":{
+	"1032":{
 		"id":32,
 		"name":"itemdataname32",
 		"pic":"suipian_zuozhu",
@@ -79,7 +79,7 @@
 		"desc":"itemdatadesc32",
 		"price":0
 	},
-	"33":{
+	"1033":{
 		"id":33,
 		"name":"itemdataname33",
 		"pic":"suipian_xiaoying",
@@ -87,7 +87,7 @@
 		"desc":"itemdatadesc33",
 		"price":0
 	},
-	"9":{
+	"40009":{
 		"id":9,
 		"name":"itemdataname9",
 		"pic":"fenxiang_daoju_dd",
@@ -95,7 +95,7 @@
 		"desc":"itemdatadesc9",
 		"price":3000
 	},
-	"10":{
+	"40010":{
 		"id":10,
 		"name":"itemdataname10",
 		"pic":"fenxiang_daoju_dl",
@@ -103,7 +103,7 @@
 		"desc":"itemdatadesc10",
 		"price":3000
 	},
-	"11":{
+	"40011":{
 		"id":11,
 		"name":"itemdataname11",
 		"pic":"fenxiang_daoju_hd",
@@ -111,7 +111,7 @@
 		"desc":"itemdatadesc11",
 		"price":10000
 	},
-	"12":{
+	"40012":{
 		"id":12,
 		"name":"itemdataname12",
 		"pic":"fenxiang_daoju_rqq",
@@ -119,7 +119,7 @@
 		"desc":"itemdatadesc12",
 		"price":10000
 	},
-	"13":{
+	"40013":{
 		"id":13,
 		"name":"itemdataname13",
 		"pic":"fenxiang_daoju_smzq",
@@ -127,7 +127,7 @@
 		"desc":"itemdatadesc13",
 		"price":15000
 	},
-	"14":{
+	"40014":{
 		"id":14,
 		"name":"itemdataname14",
 		"pic":"fenxiang_daoju_sgj",
@@ -135,7 +135,7 @@
 		"desc":"itemdatadesc14",
 		"price":15000
 	},
-	"15":{
+	"40015":{
 		"id":15,
 		"name":"itemdataname15",
 		"pic":"fenxiang_daoju_xy",
@@ -143,7 +143,7 @@
 		"desc":"itemdatadesc15",
 		"price":6000
 	},
-	"16":{
+	"40016":{
 		"id":16,
 		"name":"itemdataname16",
 		"pic":"fenxiang_daoju_za",
@@ -151,7 +151,7 @@
 		"desc":"itemdatadesc16",
 		"price":6000
 	},
-	"17":{
+	"40017":{
 		"id":17,
 		"name":"itemdataname17",
 		"pic":"fenxiang_daoju_zfj",
@@ -159,7 +159,7 @@
 		"desc":"itemdatadesc17",
 		"price":15000
 	},
-	"18":{
+	"30018":{
 		"id":18,
 		"name":"itemdataname18",
 		"pic":"fenxiang_changjing_mr",
@@ -167,7 +167,7 @@
 		"desc":"itemdatadesc18",
 		"price":0
 	},
-	"19":{
+	"30019":{
 		"id":19,
 		"name":"itemdataname19",
 		"pic":"fenxiang_changjing_bx",
@@ -175,7 +175,7 @@
 		"desc":"itemdatadesc19",
 		"price":55000
 	},
-	"20":{
+	"40020":{
 		"id":20,
 		"name":"itemdataname20",
 		"pic":"fenxiang_daoju_kf",
@@ -183,15 +183,15 @@
 		"desc":"itemdatadesc20",
 		"price":5000
 	},
-	"21":{
-		"id":21,
+	"2":{
+		"id":2,
 		"name":"itemdataname21",
 		"pic":"shop_jinbi",
 		"type":"M",
 		"desc":"itemdatadesc21",
 		"price":0
 	},
-	"3001":{
+	"13001":{
 		"id":3001,
 		"name":"itemdataname3001",
 		"pic":"",
@@ -199,7 +199,7 @@
 		"desc":"itemdatadesc3001",
 		"price":0
 	},
-	"22":{
+	"40022":{
 		"id":22,
 		"name":"itemdataname22",
 		"pic":"fenxiang_daoju_kqs",
@@ -207,7 +207,7 @@
 		"desc":"itemdatadesc22",
 		"price":2000
 	},
-	"23":{
+	"40023":{
 		"id":23,
 		"name":"itemdataname23",
 		"pic":"fenxiang_daoju_kfj",
@@ -215,7 +215,7 @@
 		"desc":"itemdatadesc23",
 		"price":100000
 	},
-	"401":{
+	"40401":{
 		"id":401,
 		"name":"itemdataname401",
 		"pic":"fenxiang_nuli_zema",
@@ -223,7 +223,7 @@
 		"desc":"itemdatadesc401",
 		"price":0
 	},
-	"402":{
+	"40402":{
 		"id":402,
 		"name":"itemdataname402",
 		"pic":"fenxiang_nuli_jiacan",
@@ -231,7 +231,7 @@
 		"desc":"itemdatadesc402",
 		"price":0
 	},
-	"403":{
+	"40403":{
 		"id":403,
 		"name":"itemdataname403",
 		"pic":"fenxiang_nuli_xianmei",
@@ -239,7 +239,7 @@
 		"desc":"itemdatadesc403",
 		"price":0
 	},
-	"701":{
+	"40701":{
 		"id":701,
 		"name":"itemdataname701",
 		"pic":"fenxiang_daoju_qy",
@@ -247,12 +247,100 @@
 		"desc":"itemdatadesc701",
 		"price":0
 	},
-	"702":{
+	"40702":{
 		"id":702,
 		"name":"itemdataname702",
 		"pic":"fenxiang_daoju_xingy",
 		"type":"I",
 		"desc":"itemdatadesc702",
+		"price":0
+	},
+	"21001":{
+		"id":1001,
+		"name":"鸡小德",
+		"pic":"",
+		"type":"role",
+		"desc":"",
+		"price":0
+	},
+	"21002":{
+		"id":1002,
+		"name":"小美",
+		"pic":"",
+		"type":"role",
+		"desc":"",
+		"price":0
+	},
+	"21003":{
+		"id":1003,
+		"name":"发条",
+		"pic":"",
+		"type":"role",
+		"desc":"",
+		"price":0
+	},
+	"21004":{
+		"id":1004,
+		"name":"阿联",
+		"pic":"",
+		"type":"role",
+		"desc":"",
+		"price":0
+	},
+	"21005":{
+		"id":1005,
+		"name":"莎莎",
+		"pic":"",
+		"type":"role",
+		"desc":"",
+		"price":0
+	},
+	"21006":{
+		"id":1006,
+		"name":"卉卉",
+		"pic":"",
+		"type":"role",
+		"desc":"",
+		"price":0
+	},
+	"21007":{
+		"id":1007,
+		"name":"古老板",
+		"pic":"",
+		"type":"role",
+		"desc":"",
+		"price":0
+	},
+	"21008":{
+		"id":1008,
+		"name":"御姐",
+		"pic":"",
+		"type":"role",
+		"desc":"",
+		"price":0
+	},
+	"21031":{
+		"id":1031,
+		"name":"分身鸣人",
+		"pic":"",
+		"type":"role",
+		"desc":"",
+		"price":0
+	},
+	"21032":{
+		"id":1032,
+		"name":"鬼手佐助",
+		"pic":"",
+		"type":"role",
+		"desc":"",
+		"price":0
+	},
+	"21033":{
+		"id":1033,
+		"name":"暴力小樱",
+		"pic":"",
+		"type":"role",
+		"desc":"",
 		"price":0
 	}
 }

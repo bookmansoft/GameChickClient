@@ -63,11 +63,11 @@ class ActiveBonusWindow extends AWindow{
                     // UnitManager.Player.Money += data["num"];
                 }
                 else if (type == "I" || type == "C"){
-                    var item: Item = ItemManager.GetItemByID(data["id"]);
+                    var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(type, data["id"]));
                     if (item != null){
                         this._imageSet[index].source = item.ImageRes;
                         this._countLabelSet[index].text = data["num"];
-                        ItemManager.AddItem(data["id"], data["num"]);
+                        ItemManager.AddItem(ItemManager.GetXID(type, data["id"]), data["num"]);
                     }
                 }
                 else if(type == "A"){

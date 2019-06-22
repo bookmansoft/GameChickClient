@@ -46,6 +46,10 @@ class GuideWindow extends AWindow{
      * 显示
      */
     public Show(type: number, x: number = 0, y: number = 0, width: number = 0, height: number = 0, msg: string = ""){
+        //todo 暂时取消了新手引导功能
+        this.IsVisibled = false;
+        return;
+
         //  首页界面引导
         this.IsVisibled = true;
         if (type == 1){// 角色信息

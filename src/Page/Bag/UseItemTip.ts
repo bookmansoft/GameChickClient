@@ -69,7 +69,7 @@ class UseItemTip extends AWindow{
         this._nameLabel.text = item.Name;
         this._descLabel.text = item.Desc;
         this._countLabel.text = itemCount.toString();
-        if (id == 22 || id == 23){
+        if (id == 40022 || id == 40023){
             this._buttonGroup.visible = true;
             this._useButton.visible = false;
         }

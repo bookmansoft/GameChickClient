@@ -158,26 +158,31 @@ class RankWindow extends AWindow{
      * 接收排行榜消息
      */
     private _ReceiveTotalRank(jsonData: Object){
-        this._totalRankSet = [];
-        var data: Object = jsonData["data"]["list"];
-        for (var i = 0; i < data["length"]; i++){
-            var rank: string = (i + 1).toString();
-            // var name: string = data[i]["Name"];
-            var name: string = decodeURIComponent(data[i]["name"]);
-            var score: string = data[i]["score"];
-            if(Main.IsLocationDebug)
-                var imaUrl: string = "";
-            else
-                var imaUrl: string = data[i]["icon"];
-            this._totalRankSet.push([rank, name, score, imaUrl]);
+        if(jsonData["code"] == 0) {
+            this._totalRankSet = [];
+            var data: Object = jsonData["data"]["list"];
+            for (var i = 0; i < data["length"]; i++){
+                var rank: string = (i + 1).toString();
+                // var name: string = data[i]["Name"];
+                var name: string = decodeURIComponent(data[i]["name"]);
+                var score: string = data[i]["score"];
+                if(Main.IsLocationDebug)
+                    var imaUrl: string = "";
+                else
+                    var imaUrl: string = data[i]["icon"];
+                this._totalRankSet.push([rank, name, score, imaUrl]);
+            }
+            this._UpdataShow(null);
         }
-        this._UpdataShow(null);
     }
 
     /**
      * 接收当日排行榜信息
      */
     private _ReceiveDayRank(jsonData: Object){
+        if(jsonData['code']!=0) {
+            return;
+        }
         this._dayRankSet = [];
         var data: Object = jsonData["data"]["list"];
         for (var i = 0; i < data["length"]; i++){
@@ -197,7 +202,10 @@ class RankWindow extends AWindow{
     /**
      * 接收好友排行榜消息
      */
-    private _ReceiveFriendRank(jsonData: Object){
+    private _ReceiveFriendRank(jsonData: Object) {
+        if(jsonData['code'] != 0) {
+            return;
+        }
         this._friendRankSet = [];
         var data: Object = jsonData["data"]["list"];
 

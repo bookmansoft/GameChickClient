@@ -125,8 +125,8 @@ class ShopWindow extends AWindow{
             var bonus: string = data["bonus"];
             var bonusSet: string[] = bonus.split(",");
             var type: string = bonusSet[0];
-            if (data["price"] == "0"){
-                // ItemManager.AddItem(data["id"], 1);
+            if (data["price"] == "0") {
+                // ItemManager.AddItem(ItemManager.GetXID(type, data["id"]), 1);
             }
             else{
                 switch (type) {

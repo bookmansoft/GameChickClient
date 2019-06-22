@@ -162,7 +162,9 @@ class Player {
      * 玩家名字
      */
     public get Name(): string {
-        if (this._name == "") return "大牛";
+        if (!this._name) {
+            return `Vallnet${(Math.random()*100000)|0}`;
+        } 
         return this._name;
     }
 

@@ -5,7 +5,7 @@ class ItemManager{
     /**
      * 复活道具ID
      */
-    public static ReviveItemID: number = 20;
+    public static ReviveItemID: number = 40020;
 
     /**
      * 初始化物品
@@ -13,28 +13,29 @@ class ItemManager{
     public static Init(){
         var jsonData: JSON = RES.getRes("itemdata_json");
         Object.keys(jsonData).map((id)=>{
-            var data: JSON = jsonData[id];
+            let data = jsonData[id];
+            data.xid = id;
             ItemManager._itemSet.push(new Item(data));
         });
     }
 
     /**
      * 添加物品
-     * @param id    物品ID
+     * @param xid   物品复合索引
      * @param num   物品数量
      */
-    public static AddItem(id: number, num: number){
-        if (ItemManager._itemCountSet[id] == null){
-            ItemManager._itemCountSet[id] = num;
+    public static AddItem(xid: number, num: number){
+        if (ItemManager._itemCountSet[xid] == null){
+            ItemManager._itemCountSet[xid] = num;
         }
         else{
-            ItemManager._itemCountSet[id] += num;
+            ItemManager._itemCountSet[xid] += num;
         }
-        if (id == ItemManager.ReviveItemID){
+        if (xid == ItemManager.ReviveItemID){
             GameEvent.DispatchEvent(EventType.ReviveItemUpdate);
         }
 
-        if(ItemManager.JudgeIsRoleSuiPian(id)){
+        if(ItemManager.JudgeIsRoleSuiPian(xid)){
             GameEvent.DispatchEvent(EventType.RoleSuiPianItemUpdate);
         }
     }
@@ -50,23 +51,23 @@ class ItemManager{
 
     /**
      * 设置物品数量
-     * @param id    物品ID
+     * @param xid   物品ID
      * @param num   物品数量
      */
-    public static SetItemCount(id: number, num: number){
-        if (ItemManager._itemCountSet[id] == null){
-            ItemManager.AddItem(id, num);
+    public static SetItemCount(xid: number, num: number){
+        if (ItemManager._itemCountSet[xid] == null){
+            ItemManager.AddItem(xid, num);
             return;
         } 
-        ItemManager._itemCountSet[id] = num;
-        if (id == ItemManager.ReviveItemID){
+        ItemManager._itemCountSet[xid] = num;
+        if (xid == ItemManager.ReviveItemID){
             GameEvent.DispatchEvent(EventType.ReviveItemUpdate);
         }
 
-        if(ItemManager.JudgeIsRoleSuiPian(id)){
+        if(ItemManager.JudgeIsRoleSuiPian(xid)){
             GameEvent.DispatchEvent(EventType.RoleSuiPianItemUpdate);
         }
-        if (id == 401 || id == 402 || id == 403){
+        if (xid == 40401 || xid == 40402 || xid == 40403){
             GameEvent.DispatchEvent(EventType.SlaveItemUpdate);
         }
     }
@@ -119,12 +120,31 @@ class ItemManager{
      * @param id    物品ID
      */
     public static GetItemByID(id: number): Item{
-        for (var i = 0; i < ItemManager._itemSet.length; i++){
-            if (ItemManager._itemSet[i].ID == id){
+        for (var i = 0; i < ItemManager._itemSet.length; i++) {
+            if (ItemManager._itemSet[i].XID == id){
                 return ItemManager._itemSet[i];
             }
         }
         return null;
+    }
+
+    public static GetXID(type, id) {
+        switch(type) {
+            case 'C':
+                return 1000+id;
+            case "road":
+                return 10000+id;
+            case "role":
+                return 20000+id;
+            case "scene":
+                return 30000+id;
+            case 'I':
+                return 40000+id;
+            case 'box':
+                return 50000+id;
+            default:
+                return type;
+        }
     }
 
     /**

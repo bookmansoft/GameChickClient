@@ -62,7 +62,6 @@ class RoleSelect extends AWindow{
      * 点击响应
      */
     private _OnClick(){
-
         if (UnitManager.CurrentRole.ID == this._roleID) return;
         var role: Role = UnitManager.GetRole(this._roleID);
         if (!role.IsHave) return;

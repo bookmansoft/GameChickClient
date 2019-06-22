@@ -118,7 +118,7 @@ class Skill{
         this._unlockSet = $unlockRole;
         if($unlockRole == ""){
             this._jiesuoRoleIdSet = [this._preRole];
-        }else{
+        } else {
             let roleIDSet = $unlockRole.split(",");
             for(let j=0; j<roleIDSet.length; j++){
                 this._jiesuoRoleIdSet.push(parseInt(roleIDSet[j]));
@@ -133,7 +133,10 @@ class Skill{
 	public get JieSuoRole():Role[]{
         if(this._jiesuoRoleSet.length == 0){
             for(let i=0 ;i<this._jiesuoRoleIdSet.length; i++){
-                this._jiesuoRoleSet.push(UnitManager.GetRole(this._jiesuoRoleIdSet[i]));
+                let it = UnitManager.GetRole(this._jiesuoRoleIdSet[i]);
+                if(!!it) {
+                    this._jiesuoRoleSet.push(it);
+                }
             }
         }
 		return this._jiesuoRoleSet;
@@ -143,7 +146,10 @@ class Skill{
 	 * 是否可以升级
 	 */
 	public get IsCanUp():boolean{
-        for(let i=0; i<this.JieSuoRole.length; i++){
+        for(let i=0; i<this.JieSuoRole.length; i++) {
+            if(!this.JieSuoRole[i]) {
+                continue;
+            }
             if(this.JieSuoRole[i].Level < this.Level + 1)
                 return false;
         }

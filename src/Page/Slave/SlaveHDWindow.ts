@@ -291,13 +291,13 @@ class SlaveHDWindow extends AWindow{
         if (code != NetManager.SuccessCode){
             Main.AddDebug("责骂返回错误,code=" + code);
             if (code == 501){
-                ItemManager.SetItemCount(401, 0);
+                ItemManager.SetItemCount(40401, 0);
                 this._shopID = 4021;
                 PromptManager.CreatCenterTip(false, false, StringMgr.GetText("slavepagetext21"), "", this._OnBuyItem.bind(this));
             }
             return;
         }
-        ItemManager.UseItem(401, 1);
+        ItemManager.UseItem(40401, 1);
 
         this._contentImageRes = "nulihudong_tu_zema";
         this.updataCountentIma();
@@ -356,13 +356,13 @@ class SlaveHDWindow extends AWindow{
         if (code != NetManager.SuccessCode){
             Main.AddDebug("加餐返回错误,code=" + code);
             if (code == 501){
-                ItemManager.SetItemCount(402, 0);
+                ItemManager.SetItemCount(40402, 0);
                 this._shopID = 4022;
                 PromptManager.CreatCenterTip(false, false, StringMgr.GetText("slavepagetext25"), "", this._OnBuyItem.bind(this));
             }
             return;
         }
-        ItemManager.UseItem(402, 1);
+        ItemManager.UseItem(40402, 1);
 
         this._contentImageRes = "nulihudong_tu_jiacan";
         this.updataCountentIma();
@@ -421,13 +421,13 @@ class SlaveHDWindow extends AWindow{
         if (code != NetManager.SuccessCode){
             Main.AddDebug("谄媚返回错误,code=" + code);
             if (code == 501){
-                ItemManager.SetItemCount(403, 0);
+                ItemManager.SetItemCount(40403, 0);
                 this._shopID = 4023;
                 PromptManager.CreatCenterTip(false, false, StringMgr.GetText("slavepagetext21"), "", this._OnBuyItem.bind(this));
             }
             return;
         }
-        ItemManager.UseItem(403, 1);
+        ItemManager.UseItem(40403, 1);
 
         this._contentImageRes = "nulihudong_tu_xianmei";
         this.updataCountentIma();
@@ -542,15 +542,15 @@ class SlaveHDWindow extends AWindow{
             return;
         }
         if (this._shopID == 4021){
-            ItemManager.AddItem(401, 1);
+            ItemManager.AddItem(40401, 1);
             this._HuDong(NetNumber.SlaveLash, this._slaveOpenid);
         }
         else if (this._shopID == 4022){
-            ItemManager.AddItem(402, 1);
+            ItemManager.AddItem(40402, 1);
             this._HuDong(NetNumber.SlaveFood, this._slaveOpenid);
         }
         else if (this._shopID == 4023){
-            ItemManager.AddItem(402, 1);
+            ItemManager.AddItem(40402, 1);
             var master: Object = SlaveManager.Master;
             if (master == null) return;
             this._HuDong(NetNumber.SlaveFawn, master["openid"]);

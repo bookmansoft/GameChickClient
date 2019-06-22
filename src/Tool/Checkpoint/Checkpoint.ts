@@ -156,7 +156,7 @@ class Checkpoint{
      * 最高分数
      */
     public get MaxScore(): number{
-        return this._maxScore;
+        return this._maxScore || 0;
     }
 
     /**

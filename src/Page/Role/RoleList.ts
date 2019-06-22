@@ -63,7 +63,7 @@ class RoleList extends AWindow{
 	 */
 	private _UpRoleReturn(jsonData: Object){
 		if(jsonData["code"] == NetManager.SuccessCode){
-			ItemManager.UseItem(this._curRole.Pieceid,this._curRole.GetRoleNum);
+			ItemManager.UseItem(this._curRole.Pieceid, this._curRole.GetRoleNum);
 			// 更新角色技能
 			if(jsonData["data"]["lv"]){
 				this._curRole.Level = jsonData["data"]["lv"];

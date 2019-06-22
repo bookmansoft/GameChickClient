@@ -145,7 +145,7 @@ class NetNumber{
     /**
      * 体力消息监听
      */
-    public static get ReciviePhysical(): string{
+    public static get ReceivePhysical(): string{
         return "1";
     }
 

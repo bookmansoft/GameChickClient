@@ -74,21 +74,23 @@ class PlayGiftWindow extends AWindow{
                 this._groupSet[i].visible = false;
             }
             var index: number = 0;
-            for (var i = 0; i < bonus.length && i < 5; i++){
+            for (var i = 0; i < bonus.length && i < 5; i++) {
                 this._groupSet[i].visible = true;
                 var data: Object = bonus[i];
                 var type: string = data["type"];
+
+                let xid = ItemManager.GetXID(type, data["id"]);
+
                 if (type == "M"){
                     this._imageSet[index].source = "fenxiang_jinbi_png";
                     this._countLabelSet[index].text = data["num"];
-                    // UnitManager.Player.Money += data["num"];
                 }
-                else if (type == "I" || type == "C"){
-                    var item: Item = ItemManager.GetItemByID(data["id"]);
+                else if (type == "I" || type == "C") {
+                    var item: Item = ItemManager.GetItemByID(xid);
                     if (item != null){
                         this._imageSet[index].source = item.ImageRes;
                         this._countLabelSet[index].text = data["num"];
-                        ItemManager.AddItem(data["id"], data["num"]);
+                        ItemManager.AddItem(xid, data["num"]);
                     }
                 }
                 else if(type == "A"){

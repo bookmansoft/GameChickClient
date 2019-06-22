@@ -167,5 +167,5 @@ class DailyActiveYuReWindow extends AWindow{
 	// private _chooseANum: number = 0;						// 蓝色人数
 	// private _chooseBNum: number = 0;						// 红色人数
 	private _jiangchiNum: number = 0;						// 奖池数量
-	private _itemId: number = 702;							// 道具id
+	private _itemId: number = 40702;						// 道具id
 }

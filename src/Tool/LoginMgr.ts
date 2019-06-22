@@ -71,7 +71,7 @@ class LoginMgr {
         // Main.AddDebug(openid+","+data["domain"]);
 
         // 监听消息
-        Facade.instance().watch(UnitManager.ReceivePhysical, NetNumber.ReciviePhysical);
+        Facade.instance().watch(UnitManager.ReceivePhysical, NetNumber.ReceivePhysical);
         Facade.instance().watch(FriendManager.FriendInfo, NetNumber.FriendInfor.toString());
         Facade.instance().watch(FriendManager.ShouHello, NetNumber.SendHelloNum.toString());
         Facade.instance().watch(FriendManager.UpDataFriendState, NetNumber.FriendUserStatus.toString());
@@ -195,21 +195,23 @@ class LoginMgr {
         if (!time || time < 0){
             Main.AddDebug("时间异常：time=" + time);
         }
-        var itemData: Object = data["item"];
-        if (!itemData){
-            Main.AddDebug("道具异常：itemData=" + itemData);
+        let items: Object = data["item"];
+        if (!items){
+            Main.AddDebug("道具异常：itemData=" + items);
         }
         var status: number = data["info"]["status"];
         if (status != null){
             UnitStatusMgr.Status = status;
             if (UnitStatusMgr.IsNewPlay){
-                QQSDKMgr.ReportRegister();
+                //todo 此处上报第三方平台注册事件
+
                 UnitStatusMgr.SetValue(UserStatus.IsNewbie, false);
             }
         }
-        QQSDKMgr.ReportLogin();
-        Object.keys(itemData).map(function(key){
-            ItemManager.SetItemCount(parseInt(key), itemData[key]["num"]);
+        //todo 此处上报第三方平台登录事件
+        
+        Object.keys(items).map(function(key){
+            ItemManager.SetItemCount(parseInt(key), items[key]["num"]);
         });
         var roleID: number = data["info"]["role"];
         if (!!roleID){
