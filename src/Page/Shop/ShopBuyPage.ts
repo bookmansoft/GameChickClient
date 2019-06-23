@@ -128,7 +128,7 @@ class ShopBuyPage extends AWindow{
 
 		if(this._item != null){
 			if(this._item.ID == 23) this._xianZhiBuyNum = 1;
-			this._haveNumLabel.text = ItemManager.GetItemCount(this._item.ID).toString();
+			this._haveNumLabel.text = ItemManager.GetItemCount(this._item.XID).toString();
 		}
 		else{
 			this._haveNumLabel.text = UnitManager.Player.Money.toString();
@@ -184,7 +184,7 @@ class ShopBuyPage extends AWindow{
         let data = this._shopData[this._shopID.toString()];
         let _bonus: string = data["bonus"];
         let _bonusArr: any[] = _bonus.split(","); 
-        let _itemId: number = parseInt(_bonusArr[1]);
+		let _itemId: number = ItemManager.GetXID(_bonusArr[0], parseInt(_bonusArr[1]));
         let _item: Item = ItemManager.GetItemByID(_itemId);
         return _item;
     }

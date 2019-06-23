@@ -142,8 +142,16 @@ class ItemManager{
                 return 40000+id;
             case 'box':
                 return 50000+id;
+            case 'D':
+                return 1;
+            case 'M':
+                return 2;
+            case 'A':
+                return 9;
+            case 'V':
+                return 20;
             default:
-                return type;
+                return 0;
         }
     }
 

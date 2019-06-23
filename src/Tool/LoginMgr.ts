@@ -36,8 +36,8 @@ class LoginMgr {
 
         //console.log(window["FBData"].userID, window["FBData"].accessToken);
         
-        var openid: string = '15588882222'; //window["FBData"]["userID"];//FBSDKMgr.OpenID;
-        var openkey: string = '123456'; //window["FBData"]["accessToken"];//FBSDKMgr.OpenKey;
+        var openid: string = '15588882226'; //window["FBData"]["userID"];//FBSDKMgr.OpenID;
+        var openkey: string = '12345678'; //window["FBData"]["accessToken"];//FBSDKMgr.OpenKey;
         var pf: string = "wanba_ts";//FBSDKMgr.GetPF();
 
         Game.IsIos = true;//FBSDKMgr.GetPlatform() == 2;        // 获取设备信息
@@ -219,7 +219,7 @@ class LoginMgr {
         }
         else{
             Main.AddDebug("角色形象异常：roleID=" + roleID);
-            UnitManager.ChangeRole(1001);
+            UnitManager.ChangeRole(21001);
         }
 
         var imaUrl = data["info"]["headIcon"];
