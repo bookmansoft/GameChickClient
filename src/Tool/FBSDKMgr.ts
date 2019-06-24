@@ -177,9 +177,6 @@ class FBSDKMgr {
             LoginMgr.Login();
             return;
         }
-		
-		// FB
-		// FACEBOOK_COMMON.GetRealOpenkey(FBSDKMgr._LoginReturn.bind(FBSDKMgr));
     }
 
     /**

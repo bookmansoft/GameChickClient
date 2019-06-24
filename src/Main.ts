@@ -98,8 +98,7 @@ class Main extends eui.UILayer {
     /**
      * CDN地址和资源版本号
      */
-    public static CDNURL: string = Main.IsUseCDN? "https://jxdcdn.173kw.com/res" + Main.ResVersion + "/" : "";
-    // public static CDNURL: string = Main.IsUseCDN? "http://tserver.jxd.173kw.com:9901/client/" : "";
+    public static CDNURL: string = Main.IsUseCDN ? "https://jxdcdn.173kw.com/res" + Main.ResVersion + "/" : "";
 
     /**
      * game资源是否加载完成

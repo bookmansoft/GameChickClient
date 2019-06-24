@@ -182,67 +182,14 @@
 </head>
 <body>
 	<script>
-		window.fbAsyncInit = function() {
-			FB.init({
-			  appId      : '311246466060944',
-			  //channelUrl : '//WWW.YOUR_DOMAIN.COM/channel.html ',
-			  channelUrl : 'https://tserver.jxd.173kw.com:9901/client/ ',
-			  xfbml      : true,
-			  version    : 'v2.11'
-			});
-
-			// ADD ADDITIONAL FACEBOOK CODE HERE
-			function onLogin(response) {
-			  if (response.status == 'connected') {
-				//FB.api('/me', function(data) {
-				  //var welcomeBlock = document.getElementById('fb-welcome');
-				  //welcomeBlock.innerHTML = 'Hello, ' + data.first_name + '!';
-				  //console.log(data)
-				 // window.fbData = data;
-				  //egret.runEgret({renderMode:"webgl", audioType:2});
-				
-				//});
-				 //FB.getAuthResponse(function(response){
-				//  var data = null;
-				//  data = FB.getAuthResponse();//["accessToken"];
-				 //data.userId = FB.getAuthResponse().userID;
-				 //var FBData = null;
-				 //window["FBData"] = FB.getAuthResponse();
-				 //console.log(window["FBData"])
-				 egret.runEgret({renderMode:"webgl", audioType:2});
-				// })
-			  }
-			}
-			FB.getLoginStatus(function(response) {
-			  // Check login status on load, and if the user is
-			  // already logged in, go directly to the welcome message.
-			  if (response.status == 'connected') {
-				onLogin(response);
-			  } else {
-				// Otherwise, show Login dialog first.
-				FB.login(function(response) {
-				  onLogin(response);
-				}, {scope: 'user_friends, email'});
-			  }
-			  //console.log(6546)
-			});
-		};
-
-		// window["share"] = function(){
-		// 		FB.ui({
-		// 		method: 'share',
-		// 		display: 'popup',
-		// 		href: 'https://developers.facebook.com/docs/',
-		// 		})
-		// 	}
-
-	//   (function(d, s, id){
-	// 	 var js, fjs = d.getElementsByTagName(s)[0];
-	// 	 if (d.getElementById(id)) {return;}
-	// 	 js = d.createElement(s); js.id = id;
-	// 	 js.src = "/libs/sdk.js";
-	// 	 fjs.parentNode.insertBefore(js, fjs);
-	//    }(document, 'script', 'facebook-jssdk'));
+    	function getUrlKey(name) {
+        	return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href) || [, ""])[1].replace(/\+/g, '%20')) || null
+    	}
+		let openid = getUrlKey('openid') || '15988888888';
+		let openkey = getUrlKey('openkey') || '15988888888';
+		egret.localStorage.setItem('openid', openid)
+		egret.localStorage.setItem('openkey', openkey)
+		console.log(openid, openkey);
 	</script>
 
     <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"

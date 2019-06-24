@@ -185,6 +185,17 @@
 	<!--game_files_end-->
 </head>
 <body>
+	<script>
+    	function getUrlKey(name) {
+        	return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href) || [, ""])[1].replace(/\+/g, '%20')) || null
+    	}
+		let openid = getUrlKey('openid') || '15988888888';
+		let openkey = getUrlKey('openkey') || '15988888888';
+		egret.localStorage.setItem('openid', openid)
+		egret.localStorage.setItem('openkey', openkey)
+		console.log(openid, openkey);
+	</script>
+
     <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
          data-entry-class="Main"
          data-orientation="auto"
@@ -207,11 +218,5 @@
          **/
         //egret.runEgret({renderMode:"webgl", audioType:2});
     </script>
-	<script type="text/javascript" src="https://jxdcdn.173kw.com/jquery-1.11.3.min.js"></script>
-	<script>
-		$.get("https://report.api.173kw.com:9001/report/regaccount/1105943531/"+window.OPEN_DATA.pf+"/" + window.OPEN_DATA.openid,function(data,status){
-			//console.log("ret：" + data .ret+ "\n msg：" + data.msg);
-		});
-	</script>
 </body>
 </html>

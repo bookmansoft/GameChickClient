@@ -34,20 +34,18 @@ class LoginMgr {
             }
         }
 
-        //console.log(window["FBData"].userID, window["FBData"].accessToken);
-        
-        var openid: string = '15588882226'; //window["FBData"]["userID"];//FBSDKMgr.OpenID;
-        var openkey: string = '12345678'; //window["FBData"]["accessToken"];//FBSDKMgr.OpenKey;
-        var pf: string = "wanba_ts";//FBSDKMgr.GetPF();
+        let openid = egret.localStorage.getItem('openid');
+        let openkey = egret.localStorage.getItem('openkey');
 
         Game.IsIos = true;//FBSDKMgr.GetPlatform() == 2;        // 获取设备信息
+        
         // 获取本地token
         var time: number = Math.floor(new Date().getTime()/1000);
         var localOpenid: string = egret.localStorage.getItem(LoginMgr.LocalOpenid);
         var localTime: number = 0;
         let localToken = "";
-        if (openid == localOpenid){
-            if (egret.localStorage.getItem(LoginMgr.LocalTokenKey) != null){
+        if (openid == localOpenid) {
+            if (egret.localStorage.getItem(LoginMgr.LocalTokenKey) != null) {
                 localTime = parseInt(egret.localStorage.getItem(LoginMgr.LocalTimeKey));
                 if (time - localTime < 5400){
                     localToken = egret.localStorage.getItem(LoginMgr.LocalTokenKey);
@@ -55,20 +53,10 @@ class LoginMgr {
             }
         }
 
-        // // 测试使用=>
-        // if (localOpenid != null && localOpenid != "") openid = localOpenid;
-        // else{
-        //     openid = Math.floor(Math.random() * 1000000000000000).toString();
-        // }
-        // egret.localStorage.setItem(LoginMgr.LocalOpenid, openid);
-
         var data : JSON = JSON.parse("{}");
         data["openid"] = openid;
-        data["domain"] = Game.IsIos? "tx.IOS" : "tx.Android";
-
-        LoginMgr._openid = openid;
-
-        // Main.AddDebug(openid+","+data["domain"]);
+        data["openkey"] = openkey;
+        data["domain"] = Game.IsIos? "authwx.IOS" : "authwx.Android";
 
         // 监听消息
         Facade.instance().watch(UnitManager.ReceivePhysical, NetNumber.ReceivePhysical);
@@ -125,10 +113,10 @@ class LoginMgr {
         }
         LoginMgr.loginedLogicServer = true;
         
-        // 正式游戏信息
-        var openkey: string = '123456'; //window["FBData"]["accessToken"];//FBSDKMgr.OpenKey;
-        var pf: string = "wanba_ts";//FBSDKMgr.GetPF();
-        Game.IsIos = true;//FBSDKMgr.GetPlatform() == 2;        // 获取设备信息
+        Game.IsIos = true; //FBSDKMgr.GetPlatform() == 2;        // 获取设备信息
+        let openid = egret.localStorage.getItem('openid');
+        let openkey = egret.localStorage.getItem('openkey');
+        
         // 获取本地token
         var time: number = Math.floor(new Date().getTime()/1000);
         var localTime: number = 0;
@@ -136,13 +124,12 @@ class LoginMgr {
         if (!isUseToken){
             localToken = "";
         }
-        // Main.AddDebug("Openid:" + LoginMgr._openid + "");
+
         // 登入
         var data : JSON = JSON.parse("{}");
-        data["domain"] = Game.IsIos? "tx.IOS" : "tx.Android";
-        data["openid"] = LoginMgr._openid;
+        data["domain"] = Game.IsIos? "authwx.IOS" : "authwx.Android";
+        data["openid"] = openid;
         data["openkey"] = openkey;
-        data["pf"] = pf;
         data["token"] = localToken;
         NetManager.SendRequest(
             ["func=" + NetNumber.Logoin + "&oemInfo=" + JSON.stringify(data)],
@@ -274,5 +261,4 @@ class LoginMgr {
     public static loginedLogicServer: boolean = false;  // 是否登入游戏服
     // 内部变量
     private static _reLoginTime: number = 0;            // 重连次数
-    private static _openid: string;
 }
