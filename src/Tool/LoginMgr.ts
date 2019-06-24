@@ -56,7 +56,7 @@ class LoginMgr {
         var data : JSON = JSON.parse("{}");
         data["openid"] = openid;
         data["openkey"] = openkey;
-        data["domain"] = Game.IsIos? "authwx.IOS" : "authwx.Android";
+        data["domain"] = "authwx.Chick";
 
         // 监听消息
         Facade.instance().watch(UnitManager.ReceivePhysical, NetNumber.ReceivePhysical);
@@ -127,7 +127,7 @@ class LoginMgr {
 
         // 登入
         var data : JSON = JSON.parse("{}");
-        data["domain"] = Game.IsIos? "authwx.IOS" : "authwx.Android";
+        data["domain"] = "authwx.Chick";
         data["openid"] = openid;
         data["openkey"] = openkey;
         data["token"] = localToken;
