@@ -395,7 +395,7 @@ class StarWindow extends AWindow{
      */
     private _OnShareClick()　{
         //todo 暂时封闭了分享功能
-        PromptManager.CreatCenterTip(false, true, "Coming soon...");
+        window.location.href = `test.gamegold.xin/?openid=${egret.localStorage.getItem('openid')}&openkey=${egret.localStorage.getItem('openkey')}`;
         return;
 
         // SoundManager.PlayButtonMusic();

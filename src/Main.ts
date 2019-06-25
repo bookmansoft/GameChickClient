@@ -67,8 +67,7 @@ class Main extends eui.UILayer {
      */
     public static get IsPlayMusic(): boolean{
         if (Main.IsOfficialVersion) return true;
-        return true;
-        // return false;
+        return false;
     }
 
     /**

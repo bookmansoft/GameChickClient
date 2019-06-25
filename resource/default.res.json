@@ -1465,16 +1465,6 @@
 			"name": "fenxiang_daoju_tili_png"
 		},
 		{
-			"url": "res/sound/button_music.mp3",
-			"type": "sound",
-			"name": "button_music_mp3"
-		},
-		{
-			"url": "res/sound/bg_music.mp3",
-			"type": "sound",
-			"name": "bg_music_mp3"
-		},
-		{
 			"url": "res/role/huihui_01/huihui_01texture.png",
 			"type": "image",
 			"name": "huihui_01texture_png"
@@ -1728,141 +1718,6 @@
 			"url": "res/role/yujie_02/yujie_02texture.json",
 			"type": "json",
 			"name": "yujie_02texture_json"
-		},
-		{
-			"url": "res/sound/diebg_music.mp3",
-			"type": "sound",
-			"name": "diebg_music_mp3"
-		},
-		{
-			"url": "res/sound/door_music.mp3",
-			"type": "sound",
-			"name": "door_music_mp3"
-		},
-		{
-			"url": "res/sound/gold_music.mp3",
-			"type": "sound",
-			"name": "gold_music_mp3"
-		},
-		{
-			"url": "res/sound/alinsjump.mp3",
-			"type": "sound",
-			"name": "alinsjump_mp3"
-		},
-		{
-			"url": "res/sound/alinbjump.mp3",
-			"type": "sound",
-			"name": "alinbjump_mp3"
-		},
-		{
-			"url": "res/sound/alindie.mp3",
-			"type": "sound",
-			"name": "alindie_mp3"
-		},
-		{
-			"url": "res/sound/fatiaosjump.mp3",
-			"type": "sound",
-			"name": "fatiaosjump_mp3"
-		},
-		{
-			"url": "res/sound/fatiaobjump.mp3",
-			"type": "sound",
-			"name": "fatiaobjump_mp3"
-		},
-		{
-			"url": "res/sound/fatiaodie.mp3",
-			"type": "sound",
-			"name": "fatiaodie_mp3"
-		},
-		{
-			"url": "res/sound/gulaobansjump.mp3",
-			"type": "sound",
-			"name": "gulaobansjump_mp3"
-		},
-		{
-			"url": "res/sound/gulaobanbjump.mp3",
-			"type": "sound",
-			"name": "gulaobanbjump_mp3"
-		},
-		{
-			"url": "res/sound/gulaobandie.mp3",
-			"type": "sound",
-			"name": "gulaobandie_mp3"
-		},
-		{
-			"url": "res/sound/huihuisjump.mp3",
-			"type": "sound",
-			"name": "huihuisjump_mp3"
-		},
-		{
-			"url": "res/sound/huihuibjump.mp3",
-			"type": "sound",
-			"name": "huihuibjump_mp3"
-		},
-		{
-			"url": "res/sound/huihuidie.mp3",
-			"type": "sound",
-			"name": "huihuidie_mp3"
-		},
-		{
-			"url": "res/sound/sjump_music.mp3",
-			"type": "sound",
-			"name": "sjump_music_mp3"
-		},
-		{
-			"url": "res/sound/bjump_music.mp3",
-			"type": "sound",
-			"name": "bjump_music_mp3"
-		},
-		{
-			"url": "res/sound/die_music.mp3",
-			"type": "sound",
-			"name": "die_music_mp3"
-		},
-		{
-			"url": "res/sound/shashabjump.mp3",
-			"type": "sound",
-			"name": "shashabjump_mp3"
-		},
-		{
-			"url": "res/sound/shashadie.mp3",
-			"type": "sound",
-			"name": "shashadie_mp3"
-		},
-		{
-			"url": "res/sound/shashasjump.mp3",
-			"type": "sound",
-			"name": "shashasjump_mp3"
-		},
-		{
-			"url": "res/sound/xiaomeisjump.mp3",
-			"type": "sound",
-			"name": "xiaomeisjump_mp3"
-		},
-		{
-			"url": "res/sound/xiaomeidie.mp3",
-			"type": "sound",
-			"name": "xiaomeidie_mp3"
-		},
-		{
-			"url": "res/sound/xiaomeibjump.mp3",
-			"type": "sound",
-			"name": "xiaomeibjump_mp3"
-		},
-		{
-			"url": "res/sound/yujiesjump.mp3",
-			"type": "sound",
-			"name": "yujiesjump_mp3"
-		},
-		{
-			"url": "res/sound/yujiebjump.mp3",
-			"type": "sound",
-			"name": "yujiebjump_mp3"
-		},
-		{
-			"url": "res/sound/yujiedie.mp3",
-			"type": "sound",
-			"name": "yujiedie_mp3"
 		},
 		{
 			"url": "res/scene/bird1.png",
@@ -3793,11 +3648,6 @@
 			"url": "res/achievement/acmenteffects_1/acmenteffects_1.json",
 			"type": "json",
 			"name": "acmenteffects_1_json"
-		},
-		{
-			"url": "res/sound/failbg_music.mp3",
-			"type": "sound",
-			"name": "failbg_music_mp3"
 		},
 		{
 			"url": "res/rolePage/yulan_a.png",
@@ -6128,66 +5978,6 @@
 			"url": "res/mapjson/hy/hy_9.png",
 			"type": "image",
 			"name": "hy_9_png"
-		},
-		{
-			"url": "res/sound/mingrendie.mp3",
-			"type": "sound",
-			"name": "mingrendie_mp3"
-		},
-		{
-			"url": "res/sound/mingrensjump.mp3",
-			"type": "sound",
-			"name": "mingrensjump_mp3"
-		},
-		{
-			"url": "res/sound/mingrenskill.mp3",
-			"type": "sound",
-			"name": "mingrenskill_mp3"
-		},
-		{
-			"url": "res/sound/mingrenbjump.mp3",
-			"type": "sound",
-			"name": "mingrenbjump_mp3"
-		},
-		{
-			"url": "res/sound/xiaoyingskill.mp3",
-			"type": "sound",
-			"name": "xiaoyingskill_mp3"
-		},
-		{
-			"url": "res/sound/xiaoyingbjump.mp3",
-			"type": "sound",
-			"name": "xiaoyingbjump_mp3"
-		},
-		{
-			"url": "res/sound/xiaoyingdie.mp3",
-			"type": "sound",
-			"name": "xiaoyingdie_mp3"
-		},
-		{
-			"url": "res/sound/xiaoyingsjump.mp3",
-			"type": "sound",
-			"name": "xiaoyingsjump_mp3"
-		},
-		{
-			"url": "res/sound/zuozhubjump.mp3",
-			"type": "sound",
-			"name": "zuozhubjump_mp3"
-		},
-		{
-			"url": "res/sound/zuozhudie.mp3",
-			"type": "sound",
-			"name": "zuozhudie_mp3"
-		},
-		{
-			"url": "res/sound/zuozhusjump.mp3",
-			"type": "sound",
-			"name": "zuozhusjump_mp3"
-		},
-		{
-			"url": "res/sound/zuozhuskill.mp3",
-			"type": "sound",
-			"name": "zuozhuskill_mp3"
 		},
 		{
 			"url": "res/active/muye_an_yihuode_a.png",
