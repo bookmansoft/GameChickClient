@@ -76,7 +76,7 @@ class LoginMgr {
         //首先登录索引服，获取其分配的游戏服地址
         // Main.AddDebug("登入index服务器");
         NetManager.SendRequest(
-            ["func=getServerInfo&oemInfo=" + JSON.stringify(data) + "&control=config"],
+            ["func=getServerInfo&oemInfo=" + JSON.stringify(data) + "&control=lb"],
             LoginMgr._LoginReturn
         );
     }
