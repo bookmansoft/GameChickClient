@@ -40,8 +40,8 @@ class NetNumber{
     /**
      * 积分购买1006
      */
-    public static get BuyGold(): number{
-        return 1006;
+    public static get BuyGold(): string {
+        return 'shop.BuyItem';
     }
 
     /**
