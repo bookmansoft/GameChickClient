@@ -109,13 +109,6 @@ class Player {
     }
 
     /**
-     * 消耗瓶盖
-     */
-    public ConsumePingGai(value: number) {
-        this.PingGai -= value;
-    }
-
-    /**
      * 测试瓶盖是否足够
      */
     public TestPingGai(value: number): boolean{

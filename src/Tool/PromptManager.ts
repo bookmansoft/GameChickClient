@@ -169,9 +169,6 @@ class PromptManager extends egret.DisplayObjectContainer{
 				if (type == "M"){
 					_bonusData = {"type":"money", "res":"fenxiang_jinbi_png", "num":data["num"], "name":StringMgr.GetText("rewardtext1")};
 					_endBonusData.push(_bonusData);
-					// if($isAddItem){
-					// 	UnitManager.Player.Money += data["num"];
-					// }
 				}
 				else if(type == "A"){
 					_bonusData = {"type":"tili", "res":"fenxiang_daoju_tili_png", "num":data["num"], "name":StringMgr.GetText("rewardtext3")};
@@ -180,9 +177,6 @@ class PromptManager extends egret.DisplayObjectContainer{
 				else if(type == "D"){
 					_bonusData = {"type":"pinggai", "res":"fenxiang_jifen_png", "num":data["num"], "name":StringMgr.GetText("rewardtext2")};
 					_endBonusData.push(_bonusData);
-					// if($isAddItem){
-					// 	UnitManager.Player.PingGai += data["num"];
-					// }
 				}
 				else if (type == "I" || type == "C"){
 					var item: Item = ItemManager.GetItemByID(data["id"]);

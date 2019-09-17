@@ -26,8 +26,8 @@ class NetNumber{
     /**
      * 内购1003
      */
-    public static get BuyItem(): number{
-        return 1003;
+    public static get BuyItem(): string{
+        return 'shop.BuyShopItem';
     }
 
     /**

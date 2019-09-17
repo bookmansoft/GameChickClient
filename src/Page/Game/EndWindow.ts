@@ -233,7 +233,6 @@ class EndWindow extends AWindow{
                         des = StringMgr.GetText("rewardtext1") + " X" + money.toString();
                         hasItem = true;
                     }
-                    // UnitManager.Player.Money += money;
                 }
                 else if (type == "D"){
                     // if (!hasMoney){
@@ -245,7 +244,6 @@ class EndWindow extends AWindow{
                         des = StringMgr.GetText("rewardtext2") + " X" + data["num"];
                         hasItem = true;
                     // }
-                    // UnitManager.Player.PingGai += money;
                 }
                 else if ((type == "I" || type == "C") && !hasItem){
                     var item: Item = ItemManager.GetItemByID(data["id"]);

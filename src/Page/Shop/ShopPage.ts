@@ -116,9 +116,6 @@ class ShopPage extends AWindow{
         } else {
             var pingaiStr: string = data["bonus"];
             let pingaiNum: string[] = pingaiStr.split(",");
-            if(pingaiNum[0] == "D"){
-                UnitManager.Player.PingGai += parseInt(pingaiNum[1]);
-            }
         }
     }
 
