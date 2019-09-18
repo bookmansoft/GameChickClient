@@ -34,8 +34,7 @@ class LoginMgr {
             }
         }
 
-        let openid = egret.localStorage.getItem('openid');
-        let openkey = egret.localStorage.getItem('openkey');
+        let kyc = JSON.parse(egret.localStorage.getItem('kyc'));
 
         Game.IsIos = true;//FBSDKMgr.GetPlatform() == 2;        // 获取设备信息
         
@@ -44,7 +43,7 @@ class LoginMgr {
         var localOpenid: string = egret.localStorage.getItem(LoginMgr.LocalOpenid);
         var localTime: number = 0;
         let localToken = "";
-        if (openid == localOpenid) {
+        if (kyc["openid"] == localOpenid) {
             if (egret.localStorage.getItem(LoginMgr.LocalTokenKey) != null) {
                 localTime = parseInt(egret.localStorage.getItem(LoginMgr.LocalTimeKey));
                 if (time - localTime < 5400){
@@ -53,9 +52,7 @@ class LoginMgr {
             }
         }
 
-        var data : JSON = JSON.parse("{}");
-        data["openid"] = openid;
-        data["openkey"] = openkey;
+        let data = kyc;
         data["domain"] = "authwx.Chick";
 
         // 监听消息
@@ -74,9 +71,10 @@ class LoginMgr {
         SlaveManager.InitWatch();
 
         //首先登录索引服，获取其分配的游戏服地址
-        // Main.AddDebug("登入index服务器");
+        let url = "control=lb&func=getServerInfo&oemInfo=" + encodeURIComponent(JSON.stringify(data));
+        console.log('lb', url);
         NetManager.SendRequest(
-            ["func=getServerInfo&oemInfo=" + JSON.stringify(data) + "&control=lb"],
+            [url],
             LoginMgr._LoginReturn
         );
     }
@@ -102,7 +100,6 @@ class LoginMgr {
         NetManager.ServerPort = port;
         Facade.instance().SocketInit(ip, port);
     }
-
     /**
      * 登入游服
      * @param isUseToken    是否使用本地Token登入
@@ -114,8 +111,7 @@ class LoginMgr {
         LoginMgr.loginedLogicServer = true;
         
         Game.IsIos = true; //FBSDKMgr.GetPlatform() == 2;        // 获取设备信息
-        let openid = egret.localStorage.getItem('openid');
-        let openkey = egret.localStorage.getItem('openkey');
+        let kyc = JSON.parse(egret.localStorage.getItem('kyc'));
         
         // 获取本地token
         var time: number = Math.floor(new Date().getTime()/1000);
@@ -126,13 +122,13 @@ class LoginMgr {
         }
 
         // 登入
-        var data : JSON = JSON.parse("{}");
+        var data = kyc;
         data["domain"] = "authwx.Chick";
-        data["openid"] = openid;
-        data["openkey"] = openkey;
         data["token"] = localToken;
+        let url = "func="+NetNumber.Logoin+"&oemInfo="+encodeURIComponent(JSON.stringify(data));
+        console.log('login', url);
         NetManager.SendRequest(
-            ["func=" + NetNumber.Logoin + "&oemInfo=" + JSON.stringify(data)],
+            [url],
             LoginMgr._ReceiveInit
         );
         
