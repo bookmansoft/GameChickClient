@@ -38,22 +38,11 @@ class LoginMgr {
 
         Game.IsIos = true;//FBSDKMgr.GetPlatform() == 2;        // 获取设备信息
         
-        // 获取本地token
-        var time: number = Math.floor(new Date().getTime()/1000);
-        var localOpenid: string = egret.localStorage.getItem(LoginMgr.LocalOpenid);
-        var localTime: number = 0;
-        let localToken = "";
-        if (kyc["openid"] == localOpenid) {
-            if (egret.localStorage.getItem(LoginMgr.LocalTokenKey) != null) {
-                localTime = parseInt(egret.localStorage.getItem(LoginMgr.LocalTimeKey));
-                if (time - localTime < 5400){
-                    localToken = egret.localStorage.getItem(LoginMgr.LocalTokenKey);
-                }
-            }
-        }
-
+        //#region 20190920 当前版本将钱包身份信息作为注册信息，在此作必要的数据转换
         let data = kyc;
-        data["domain"] = "authwx.Chick";
+        data["domain"] = "authgg.Chick";
+		data['openid'] = kyc['uid']; 
+        //#endregion
 
         // 监听消息
         Facade.instance().watch(UnitManager.ReceivePhysical, NetNumber.ReceivePhysical);
@@ -116,15 +105,28 @@ class LoginMgr {
         // 获取本地token
         var time: number = Math.floor(new Date().getTime()/1000);
         var localTime: number = 0;
+        
         let localToken = "";
+        var localOpenid: string = egret.localStorage.getItem(LoginMgr.LocalOpenid);
         if (!isUseToken){
             localToken = "";
+        } else {
+            if (kyc["openid"] == localOpenid) {
+                if (egret.localStorage.getItem(LoginMgr.LocalTokenKey) != null) {
+                    localTime = parseInt(egret.localStorage.getItem(LoginMgr.LocalTimeKey));
+                    if (time - localTime < 5400){
+                        localToken = egret.localStorage.getItem(LoginMgr.LocalTokenKey);
+                    }
+                }
+            }
         }
 
-        // 登入
-        var data = kyc;
-        data["domain"] = "authwx.Chick";
+        //#region 20190920 当前版本将钱包身份信息作为注册信息，在此作必要的数据转换
+        let data = kyc;
+        data["domain"] = "authgg.Chick";
+		data['openid'] = kyc['uid']; 
         data["token"] = localToken;
+        //#endregion
         let url = "func="+NetNumber.Logoin+"&oemInfo="+encodeURIComponent(JSON.stringify(data));
         console.log('login', url);
         NetManager.SendRequest(
