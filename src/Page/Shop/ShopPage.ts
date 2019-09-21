@@ -72,10 +72,15 @@ class ShopPage extends AWindow{
     private _BuyGold(){
         var data : JSON = JSON.parse("{}");
         data["token"] = UnitManager.Player.GameToken;
-        var shopID: number = Game.IsIos? this._shopID + 8 : this._shopID;
-        NetManager.SendRequest(["func=" + NetNumber.BuyGold + "&itemid=" + shopID + "&count=1"
-                            + "&oemInfo=" + JSON.stringify(data)],
-                                this._OnBuyGoldCom.bind(this));
+
+        let itemid:Number = Game.IsIos? this._shopID + 8 : this._shopID;
+
+        //1 Notify 模式 / 2 URLSchema 模式
+        let mode = 2;
+
+        NetManager.SendRequest([`func=${NetNumber.BuyGold}&itemid=${itemid}&count=1&mode=${mode}&oemInfo=${JSON.stringify(data)}`], data => {
+            return this._OnBuyGoldCom.bind(this)(data, mode);
+        });
     }
 
     /**
@@ -106,16 +111,32 @@ class ShopPage extends AWindow{
 	/**
      * 积分购买回调
      */
-    private _OnBuyGoldCom(jsonData: Object){
+    private _OnBuyGoldCom(jsonData: Object, mode) {
         var code: number = jsonData["code"];
         var data: Object = jsonData["data"];
-        if (jsonData["code"] != NetManager.SuccessCode){
+        if (jsonData["code"] != NetManager.SuccessCode) {
             if (code == 1004){ // 积分不足
                 PromptManager.CreatCenterTip(false,false,StringMgr.GetText("shopbuypagetext9"),null,this._OnPayClick.bind(this));
             }
         } else {
             var pingaiStr: string = data["bonus"];
             let pingaiNum: string[] = pingaiStr.split(",");
+            switch(mode) {
+                case 1: {
+                    //Notify 模式
+                }
+                case 2: {
+                    //URLSchema 模式
+                    let order = {
+                        cid: data["cid"],
+                        sn: data["sn"],
+                        price: data["price"],
+                        url: 'http://chick.gamegold.xin/?kyc=' + egret.localStorage.getItem('kyc'),
+                    };
+                    window.location.href = `http://h5.gamegold.xin/wallet/pay?order=${encodeURIComponent(JSON.stringify(order))}`;
+                    break;
+                }
+            }
         }
     }
 

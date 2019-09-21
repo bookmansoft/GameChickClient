@@ -5,10 +5,10 @@ class NetManager {
     /**
      * 索引服务器地址
      */
-    public static IndexServer: string = Main.IsLocationDebug ? "http://127.0.0.1:9901" : "https://server.jxd.173kw.com:9901";
+    public static IndexServer: string = Main.IsLocationDebug ? "http://127.0.0.1:9901" : "http://w.gamegold.xin:9901";
 
-    public static get IndexServerInfo(){
-        return Main.IsLocationDebug? {host:'127.0.0.1', port:9901} : {host:'server.jxd.173kw.com', port:9901};
+    public static get IndexServerInfo() {
+        return Main.IsLocationDebug? {host:'127.0.0.1', port:9901} : {host:'w.gamegold.xin', port:9901};
     }
     
     /**
@@ -65,12 +65,6 @@ class NetManager {
         else {
             url_Server = "https://" + NetManager.ServerUrl + ":" + NetManager.ServerPort + "/index.html?";
         }
-        // var url_Server: string = "http://123.207.246.176:9001/index.html?";
-        // // url_Server = "http://120.76.201.19:9001/index.html?";
-        // // url_Server = "http://127.0.0.1:9001/index.html?";
-        // if (!Game.IsIos){
-        //     url_Server = "http://123.207.246.176:9101/index.html?";
-        // }
         
         //创建GET请求
         var output: string;
@@ -84,12 +78,6 @@ class NetManager {
         }
         var url = url_Server + url_base;
         output = url_Server + output;
-        // var url = "http://211.159.183.153:1000/ky.php?url=" + encodeURIComponent(url);
-        // output = "http://211.159.183.153:1000/ky.php?url=" + encodeURIComponent(output);
-        // var url = url_Server + url_base;
-        // output = url_Server + output;
-        // console.log(output);
-        // Main.AddDebug(output);
         
         NetManager._currentSendUrl = url;
         var loader = new egret.URLLoader();
