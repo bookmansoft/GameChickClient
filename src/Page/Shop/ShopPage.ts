@@ -131,9 +131,9 @@ class ShopPage extends AWindow{
                         cid: data["cid"],
                         sn: data["sn"],
                         price: data["price"],
-                        url: 'http://chick.gamegold.xin/?kyc=' + egret.localStorage.getItem('kyc'),
                     };
-                    window.location.href = `http://h5.gamegold.xin/wallet/pay?order=${encodeURIComponent(JSON.stringify(order))}`;
+                    let st = `/wallet/pay/${JSON.stringify(order)}`;
+                    window.location.href = `http://h5.gamegold.xin?path=${encodeURIComponent(st)}`;
                     break;
                 }
             }
