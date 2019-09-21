@@ -394,8 +394,8 @@ class StarWindow extends AWindow{
      * 分享按钮点击响应
      */
     private _OnShareClick()　{
-        //todo 暂时封闭了分享功能
-        window.location.href = `test.gamegold.xin/?openid=${egret.localStorage.getItem('openid')}&openkey=${egret.localStorage.getItem('openkey')}`;
+        //todo 暂时封闭了分享功能, 改为跳转钱包功能
+        window.location.href = `http://h5.gamegold.xin`;
         return;
 
         // SoundManager.PlayButtonMusic();
