@@ -126,11 +126,14 @@ class ShopPage extends AWindow{
                     //Notify 模式
                 }
                 case 2: {
+                    let kyc = JSON.parse(egret.localStorage.getItem('kyc'));
+                    
                     //URLSchema 模式
                     let order = {
                         cid: data["cid"],
                         sn: data["sn"],
                         price: data["price"],
+                        addr: kyc['addr'],
                     };
                     let st = `/wallet/pay/${JSON.stringify(order)}`;
                     window.location.href = `http://h5.gamegold.xin?path=${encodeURIComponent(st)}`;
