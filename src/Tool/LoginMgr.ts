@@ -41,7 +41,8 @@ class LoginMgr {
         //#region 20190920 当前版本将钱包身份信息作为注册信息，在此作必要的数据转换
         let data = kyc;
         data["domain"] = "authgg.Chick";
-		data['openid'] = kyc['uid']; 
+		data['openid'] = kyc['openid']; 
+		data['openkey'] = kyc['openkey']; 
         //#endregion
 
         // 监听消息
@@ -114,7 +115,7 @@ class LoginMgr {
             if (kyc["openid"] == localOpenid) {
                 if (egret.localStorage.getItem(LoginMgr.LocalTokenKey) != null) {
                     localTime = parseInt(egret.localStorage.getItem(LoginMgr.LocalTimeKey));
-                    if (time - localTime < 5400){
+                    if (time - localTime < 5400){   
                         localToken = egret.localStorage.getItem(LoginMgr.LocalTokenKey);
                     }
                 }
@@ -124,7 +125,11 @@ class LoginMgr {
         //#region 20190920 当前版本将钱包身份信息作为注册信息，在此作必要的数据转换
         let data = kyc;
         data["domain"] = "authgg.Chick";
-		data['openid'] = kyc['uid']; 
+		data['openid'] = kyc['openid']; 
+		data['openkey'] = kyc['openkey']; 
+		data['pubkey'] = kyc['pubkey']; 
+		data['sig'] = kyc['sig']; 
+        data['cid'] = 'xxxxxxxx-game-gold-root-xxxxxxxxxxxx';
         data["token"] = localToken;
         //#endregion
         let url = "func="+NetNumber.Logoin+"&oemInfo="+encodeURIComponent(JSON.stringify(data));

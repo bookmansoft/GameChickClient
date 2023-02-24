@@ -11,7 +11,7 @@
     <meta name="360-fullscreen" content="true"/>
     <style>
         html, body {
-            -ms-touch-action: none;
+            touch-action: none;
             background: #888888;
             padding: 0;
             border: 0;
@@ -185,9 +185,19 @@
     	function getUrlKey(name) {
         	return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href) || [, ""])[1].replace(/\+/g, '%20')) || null
     	}
-		let kyc = getUrlKey('kyc');
-		egret.localStorage.setItem('kyc', kyc);
-		console.log('begin: ', kyc);
+
+		let openid = getUrlKey('openid') || '159888' + (Math.random()*100000|0).toString();
+		let openkey = getUrlKey('openkey') || openid;
+		let pubkey = getUrlKey('pubkey') || '';
+		let sig = getUrlKey('sig') || '';
+
+		let kyc = {
+			openid,
+			openkey,
+			pubkey,
+			sig,
+		}
+		egret.localStorage.setItem('kyc', JSON.stringify(kyc));
 	</script>
 
     <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"

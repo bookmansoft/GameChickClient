@@ -443,18 +443,14 @@ class StarWindow extends AWindow{
      * 收藏按钮点击响应
      */
     private _OnKeepClick(){
-        //todo 暂时封闭了分享功能
-        PromptManager.CreatCenterTip(false, true, "Coming soon...");
-        return;
-
-        // SoundManager.PlayButtonMusic();
-        // this._guideKeepButton.visible = false;
-        // if(GuideManager.IsGuide && GuideManager.GuideID == 8){
-        //     WindowManager.KeepRewardTip().IsVisibled = true;
-        //     // GuideManager.GuideFinish(8);
-        // }else{
-        //     // FBSDKMgr.AddShortcut();
-        // }
+        SoundManager.PlayButtonMusic();
+        this._guideKeepButton.visible = false;
+        if(GuideManager.IsGuide && GuideManager.GuideID == 8){
+            WindowManager.KeepRewardTip().IsVisibled = true;
+            GuideManager.GuideFinish(8);
+        } else {
+            //FBSDKMgr.AddShortcut();
+        }
     }
 
 	/**
@@ -595,16 +591,12 @@ class StarWindow extends AWindow{
      * 奴隶按钮点击响应
      */
     private _OnSlaveClick(){
-        //todo 暂时封闭
-        PromptManager.CreatCenterTip(false, true, "Coming soon...");
-        return;
-
-        // SoundManager.PlayButtonMusic();
-        // if (WindowManager.SlaveWindow() == null){
-        //     WindowManager.SetWindowFunction(this._OpenSlave.bind(this));
-        //     return;
-        // }
-        // this._OpenSlave();
+        SoundManager.PlayButtonMusic();
+        if (WindowManager.SlaveWindow() == null){
+            WindowManager.SetWindowFunction(this._OpenSlave.bind(this));
+            return;
+        }
+        this._OpenSlave();
     }
 
     /**
@@ -637,13 +629,9 @@ class StarWindow extends AWindow{
      * 日常按钮点击响应
      */
     private _OnDailyActiveClick(){
-        //todo 暂时封闭
-        PromptManager.CreatCenterTip(false, true, "Coming soon...");
-        return;
-
-        // SoundManager.PlayButtonMusic();
-        // WindowManager.WaitPage().IsVisibled = true;
-        // NetManager.SendRequest(["func=" + NetNumber.GetDailyActiveInfo],this._ReceiveDailyActiveInfo.bind(this));
+        SoundManager.PlayButtonMusic();
+        WindowManager.WaitPage().IsVisibled = true;
+        NetManager.SendRequest(["func=" + NetNumber.GetDailyActiveInfo],this._ReceiveDailyActiveInfo.bind(this));
     }
 
     /**
@@ -718,16 +706,12 @@ class StarWindow extends AWindow{
      * 积分按钮点击响应
      */
     private _OnIntegralClick(){
-        //todo 暂时封闭
-        PromptManager.CreatCenterTip(false, true, "Coming soon...");
-        return;
-
-        // SoundManager.PlayButtonMusic();
-        // if (WindowManager.IntegralWindow() == null){
-        //     WindowManager.SetWindowFunction(this._OpenIntegral.bind(this));
-        //     return;
-        // }
-        // this._OpenIntegral();
+        SoundManager.PlayButtonMusic();
+        if (WindowManager.IntegralWindow() == null){
+            WindowManager.SetWindowFunction(this._OpenIntegral.bind(this));
+            return;
+        }
+        this._OpenIntegral();
     }
 
     /**

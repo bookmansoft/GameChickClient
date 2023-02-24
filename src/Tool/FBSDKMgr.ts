@@ -25,7 +25,7 @@ class FBSDKMgr {
      * @param   callback    分享成功回调
      */
     public static Share(desc: string = "", imageUrl: string = "", shareType: number = 0, callback: Function = null){
-        // if (Main.IsLocationDebug) return;
+        if (Main.IsLocationDebug) return;
         return FBSDKMgr._Share(desc, imageUrl, "", shareType, callback);
     }
 

@@ -51,8 +51,7 @@ class SlaveWindow extends AWindow{
                 text = text.replace("&token", con.toString());
                 PromptManager.CreatCenterTip(false, false, text, "", this._BuyEscapeTimes.bind(this));
             }
-        }
-        else {
+        } else {
             fre = FrequencyManager.GetFrequency(FrequencyType.CatchType);
             var buyTime: number = fre.ExtValue;
             var con: number = buyTime >= consume.length? consume[4] : consume[buyTime];
