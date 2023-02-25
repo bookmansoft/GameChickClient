@@ -40,7 +40,7 @@ class LoginMgr {
         
         //#region 20190920 当前版本将钱包身份信息作为注册信息，在此作必要的数据转换
         let data = kyc;
-        data["domain"] = "authgg.Chick";
+        data["domain"] = "CoreOfChickIOS";
 		data['openid'] = kyc['openid']; 
 		data['openkey'] = kyc['openkey']; 
         //#endregion
@@ -124,7 +124,7 @@ class LoginMgr {
 
         //#region 20190920 当前版本将钱包身份信息作为注册信息，在此作必要的数据转换
         let data = kyc;
-        data["domain"] = "authgg.Chick";
+        data["domain"] = "CoreOfChickIOS";
 		data['openid'] = kyc['openid']; 
 		data['openkey'] = kyc['openkey']; 
 		data['pubkey'] = kyc['pubkey']; 
