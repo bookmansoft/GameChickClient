@@ -157,7 +157,7 @@ class AchievementManager{
         }
         var data: string = jsonData["data"];
         var dataSet: string[] = data.split(",");
-        switch (dataSet[0]) {
+        switch (ItemManager.GetItemCode(dataSet[0])) {
             case "M":
                 var count: number = parseInt(dataSet[1]);
                 // UnitManager.Player.Money += count;

@@ -165,7 +165,7 @@ class PromptManager extends egret.DisplayObjectContainer{
         if (bonus != null){
 			for (var i = 0; i < bonus.length; i++){
                 let data: Object = bonus[i];
-                let type: string = data["type"];
+				let type: string = ItemManager.GetItemCode(data["type"]);
 				if (type == "M"){
 					_bonusData = {"type":"money", "res":"fenxiang_jinbi_png", "num":data["num"], "name":StringMgr.GetText("rewardtext1")};
 					_endBonusData.push(_bonusData);
@@ -179,7 +179,7 @@ class PromptManager extends egret.DisplayObjectContainer{
 					_endBonusData.push(_bonusData);
 				}
 				else if (type == "I" || type == "C"){
-					var item: Item = ItemManager.GetItemByID(data["id"]);
+					var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(type, data["id"]));
 					if (item != null){
 						_bonusData = {"type":"item", "item":item, "res":item.ImageRes, "num":data["num"], "name":item.Name};
 						_endBonusData.push(_bonusData);

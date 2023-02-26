@@ -77,7 +77,7 @@ class PlayGiftWindow extends AWindow{
             for (var i = 0; i < bonus.length && i < 5; i++) {
                 this._groupSet[i].visible = true;
                 var data: Object = bonus[i];
-                var type: string = data["type"];
+                var type: string = ItemManager.GetItemCode(data["type"]);
 
                 let xid = ItemManager.GetXID(type, data["id"]);
 

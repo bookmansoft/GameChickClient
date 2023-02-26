@@ -56,7 +56,7 @@ class ActiveBonusWindow extends AWindow{
             for (var i = 0; i < bonus.length && i < 5; i++){
                 this._groupSet[i].visible = true;
                 var data: Object = bonus[i];
-                var type: string = data["type"];
+                var type: string = ItemManager.GetItemCode(data["type"]);
                 if (type == "M"){
                     this._imageSet[index].source = "fenxiang_jinbi_png";
                     this._countLabelSet[index].text = data["num"];

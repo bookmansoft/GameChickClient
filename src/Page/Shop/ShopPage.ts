@@ -324,10 +324,10 @@ class ShopPage extends AWindow{
 
         // 更新红蓝底
         let isEnough = true;
-        if (this._buyGoldType == "D"){
+        if (ItemManager.GetItemCode(this._buyGoldType) == "D"){
             isEnough = UnitManager.Player.PingGai >= this._endPrice;
         }
-        else if (this._buyGoldType == "M"){
+        else if (ItemManager.GetItemCode(this._buyGoldType) == "M"){
             isEnough = UnitManager.Player.Money >= this._endPrice;
         }
         // 判断显示红蓝底框

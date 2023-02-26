@@ -123,21 +123,21 @@ class IntegralExchangeList extends AWindow{
 	 */
 	private showItemIma(bonus: string[]){
         if (bonus != null){
-			if (bonus[0] == "M"){
+			if (ItemManager.GetItemCode(bonus[0]) == "M"){
 				return ["fenxiang_jinbi_png",bonus[1]];
 			}
-			else if(bonus[0] == "A"){
+			else if(ItemManager.GetItemCode(bonus[0]) == "A"){
 				return ["fenxiang_daoju_tili_png",bonus[1]];
 			}
-			else if(bonus[0] == "D"){
+			else if(ItemManager.GetItemCode(bonus[0]) == "D"){
 				return ["fenxiang_jifen_png",bonus[1]];
 			}
-			else if (bonus[0] == "I" || bonus[0] == "C"){
-				var item: Item = ItemManager.GetItemByID(parseInt(bonus[1]));
-				if (item != null){
-					return [item.ImageRes,bonus[2]];
+			else if (ItemManager.GetItemCode(bonus[0]) == "I" || ItemManager.GetItemCode(bonus[0]) == "C"){
+				var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(bonus[0], parseInt(bonus[1])));
+				if (item != null) {
+					return [item.ImageRes, bonus[2]];
 				}
-				if(item == null && bonus[0] == "C" && bonus[1] == "0"){
+				if(item == null && ItemManager.GetItemCode(bonus[0]) == "C" && bonus[1] == "0") {
 					return ["suipian_weizhi_png",bonus[2]];
 				}
 			}

@@ -131,28 +131,66 @@ class ItemManager{
     public static GetXID(type, id) {
         switch(type) {
             case 'C':
-                return 1000+id;
+            case 1000:
+                return 1000 + parseInt(id);
             case "road":
-                return 10000+id;
+            case 10000:
+                return 10000 + parseInt(id);
             case "role":
-                return 20000+id;
+            case 20000:
+                return 20000 + parseInt(id);
             case "scene":
-                return 30000+id;
+            case 30000:
+                return 30000 + parseInt(id);
             case 'I':
-                return 40000+id;
+            case 40000:
+                return 40000 + parseInt(id);
             case 'box':
-                return 50000+id;
+            case 50000:
+                return 50000 + parseInt(id);
             case 'D':
+            case 1:
                 return 1;
             case 'M':
+            case 2:
                 return 2;
             case 'A':
+            case 9:
                 return 9;
             case 'V':
+            case 20:
                 return 20;
-            default:
-                return 0;
         }
+        return parseInt(id);
+    }
+
+    /**
+     * 将可能的数字形式的奖励类型转换成字母型，增强客户端显示兼容性
+     */
+    public static GetItemCode(type) {
+        switch(type) {
+            case 1000:
+                return "C";
+            case 10000:
+                return "road";
+            case 20000:
+                return "role";
+            case 30000:
+                return "scene";
+            case 40000:
+                return 'I';
+            case 50000:
+                return 'box';
+            case 1:
+                return 'D';
+            case 2:
+                return 'M';
+            case 9:
+                return 'A';
+            case 20:
+                return 'V';
+        }
+        return type;
     }
 
     /**

@@ -34,9 +34,9 @@ class GiftWindow extends AWindow{
      */
     private _OnClick(){
         this.IsVisibled = false;
-        // UnitManager.CheckPlayGift();
-        // 引导检测
-        // GuideManager.GuideCheck();
+        UnitManager.CheckPlayGift();
+        //引导检测
+        //GuideManager.GuideCheck();
     }
 
     /**
@@ -57,7 +57,7 @@ class GiftWindow extends AWindow{
             var index: number = 1;
             for (var i = 0; i < bonus.length && i < 2; i++) {
                 var data: Object = bonus[i];
-                var type: string = data["type"];
+                var type: string = ItemManager.GetItemCode(data["type"]);
                 if (type == "M"){
                     this["_rewardImage" + index].source = "fenxiang_jinbi_png";
                     this["_countLabel" + index].text = data["num"];
@@ -65,7 +65,7 @@ class GiftWindow extends AWindow{
                     // if (!isGet) UnitManager.Player.Money += data["num"];;
                 }
                 else if (type == "I" || type == "C"){
-                    var item: Item = ItemManager.GetItemByID(data["id"]);
+                    var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(type, data["id"]));
                     if (item != null){
                         this["_rewardImage" + index].source = item.ImageRes;
                         this["_countLabel" + index].text = data["num"];

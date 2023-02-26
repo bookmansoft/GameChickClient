@@ -56,7 +56,7 @@ class Item{
      */
     public get TypeDesc(): string{
         var desc: string = "";
-        switch (this._type) {
+        switch (ItemManager.GetItemCode(this._type)) {
             case "I":
                 desc = StringMgr.GetText("commontext2");
                 break;

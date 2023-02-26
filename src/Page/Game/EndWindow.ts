@@ -222,7 +222,7 @@ class EndWindow extends AWindow{
             
             for (var i = 0; i < bonus.length; i++){
                 var data: Object = bonus[i];
-                var type: string = data["type"];
+                var type: string = ItemManager.GetItemCode(data["type"]);
                 if (type == "M"){
                     if (!hasMoney){
                         money = data["num"];
@@ -246,7 +246,7 @@ class EndWindow extends AWindow{
                     // }
                 }
                 else if ((type == "I" || type == "C") && !hasItem){
-                    var item: Item = ItemManager.GetItemByID(data["id"]);
+                    var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(type, data["id"]));
                     if (item != null && data["id"] != 701 && data["id"] != 702){
                         res = item.ImageRes;
                         des = item.Name + "x" + data["num"];

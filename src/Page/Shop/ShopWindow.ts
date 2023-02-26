@@ -129,7 +129,7 @@ class ShopWindow extends AWindow{
                 // ItemManager.AddItem(ItemManager.GetXID(type, data["id"]), 1);
             }
             else{
-                switch (type) {
+                switch (ItemManager.GetItemCode(type)) {
                     case "C":
                         this._roleData.push(data);
                         // this._roleData.push([data["id"], data["res"], data["price"], data["name"], data["costtype"], "", data["defaultbuy"], bonusSet[1]]);

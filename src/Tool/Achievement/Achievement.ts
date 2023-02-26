@@ -143,7 +143,7 @@ class Achievement{
     private _ParseReward(str: string){
         var dataStr: string[] = str.split(",");
         var type: string = dataStr[0];
-        switch (type) {
+        switch (ItemManager.GetItemCode(type)) {
             case "M":
                 this._rewardImageRes = "fenxiang_jinbi_png";
                 this._rewardNum = parseInt(dataStr[1]);
@@ -158,7 +158,7 @@ class Achievement{
             case "C":
                 var id: number = parseInt(dataStr[1]);
                 this._rewardNum = parseInt(dataStr[2]);
-                var item: Item = ItemManager.GetItemByID(id);
+                var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(type, id));
                 if (item != null){
                     this._rewardImageRes = item.ImageRes;
                     this._rewardDesc = item.TypeDesc + ":" + item.Name + "*" + this._rewardNum;
@@ -168,7 +168,7 @@ class Achievement{
             case "road":
                 var id: number = parseInt(dataStr[1]);
                 this._rewardNum = parseInt(dataStr[2]);
-                var item: Item = ItemManager.GetItemByID(id);
+                var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(type, id));
                 if (item != null){
                     this._rewardImageRes = item.ImageRes;
                     this._rewardDesc = item.TypeDesc + ":" + item.Name;
