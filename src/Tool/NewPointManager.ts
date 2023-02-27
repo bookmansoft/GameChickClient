@@ -126,13 +126,13 @@ class NewPointManager {
 			if (lashFre != null){
             	max = Math.floor(lashFre.MaxValue * 0.25 * level);
 				if ((max + lashFre.ExtValue - lashFre.Value) > 0){
-					if (ItemManager.GetItemCount(401) > 0) return true;
+					if (ItemManager.GetItemCount(40401) > 0) return true;
 				} 
 			}
 			if (foodFre != null){
             	max = Math.floor(foodFre.MaxValue * 0.25 * level);
 				if ((max + foodFre.ExtValue - foodFre.Value) > 0){
-					if (ItemManager.GetItemCount(402) > 0) return true;
+					if (ItemManager.GetItemCount(40402) > 0) return true;
 				} 
 			}
 		}
@@ -148,7 +148,7 @@ class NewPointManager {
 			if (fawnFre != null){
             	max = Math.floor(fawnFre.MaxValue * 0.25 * level);
 				if ((max + fawnFre.ExtValue - fawnFre.Value) > 0){
-					if (ItemManager.GetItemCount(403) > 0) return true;
+					if (ItemManager.GetItemCount(40403) > 0) return true;
 				} 
 			}
 		}

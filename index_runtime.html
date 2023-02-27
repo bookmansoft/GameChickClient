@@ -190,8 +190,8 @@
         	return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href) || [, ""])[1].replace(/\+/g, '%20')) || null
     	}
 		let kyc = {
-			openid: getUrlKey('openid') || 'authgg.15988888888',
-			openkey: getUrlKey('openkey') || 'authgg.15988888888',
+			openid: getUrlKey('openid') || 'authgg.15899999992',//'authgg.159888' + (Math.random()*100000|0).toString(),
+			openkey: getUrlKey('openkey') || 'authgg.15899999992',//'authgg.159888' + (Math.random()*100000|0).toString(),
 		}
 		egret.localStorage.setItem('kyc', JSON.stringify(key));
 		console.log('begin: ', kyc);

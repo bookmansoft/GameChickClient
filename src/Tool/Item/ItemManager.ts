@@ -97,7 +97,7 @@ class ItemManager{
             if(ItemManager.JudgeIsRoleSuiPian(id)){
                 GameEvent.DispatchEvent(EventType.RoleSuiPianItemUpdate);
             }
-            if (id == 401 || id == 402 || id == 403){ // 使用奴隶交互物品
+            if (id == 40401 || id == 40402 || id == 40403){ // 使用奴隶交互物品
                 GameEvent.DispatchEvent(EventType.SlaveItemUpdate);
             }
 

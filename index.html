@@ -186,8 +186,7 @@
         	return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.href) || [, ""])[1].replace(/\+/g, '%20')) || null
     	}
 
-		//let openid = getUrlKey('openid') || '159888' + (Math.random()*100000|0).toString();
-		let	openid = getUrlKey('openid') || 'authgg.15988888888';
+		let openid = getUrlKey('openid') || 'authgg.15899999992';//authgg.159888' + (Math.random()*100000|0).toString();
 		let openkey = getUrlKey('openkey') || openid;
 		let pubkey = getUrlKey('pubkey') || '';
 		let sig = getUrlKey('sig') || '';

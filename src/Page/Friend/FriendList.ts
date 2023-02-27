@@ -33,13 +33,6 @@ class FriendList extends AWindow{
         this._zhaoButton.skinName = SkinCreateMgr.CreateButton("zhaohui_l" + lg + "_png", "zhaohui_a" + lg + "_png");
         this._zanButton.skinName = SkinCreateMgr.CreateButton("dianzan_l" + lg + "_png", "dianzan_a" + lg + "_png", "dianzan_off" + lg + "_png");
         this._shouButton.skinName = SkinCreateMgr.CreateButton("shouqu_l" + lg + "_png", "shouqu_a" + lg + "_png");
-
-		this._zanButton.enabled = true;
-		
-		// 点赞的状态
-		if(this._zanState == null || this._zanState != 0)
-			this._zanButton.enabled = false;
-		else this._zanButton.enabled = true;
     }
 
 	/**
@@ -169,21 +162,22 @@ class FriendList extends AWindow{
 	 * 更新按钮状态
 	 */
 	private updataButton(){
-		// 点赞的状态
-		if(this._zanState != 0)
-			this._zanButton.enabled = false;
-		else this._zanButton.enabled = true;
-		
-
 		// 收取的状态
 		if(this._shouState > 0){
 			this._shouButton.visible = true;
 			this._zanButton.visible = false;
 			this._redIma.visible = true;
-		}else{
+		} else {
 			this._shouButton.visible = false;
 			this._zanButton.visible = true;
 			this._redIma.visible = false;
+		}
+
+		// 点赞的状态
+		if(!!this._zanButton.visible) {
+			if(this._zanState == null || this._zanState != 0) {
+				this._zanButton.enabled = false;
+			}
 		}
 
 		// 好友机器人按钮状态

@@ -1,5 +1,5 @@
 /**
- * 等待页面
+ * 互动页面
  */
 class SlaveHDWindow extends AWindow{
 	public constructor() {
@@ -197,11 +197,11 @@ class SlaveHDWindow extends AWindow{
      * 更新次数文本
      */
     private _UpdateSlaveItemNum(){
-        var snackCount: number = Math.min(99, ItemManager.GetItemCount(402));
+        var snackCount: number = Math.min(99, ItemManager.GetItemCount(40402));
         this._snackNumLabel.text = snackCount.toString();
-        var lashCount: number = Math.min(99, ItemManager.GetItemCount(401));
+        var lashCount: number = Math.min(99, ItemManager.GetItemCount(40401));
         this._lashNumLabel.text = lashCount.toString();
-        var fawnCount: number = Math.min(99, ItemManager.GetItemCount(403));
+        var fawnCount: number = Math.min(99, ItemManager.GetItemCount(40403));
         this._fawnNumLabel.text = fawnCount.toString();
     }
 
@@ -263,12 +263,12 @@ class SlaveHDWindow extends AWindow{
             PromptManager.CreatCenterTip(false, true, StringMgr.GetText("slavepagetext17"));
             return;
         }
-        if (ItemManager.GetItemCount(401) <= 0){
+        if (ItemManager.GetItemCount(40401) <= 0){
             this._shopID = 4021;
             PromptManager.CreatCenterTip(false, false, StringMgr.GetText("slavepagetext18"), "", this._OnBuyItem.bind(this));
             return;
         }
-        var item: Item = ItemManager.GetItemByID(401);
+        var item: Item = ItemManager.GetItemByID(40401);
         if (item == null) return;
         var text: string = StringMgr.GetText("slavepagetext19");
         text = text.replace("&item", item.Name);
@@ -328,12 +328,12 @@ class SlaveHDWindow extends AWindow{
             PromptManager.CreatCenterTip(false, true, StringMgr.GetText("slavepagetext17"));
             return;
         }
-        if (ItemManager.GetItemCount(402) <= 0){
+        if (ItemManager.GetItemCount(40402) <= 0){
             this._shopID = 4022;
             PromptManager.CreatCenterTip(false, false, StringMgr.GetText("slavepagetext25"), this._OnBuyItem.bind(this));
             return;
         }
-        var item: Item = ItemManager.GetItemByID(402);
+        var item: Item = ItemManager.GetItemByID(40402);
         if (item == null) return;
         var text: string = StringMgr.GetText("slavepagetext26");
         text = text.replace("&item", item.Name);
@@ -391,12 +391,12 @@ class SlaveHDWindow extends AWindow{
             PromptManager.CreatCenterTip(false, true, StringMgr.GetText("slavepagetext17"));
             return;
         }
-        if (ItemManager.GetItemCount(403) <= 0){
+        if (ItemManager.GetItemCount(40403) <= 0){
             this._shopID = 4023;
             PromptManager.CreatCenterTip(false, false, StringMgr.GetText("slavepagetext21"), "", this._OnBuyItem.bind(this));
             return;
         }
-        var item: Item = ItemManager.GetItemByID(403);
+        var item: Item = ItemManager.GetItemByID(40403);
         if (item == null) return;
         var text: string = StringMgr.GetText("slavepagetext26");
         text = text.replace("&item", item.Name);
@@ -550,7 +550,7 @@ class SlaveHDWindow extends AWindow{
             this._HuDong(NetNumber.SlaveFood, this._slaveOpenid);
         }
         else if (this._shopID == 4023){
-            ItemManager.AddItem(40402, 1);
+            ItemManager.AddItem(40403, 1);
             var master: Object = SlaveManager.Master;
             if (master == null) return;
             this._HuDong(NetNumber.SlaveFawn, master["openid"]);
