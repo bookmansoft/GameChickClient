@@ -54,9 +54,6 @@ class GuideManager{
      * 引导检测
      */
     public static GuideCheck(){
-        //todo 暂时取消了新手引导功能
-        return 0;
-
         if (!Main.IsCreated || !GuideManager._isStarGuide) return;
         GuideManager._isGuide = GuideManager._guideID != 0;
         switch (GuideManager._guideID) {

@@ -71,9 +71,9 @@
 			</e:skinName>
 		</e:Button>
 		<e:Image source="nuli_an_jiaobiao_png" x="263.61" y="1.4" touchEnabled="false" scaleX="1" scaleY="1"/>
-		<e:BitmapLabel id="_lashNumLabel" width="26" height="24" x="265.61" y="1.9" font="slavelnum_fnt" text="0" anchorOffsetX="0" anchorOffsetY="0" rotation="359.05" textAlign="center" touchEnabled="false" verticalAlign="center" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="_lashNumLabel" width="31" height="24" x="261.91" y="1.91" font="slavelnum_fnt" text="0" anchorOffsetX="0" anchorOffsetY="0" rotation="359.05" textAlign="center" touchEnabled="false" verticalAlign="center" scaleX="1" scaleY="1"/>
 		<e:Image source="nuli_an_jiaobiao_png" x="416.22" y="1.83" touchEnabled="false" scaleX="1" scaleY="1"/>
-		<e:BitmapLabel id="_snackNumLabel" width="26" height="24" x="418.22" y="2.33" font="slavelnum_fnt" text="0" anchorOffsetX="0" anchorOffsetY="0" rotation="359.05" textAlign="center" touchEnabled="false" verticalAlign="center" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="_snackNumLabel" width="31" height="24" x="415.22" y="2.38" font="slavelnum_fnt" text="0" anchorOffsetX="0" anchorOffsetY="0" rotation="359.05" textAlign="center" touchEnabled="false" verticalAlign="center" scaleX="1" scaleY="1"/>
 	</e:Group>
 	<e:Group id="_slaveGroup" width="479" height="200" y="583" anchorOffsetX="0" x="86" visible="false">
 		<e:Button id="_fawnButton" label="" x="311" y="10">

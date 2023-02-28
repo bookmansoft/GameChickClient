@@ -46,10 +46,6 @@ class GuideWindow extends AWindow{
      * 显示
      */
     public Show(type: number, x: number = 0, y: number = 0, width: number = 0, height: number = 0, msg: string = ""){
-        //todo 暂时取消了新手引导功能
-        this.IsVisibled = false;
-        return;
-
         //  首页界面引导
         this.IsVisibled = true;
         if (type == 1){// 角色信息
@@ -59,8 +55,7 @@ class GuideWindow extends AWindow{
             this._knowButton.visible = true;
             this._shouchangIma.visible = false;
             this._HandStop();
-        }
-        else if (type == 2){// 引导关卡区域
+        } else if (type == 2){// 引导关卡区域
             this._bg.visible = false;
             if (!this.contains(this._mask)) this.addChildAt(this._mask, 0);
             this._image1.visible = true;
@@ -69,19 +64,17 @@ class GuideWindow extends AWindow{
             this._mask.SetSize(x, y, width, height);
             this._HandStop();
             this._knowButton.visible = true;
-        }
-        // else if (type == 3){//引导点击关卡出现闯关按钮
-        //     this._bg.visible = false;
-        //     if (!this.contains(this._mask)) this.addChildAt(this._mask, 0);
-        //     this._image1.visible = false;
-        //     this._knowButton.visible = true;
-        //     this._shouchangIma.visible = false;
-        //     this._mask.SetSize(x, y, width, height);
-        //     this._hand.x = x + width / 2;
-        //     this._hand.y = y;
-        //     this._HandStop();
-        // }
-        else if (type == 4){//收藏引导
+        } else if (type == 3){//引导点击关卡出现闯关按钮
+            this._bg.visible = false;
+            if (!this.contains(this._mask)) this.addChildAt(this._mask, 0);
+            this._image1.visible = false;
+            this._knowButton.visible = true;
+            this._shouchangIma.visible = false;
+            this._mask.SetSize(x, y, width, height);
+            this._hand.x = x + width / 2;
+            this._hand.y = y;
+            this._HandStop();
+        } else if (type == 4){//收藏引导
             this._bg.visible = false;
             if (!this.contains(this._mask)) this.addChildAt(this._mask, 0);
             this._image1.visible = false;
@@ -89,8 +82,7 @@ class GuideWindow extends AWindow{
             this._shouchangIma.visible = true;
             this._mask.SetSize(x, y, width, height);
             this._HandStop();
-        }
-        else if (type == 0){
+        } else if (type == 0){
             this._bg.visible = false;
             if (!this.contains(this._mask)) this.addChildAt(this._mask, 0);
             this._image1.visible = false;

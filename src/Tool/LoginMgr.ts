@@ -43,6 +43,7 @@ class LoginMgr {
         data["domain"] = "CoreOfChickIOS";
 		data['openid'] = kyc['openid']; 
 		data['openkey'] = kyc['openkey']; 
+		data['auth'] = kyc['auth']; 
         //#endregion
 
         // 监听消息
@@ -127,13 +128,12 @@ class LoginMgr {
         data["domain"] = "CoreOfChickIOS";
 		data['openid'] = kyc['openid']; 
 		data['openkey'] = kyc['openkey']; 
-		data['pubkey'] = kyc['pubkey']; 
-		data['sig'] = kyc['sig']; 
-        data['cid'] = 'xxxxxxxx-game-gold-root-xxxxxxxxxxxx';
-        data["token"] = localToken;
+		data['auth'] = kyc['auth']; 
         //#endregion
+
         let url = "func="+NetNumber.Logoin+"&oemInfo="+encodeURIComponent(JSON.stringify(data));
         console.log('login', url);
+        
         NetManager.SendRequest(
             [url],
             LoginMgr._ReceiveInit

@@ -394,23 +394,19 @@ class StarWindow extends AWindow{
      * 分享按钮点击响应
      */
     private _OnShareClick()　{
-        //todo 暂时封闭了分享功能, 改为跳转钱包功能
-        window.location.href = `http://h5.gamegold.xin`;
-        return;
-
-        // SoundManager.PlayButtonMusic();
-        // var textSet: string[] = GameConstData.ShareContent;
-        // if (textSet.length == 2){
-        //     window["shareCont"] = FBSDKMgr.Share(textSet[0], textSet[1]);
-        //     window["share"]();
-        //     // FBSDKMgr.Share(textSet[0], textSet[1]);
-        // }
-        // else{
-        //     window["shareCont"] = FBSDKMgr.Share();
-        //     window["share"]();
-        //     // FBSDKMgr.Share();
-        // }
-        // NetManager.SendRequest(["func=" + NetNumber.ShareEnd], this._FirstShareReturn.bind(this));
+        SoundManager.PlayButtonMusic();
+        var textSet: string[] = GameConstData.ShareContent;
+        if (textSet.length == 2){
+            window["shareCont"] = FBSDKMgr.Share(textSet[0], textSet[1]);
+            window["share"]();
+            FBSDKMgr.Share(textSet[0], textSet[1]);
+        }
+        else{
+            window["shareCont"] = FBSDKMgr.Share();
+            window["share"]();
+            FBSDKMgr.Share();
+        }
+        NetManager.SendRequest(["func=" + NetNumber.ShareEnd], this._FirstShareReturn.bind(this));
     }
 
     /**
@@ -751,11 +747,11 @@ class StarWindow extends AWindow{
         SoundManager.PlayButtonMusic();
         this._starGroup.visible = false;
 
-        //todo 取消了进入无尽的前置条件
-        // if (CheckpointManager.MaxCheckpointID < 3){
-        //     PromptManager.CreatCenterTip(false, true, StringMgr.GetText("startpagetext3"));
-        //     return;
-        // }
+        //进入无尽的前置条件
+        if (CheckpointManager.MaxCheckpointID < 3){
+            PromptManager.CreatCenterTip(false, true, StringMgr.GetText("startpagetext3"));
+            return;
+        }
 
         CheckpointManager.CurrentCheckpointID = CheckpointManager.EndlessCheckpointID;
         if (WindowManager.RoleSelectWindow() == null){
@@ -955,45 +951,41 @@ class StarWindow extends AWindow{
         }
         this._UpdataFirstCharge();
 
-        //todo 暂时封闭了VIP功能
-        this._vipButton.visible = false;
-        // // 更新VIP表现
-        // var isVip: boolean = UnitManager.Player.IsVIP;
-        // this._vipImage.visible = isVip;
-        // if (!isVip && this._vipButtonMovie == null){
-        //     var movicData: egret.MovieClipData = MovieManager.GetMovieClipData("vipbuttonmovie_json", "vipbuttonmovie_png", "vipyuekatx");
-        //     this._vipButtonMovie = new egret.MovieClip(movicData);
-        //     this._vipButtonMovie.play(-1);
-        //     this._vipButtonMovie.x = this._vipButton.x + this._vipButton.width / 2 + 1;
-        //     this._vipButtonMovie.y = this._vipButton.y + this._vipButton.height / 2;
-        //     this._moreButtonGroup.addChild(this._vipButtonMovie);
-        // }
-        // else if (isVip && this._vipButtonMovie != null && this._moreButtonGroup.contains(this._vipButtonMovie)){
-        //     this._moreButtonGroup.removeChild(this._vipButtonMovie);
-        // }
+        // 更新VIP表现
+        var isVip: boolean = UnitManager.Player.IsVIP;
+        this._vipImage.visible = isVip;
+        if (!isVip && this._vipButtonMovie == null){
+            var movicData: egret.MovieClipData = MovieManager.GetMovieClipData("vipbuttonmovie_json", "vipbuttonmovie_png", "vipyuekatx");
+            this._vipButtonMovie = new egret.MovieClip(movicData);
+            this._vipButtonMovie.play(-1);
+            this._vipButtonMovie.x = this._vipButton.x + this._vipButton.width / 2 + 1;
+            this._vipButtonMovie.y = this._vipButton.y + this._vipButton.height / 2;
+            this._moreButtonGroup.addChild(this._vipButtonMovie);
+        }
+        else if (isVip && this._vipButtonMovie != null && this._moreButtonGroup.contains(this._vipButtonMovie)){
+            this._moreButtonGroup.removeChild(this._vipButtonMovie);
+        }
     }
 
     /**
      * 更新首充表现
      */
     private _UpdataFirstCharge() {
-        //todo 暂时封闭了首充按钮
-        this._firstChargeButton.visible = false;
-        // // 更新首充表现
-        // var isFirst: boolean = UnitStatusMgr.IsFirstCharge && UnitStatusMgr.IsFirstChargeReward;
-        // this._firstChargeButton.visible = !isFirst;
-        // this._firstChargeRedIma.visible = !isFirst;
-        // if (isFirst && this._firstButtonMovie != null && this._moreButtonGroup.contains(this._firstButtonMovie)){
-        //     this._moreButtonGroup.removeChild(this._firstButtonMovie);
-        // }
-        // else if (!isFirst && this._firstButtonMovie == null){
-        //     var movicData: egret.MovieClipData = MovieManager.GetMovieClipData("firstmovie_json", "firstmovie_png", "shouchongtx");
-        //     this._firstButtonMovie = new egret.MovieClip(movicData);
-        //     this._firstButtonMovie.play(-1);
-        //     this._firstButtonMovie.x = this._firstChargeButton.x + this._firstChargeButton.width / 2 + 1;
-        //     this._firstButtonMovie.y = this._firstChargeButton.y + this._firstChargeButton.height / 2 + 2;
-        //     this._moreButtonGroup.addChild(this._firstButtonMovie);
-        // }
+        // 更新首充表现
+        var isFirst: boolean = UnitStatusMgr.IsFirstCharge && UnitStatusMgr.IsFirstChargeReward;
+        this._firstChargeButton.visible = !isFirst;
+        this._firstChargeRedIma.visible = !isFirst;
+        if (isFirst && this._firstButtonMovie != null && this._moreButtonGroup.contains(this._firstButtonMovie)){
+            this._moreButtonGroup.removeChild(this._firstButtonMovie);
+        }
+        else if (!isFirst && this._firstButtonMovie == null){
+            var movicData: egret.MovieClipData = MovieManager.GetMovieClipData("firstmovie_json", "firstmovie_png", "shouchongtx");
+            this._firstButtonMovie = new egret.MovieClip(movicData);
+            this._firstButtonMovie.play(-1);
+            this._firstButtonMovie.x = this._firstChargeButton.x + this._firstChargeButton.width / 2 + 1;
+            this._firstButtonMovie.y = this._firstChargeButton.y + this._firstChargeButton.height / 2 + 2;
+            this._moreButtonGroup.addChild(this._firstButtonMovie);
+        }
     }
 
     /**

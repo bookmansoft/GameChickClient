@@ -197,10 +197,10 @@ class SlaveHDWindow extends AWindow{
      * 更新次数文本
      */
     private _UpdateSlaveItemNum(){
-        var snackCount: number = Math.min(99, ItemManager.GetItemCount(40402));
-        this._snackNumLabel.text = snackCount.toString();
         var lashCount: number = Math.min(99, ItemManager.GetItemCount(40401));
         this._lashNumLabel.text = lashCount.toString();
+        var snackCount: number = Math.min(99, ItemManager.GetItemCount(40402));
+        this._snackNumLabel.text = snackCount.toString();
         var fawnCount: number = Math.min(99, ItemManager.GetItemCount(40403));
         this._fawnNumLabel.text = fawnCount.toString();
     }
