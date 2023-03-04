@@ -23,6 +23,14 @@
 		"des":"通用文本6",
 		"text":"Road"
 	},
+	"commontext7":{
+		"des":"通用文本3",
+		"text":"Gas"
+	},
+	"commontext8":{
+		"des":"通用文本2",
+		"text":"NFT"
+	},
 	"rewardtext1":{
 		"des":"奖励文本1",
 		"text":"Money"
@@ -34,6 +42,10 @@
 	"rewardtext3":{
 		"des":"奖励文本3",
 		"text":"Stamina"
+	},
+	"rewardtext5":{
+		"des":"奖励文本1",
+		"text":"Gas"
 	},
 	"bagtiptext1":{
 		"des":"背包使用界面文本1",
@@ -2239,6 +2251,14 @@
 		"des":"道具名701",
 		"text":"Lucky Card"
 	},
+	"itemdatanameN701":{
+		"des":"道具名N701",
+		"text":"Magpie Feather(NFT)"
+	},
+	"itemdatanameN702":{
+		"des":"道具名N701",
+		"text":"Lucky Card(NFT)"
+	},
 	"itemdatadesc1":{
 		"des":"道具描述1",
 		"text":"Required to collect and level up JiXiaoDe"
@@ -2366,6 +2386,14 @@
 	"itemdatadesc702":{
 		"des":"道具描述702",
 		"text":"\"Pre-Great Parkour Race Warmup\" exclusive loot, acquired by clearing event stage"
+	},
+	"itemdatadescN701":{
+		"des":"道具描述N701",
+		"text":"\"Pre-Double-7th Warmup\" exclusive loot(NFT)"
+	},
+	"itemdatadescN702":{
+		"des":"道具描述N702",
+		"text":"\"Pre-Great Parkour Race Warmup\" exclusive loot(NFT)"
 	},
 	"chaptertipdatadesc1":{
 		"des":"提示描述1",

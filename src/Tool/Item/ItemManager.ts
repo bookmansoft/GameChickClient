@@ -148,12 +148,18 @@ class ItemManager{
             case 'box':
             case 50000:
                 return 50000 + parseInt(id);
+            case 'NFT':
+            case 60000:
+                return 60000 + parseInt(id);
             case 'D':
             case 1:
                 return 1;
             case 'M':
             case 2:
                 return 2;
+            case 'GAS':
+            case 5:
+                return 5;
             case 'A':
             case 9:
                 return 9;
@@ -181,10 +187,14 @@ class ItemManager{
                 return 'I';
             case 50000:
                 return 'box';
+            case 60000:
+                return 'NFT';
             case 1:
                 return 'D';
             case 2:
                 return 'M';
+            case 5:
+                return 'GAS';
             case 9:
                 return 'A';
             case 20:

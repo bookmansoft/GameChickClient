@@ -163,12 +163,17 @@ class AchievementManager{
                 // UnitManager.Player.Money += count;
                 PromptManager.CreatTopTip(StringMgr.GetText("achievementtext5") + count);
                 break;
+            case "GAS":
+                var count: number = parseInt(dataSet[1]);
+                PromptManager.CreatTopTip(StringMgr.GetText("achievementtext5") + count);
+                break;
             case "item":
             case "role":
             case "scene":
             case "road":
             case "C":
             case "I":
+            case "NFT":
                 var id: number = parseInt(dataSet[1]);
                 var count: number = parseInt(dataSet[2]);
                 let xid = ItemManager.GetXID(dataSet[0], id);

@@ -170,6 +170,10 @@ class PromptManager extends egret.DisplayObjectContainer{
 					_bonusData = {"type":"money", "res":"fenxiang_jinbi_png", "num":data["num"], "name":StringMgr.GetText("rewardtext1")};
 					_endBonusData.push(_bonusData);
 				}
+				else if (type == "GAS"){
+					_bonusData = {"type":"GAS", "res":"fenxiang_jinbi_png", "num":data["num"], "name":StringMgr.GetText("rewardtext5")};
+					_endBonusData.push(_bonusData);
+				}
 				else if(type == "A"){
 					_bonusData = {"type":"tili", "res":"fenxiang_daoju_tili_png", "num":data["num"], "name":StringMgr.GetText("rewardtext3")};
 					_endBonusData.push(_bonusData);
@@ -178,7 +182,7 @@ class PromptManager extends egret.DisplayObjectContainer{
 					_bonusData = {"type":"pinggai", "res":"fenxiang_jifen_png", "num":data["num"], "name":StringMgr.GetText("rewardtext2")};
 					_endBonusData.push(_bonusData);
 				}
-				else if (type == "I" || type == "C"){
+				else if (type == "I" || type == "C" || type == "NFT"){
 					var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(type, data["id"]));
 					if (item != null){
 						_bonusData = {"type":"item", "item":item, "res":item.ImageRes, "num":data["num"], "name":item.Name};

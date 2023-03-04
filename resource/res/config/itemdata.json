@@ -191,6 +191,14 @@
 		"desc":"itemdatadesc21",
 		"price":0
 	},
+	"5":{
+		"id":5,
+		"name":"itemdataname21",
+		"pic":"shop_jinbi",
+		"type":"GAS",
+		"desc":"itemdatadesc21",
+		"price":0
+	},
 	"13001":{
 		"id":3001,
 		"name":"itemdataname3001",
@@ -341,6 +349,22 @@
 		"pic":"",
 		"type":"role",
 		"desc":"",
+		"price":0
+	},
+	"60701":{
+		"id":701,
+		"name":"itemdatanameN701",
+		"pic":"fenxiang_daoju_qy",
+		"type":"NFT",
+		"desc":"itemdatadescN701",
+		"price":0
+	},
+	"60702":{
+		"id":702,
+		"name":"itemdatanameN702",
+		"pic":"fenxiang_daoju_xingy",
+		"type":"NFT",
+		"desc":"itemdatadescN702",
 		"price":0
 	}
 }

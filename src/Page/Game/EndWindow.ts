@@ -227,14 +227,16 @@ class EndWindow extends AWindow{
                     if (!hasMoney){
                         money = data["num"];
                         hasMoney = true;
-                    }
-                    else{
+                    } else {
                         res = "fenxiang_jinbi_png";
                         des = StringMgr.GetText("rewardtext1") + " X" + money.toString();
                         hasItem = true;
                     }
-                }
-                else if (type == "D"){
+                } else if (type == "GAS") {
+                    res = "fenxiang_jinbi_png";
+                    des = StringMgr.GetText("rewardtext5") + " X" + money.toString();
+                    hasItem = true;
+                } else if (type == "D"){
                     // if (!hasMoney){
                         // money = data["num"];
                         // hasMoney = true;
@@ -244,8 +246,7 @@ class EndWindow extends AWindow{
                         des = StringMgr.GetText("rewardtext2") + " X" + data["num"];
                         hasItem = true;
                     // }
-                }
-                else if ((type == "I" || type == "C") && !hasItem){
+                } else if ((type == "I" || type == "C" || type == "NFT") && !hasItem){
                     var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(type, data["id"]));
                     if (item != null && data["id"] != 701 && data["id"] != 702){
                         res = item.ImageRes;
@@ -260,8 +261,7 @@ class EndWindow extends AWindow{
                         _typeBonus.push(bonus[i]);
                         PromptManager.ShowDailyActiveRewardTip(_typeBonus);
                     }
-                }
-                else if(type == "A" && !hasItem){
+                } else if(type == "A" && !hasItem){
                     res = "fenxiang_daoju_tili_png";
                     des = StringMgr.GetText("rewardtext3") + " X" + data["num"];
                     hasItem = true;

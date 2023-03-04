@@ -149,6 +149,11 @@ class Achievement{
                 this._rewardNum = parseInt(dataStr[1]);
                 this._rewardDesc = StringMgr.GetText("rewardtext1") + "*" + this._rewardNum;
                 break;
+            case "GAS":
+                this._rewardImageRes = "fenxiang_jinbi_png";
+                this._rewardNum = parseInt(dataStr[1]);
+                this._rewardDesc = StringMgr.GetText("rewardtext5") + "*" + this._rewardNum;
+                break;
             case "D":
                 this._rewardImageRes = "fenxiang_jifen_png";
                 this._rewardNum = parseInt(dataStr[1]);
@@ -156,6 +161,7 @@ class Achievement{
                 break;
             case "I":
             case "C":
+            case "NFT":
                 var id: number = parseInt(dataStr[1]);
                 this._rewardNum = parseInt(dataStr[2]);
                 var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(type, id));

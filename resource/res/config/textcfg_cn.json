@@ -23,6 +23,14 @@
 		"des":"通用文本6",
 		"text":"道路"
 	},
+	"commontext7":{
+		"des":"通用文本7",
+		"text":"福气"
+	},
+	"commontext8":{
+		"des":"通用文本2",
+		"text":"NFT"
+	},
 	"rewardtext1":{
 		"des":"奖励文本1",
 		"text":"金币"
@@ -34,6 +42,10 @@
 	"rewardtext3":{
 		"des":"奖励文本3",
 		"text":"体力"
+	},
+	"rewardtext5":{
+		"des":"奖励文本5",
+		"text":"福气"
 	},
 	"bagtiptext1":{
 		"des":"背包使用界面文本1",
@@ -2163,6 +2175,14 @@
 		"des":"道具名701",
 		"text":"幸运卡牌"
 	},
+	"itemdatanameN701":{
+		"des":"道具名N701",
+		"text":"鹊翎NFT"
+	},
+	"itemdatanameN702":{
+		"des":"道具名N701",
+		"text":"幸运卡牌NFT"
+	},
 	"itemdatadesc1":{
 		"des":"道具描述1",
 		"text":"收集和升级鸡小德的必要道具"
@@ -2290,6 +2310,14 @@
 	"itemdatadesc702":{
 		"des":"道具描述701",
 		"text":"酷跑大奖赛预热赛道具，预热期间通过关卡掉落"
+	},
+	"itemdatadescN701":{
+		"des":"道具描述N702",
+		"text":"七夕预热活动道具(NFT)"
+	},
+	"itemdatadescN702":{
+		"des":"道具描述N701",
+		"text":"酷跑大奖赛预热赛道具(NFT)"
 	},
 	"chaptertipdatadesc1":{
 		"des":"提示描述1",

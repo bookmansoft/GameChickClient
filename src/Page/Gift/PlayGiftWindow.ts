@@ -84,24 +84,23 @@ class PlayGiftWindow extends AWindow{
                 if (type == "M"){
                     this._imageSet[index].source = "fenxiang_jinbi_png";
                     this._countLabelSet[index].text = data["num"];
-                }
-                else if (type == "I" || type == "C") {
+                } else if (type == "GAS") {
+                    this._imageSet[index].source = "fenxiang_jinbi_png";
+                    this._countLabelSet[index].text = data["num"];
+                } else if (type == "I" || type == "C" || type == "NFT") {
                     var item: Item = ItemManager.GetItemByID(xid);
                     if (item != null){
                         this._imageSet[index].source = item.ImageRes;
                         this._countLabelSet[index].text = data["num"];
                         ItemManager.AddItem(xid, data["num"]);
                     }
-                }
-                else if(type == "A"){
+                } else if(type == "A"){
                     this._imageSet[index].source = "fenxiang_daoju_tili_png";
                     this._countLabelSet[index].text = data["num"];
-                }
-                else if(type == "D"){
+                } else if(type == "D"){
                     this._imageSet[index].source = "fenxiang_jifen_png";
                     this._countLabelSet[index].text = data["num"];
-                }
-                else if(type == "V"){
+                } else if(type == "V"){
                     this._imageSet[index].source = "fenxiang_daoju_viptian_png";
                     this._countLabelSet[index].text = data["num"];
                 }

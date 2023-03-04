@@ -140,13 +140,16 @@ class IntegralRankList extends AWindow{
 			if (ItemManager.GetItemCode(bonus[0]) == "M"){
 				return ["fenxiang_jinbi_png",bonus[1]];
 			}
+			else if (ItemManager.GetItemCode(bonus[0]) == "GAS"){
+				return ["fenxiang_jinbi_png",bonus[1]];
+			}
 			else if(ItemManager.GetItemCode(bonus[0]) == "A"){
 				return ["fenxiang_daoju_tili_png",bonus[1]];
 			}
 			else if(ItemManager.GetItemCode(bonus[0]) == "D"){
 				return ["fenxiang_jifen_png",bonus[1]];
 			}
-			else if (ItemManager.GetItemCode(bonus[0]) == "I" || ItemManager.GetItemCode(bonus[0]) == "C"){
+			else if (ItemManager.GetItemCode(bonus[0]) == "I" || ItemManager.GetItemCode(bonus[0]) == "C" || ItemManager.GetItemCode(bonus[0]) == "NFT") {
 				var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(bonus[0], parseInt(bonus[1])));
 				if (item != null){
 					return [item.ImageRes,bonus[2]];

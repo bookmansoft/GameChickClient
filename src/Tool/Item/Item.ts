@@ -60,8 +60,14 @@ class Item{
             case "I":
                 desc = StringMgr.GetText("commontext2");
                 break;
+            case "NFT":
+                desc = StringMgr.GetText("commontext8");
+                break;
             case "M":
                 desc = StringMgr.GetText("commontext3");
+                break;
+            case "GAS":
+                desc = StringMgr.GetText("commontext7");
                 break;
             case "C":
                 desc = StringMgr.GetText("commontext4");

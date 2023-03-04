@@ -62,9 +62,12 @@ class GiftWindow extends AWindow{
                     this["_rewardImage" + index].source = "fenxiang_jinbi_png";
                     this["_countLabel" + index].text = data["num"];
                     this["_nameLabel" + index].text = StringMgr.GetText("rewardtext1");
-                    // if (!isGet) UnitManager.Player.Money += data["num"];;
-                }
-                else if (type == "I" || type == "C"){
+                    // if (!isGet) UnitManager.Player.Money += data["num"];
+                } else if (type == "GAS"){
+                    this["_rewardImage" + index].source = "fenxiang_jinbi_png";
+                    this["_countLabel" + index].text = data["num"];
+                    this["_nameLabel" + index].text = StringMgr.GetText("rewardtext5");
+                } else if (type == "I" || type == "C" || type == "NFT") {
                     var item: Item = ItemManager.GetItemByID(ItemManager.GetXID(type, data["id"]));
                     if (item != null){
                         this["_rewardImage" + index].source = item.ImageRes;
@@ -72,13 +75,11 @@ class GiftWindow extends AWindow{
                         this["_nameLabel" + index].text = item.Name;
                         if (!isGet) ItemManager.AddItem(ItemManager.GetXID(type, data["id"]), data["num"]);
                     }
-                }
-                else if(type == "A"){
+                } else if(type == "A"){
                     this["_rewardImage" + index].source = "fenxiang_daoju_tili_png";
                     this["_countLabel" + index].text = data["num"];
                     this["_nameLabel" + index].text = StringMgr.GetText("rewardtext3");
-                }
-                else if(type == "D"){
+                } else if(type == "D"){
                     this["_rewardImage" + index].source = "fenxiang_jifen_png";
                     this["_countLabel" + index].text = data["num"];
                     this["_nameLabel" + index].text = StringMgr.GetText("rewardtext2");
