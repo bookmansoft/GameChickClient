@@ -132,8 +132,8 @@ class ShopPage extends AWindow{
                         sn: data["sn"],
                         price: data["price"],
                     };
-                    let st = `/wallet/pay/${JSON.stringify(order)}`;
-                    window.location.href = `http://h5.gamegold.xin?path=${encodeURIComponent(st)}`;
+                    let st = `pay/${JSON.stringify(order)}`;
+                    window.location.href = `http://h5.gamegold.xin:2009?path=${encodeURIComponent(st)}`;
                     break;
                 }
             }

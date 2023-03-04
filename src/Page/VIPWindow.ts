@@ -98,7 +98,7 @@ class VIPWindow extends AWindow{
         var data : JSON = JSON.parse("{}");
         data["token"] = UnitManager.Player.GameToken;
         var shopID: number = Game.IsIos? 13161 : 13160;
-        NetManager.SendRequest(["func=" + NetNumber.BuyGold + "&itemid=" + shopID + "&count=1"
+        NetManager.SendRequest(["func=" + NetNumber.BuyGold + "&mode=2&itemid=" + shopID + "&count=1"
                             + "&oemInfo=" + JSON.stringify(data)],
                                 this._OnBuyVIPCom.bind(this));
     }
